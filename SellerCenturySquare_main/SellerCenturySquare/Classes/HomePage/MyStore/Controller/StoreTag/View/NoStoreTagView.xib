@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="H2P-rq-LwB" customClass="NoStoreTagView">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无标签" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4U-8A-0bg">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="N4e-Eg-Xdq"/>
+                        <constraint firstAttribute="height" constant="21" id="pbw-ET-2tt"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="N4e-Eg-Xdq"/>
+                            <exclude reference="pbw-ET-2tt"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="N4e-Eg-Xdq"/>
+                            <include reference="pbw-ET-2tt"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="添加标签可以是采购商更加准确的搜索到店铺" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBh-gb-dok">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <color key="tintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="350" id="lp5-rl-2ko"/>
+                        <constraint firstAttribute="height" constant="21" id="oMR-4a-Ify"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="highlightedColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="lp5-rl-2ko"/>
+                            <exclude reference="oMR-4a-Ify"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="lp5-rl-2ko"/>
+                            <include reference="oMR-4a-Ify"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Meu-K4-sLK">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="109" id="G12-ZY-5wK"/>
+                        <constraint firstAttribute="height" constant="40" id="Zwq-F5-lJX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="增添标签">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="G12-ZY-5wK"/>
+                            <exclude reference="Zwq-F5-lJX"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="G12-ZY-5wK"/>
+                            <include reference="Zwq-F5-lJX"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="didClickAddTagButton:" destination="H2P-rq-LwB" eventType="touchUpInside" id="Duj-Up-4VI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="eBh-gb-dok" firstAttribute="centerX" secondItem="S4U-8A-0bg" secondAttribute="centerX" id="HNI-GE-cXA"/>
+                <constraint firstItem="Meu-K4-sLK" firstAttribute="top" secondItem="eBh-gb-dok" secondAttribute="bottom" constant="40" id="O7e-9X-XpA"/>
+                <constraint firstItem="S4U-8A-0bg" firstAttribute="centerX" secondItem="H2P-rq-LwB" secondAttribute="centerX" id="aMW-0H-0wY"/>
+                <constraint firstItem="Meu-K4-sLK" firstAttribute="centerX" secondItem="eBh-gb-dok" secondAttribute="centerX" id="pQI-19-cjd"/>
+                <constraint firstItem="eBh-gb-dok" firstAttribute="top" secondItem="S4U-8A-0bg" secondAttribute="bottom" constant="40" id="ueE-dn-85a"/>
+                <constraint firstItem="S4U-8A-0bg" firstAttribute="top" secondItem="H2P-rq-LwB" secondAttribute="top" id="zBD-7J-RmN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="S4U-8A-0bg"/>
+                    <exclude reference="eBh-gb-dok"/>
+                    <exclude reference="Meu-K4-sLK"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="O7e-9X-XpA"/>
+                    <exclude reference="pQI-19-cjd"/>
+                    <exclude reference="aMW-0H-0wY"/>
+                    <exclude reference="zBD-7J-RmN"/>
+                    <exclude reference="HNI-GE-cXA"/>
+                    <exclude reference="ueE-dn-85a"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="S4U-8A-0bg"/>
+                    <include reference="eBh-gb-dok"/>
+                    <include reference="Meu-K4-sLK"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="O7e-9X-XpA"/>
+                    <include reference="pQI-19-cjd"/>
+                    <include reference="aMW-0H-0wY"/>
+                    <include reference="zBD-7J-RmN"/>
+                    <include reference="HNI-GE-cXA"/>
+                    <include reference="ueE-dn-85a"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="addTagButton" destination="Meu-K4-sLK" id="syb-84-qyK"/>
+                <outlet property="addTagLabel" destination="eBh-gb-dok" id="z8W-tC-u8T"/>
+                <outlet property="noTagLabel" destination="S4U-8A-0bg" id="qb6-pX-Zuo"/>
+            </connections>
+            <point key="canvasLocation" x="244.5" y="800"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000004" contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderShowView">
+            <rect key="frame" x="0.0" y="0.0" width="571" height="210"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="boq-i8-g4e">
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jN5-5Q-oeO" customClass="OrderImgView">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="PAh-16-Ghr"/>
+                        <constraint firstAttribute="height" constant="98" id="hBb-iw-cfe"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tUW-C9-Fuv" customClass="OrderImgView">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="98" id="AbY-0j-ha9"/>
+                        <constraint firstAttribute="width" constant="60" id="cmQ-r0-gAw"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jak-Yx-4Qh" customClass="OrderImgView">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="98" id="JfR-k3-tY2"/>
+                        <constraint firstAttribute="width" constant="60" id="Sc3-tO-5xW"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5OY-78-6Ap" customClass="OrderImgView">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="98" id="AKO-4q-n36"/>
+                        <constraint firstAttribute="width" constant="60" id="eXC-oQ-Bz0"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="60p-8o-y5r">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="50" id="r0R-aW-WJe"/>
+                        <constraint firstAttribute="height" constant="50" id="stK-sE-8cg"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="thin" pointSize="38"/>
+                    <state key="normal" title="×">
+                        <color key="titleColor" red="0.98039215690000003" green="0.98039215690000003" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deleateView:" destination="iN0-l3-epB" eventType="touchUpInside" id="Hpa-ab-AfF"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeE-eJ-dOQ">
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="QeE-eJ-dOQ" firstAttribute="centerY" secondItem="60p-8o-y5r" secondAttribute="centerY" id="2te-yU-E5i"/>
+                <constraint firstAttribute="trailing" secondItem="60p-8o-y5r" secondAttribute="trailing" constant="8" id="581-lC-BYG"/>
+                <constraint firstItem="tUW-C9-Fuv" firstAttribute="leading" secondItem="5OY-78-6Ap" secondAttribute="trailing" constant="17" id="7W6-L3-cLx"/>
+                <constraint firstItem="jN5-5Q-oeO" firstAttribute="top" relation="greaterThanOrEqual" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="3" id="B3k-yy-hde"/>
+                <constraint firstAttribute="trailing" secondItem="boq-i8-g4e" secondAttribute="trailing" id="BAe-WV-bAO"/>
+                <constraint firstItem="tUW-C9-Fuv" firstAttribute="top" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="10" id="Bkd-Ov-2Fa"/>
+                <constraint firstItem="Jak-Yx-4Qh" firstAttribute="top" relation="greaterThanOrEqual" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="3" id="Fj7-QS-f7a"/>
+                <constraint firstAttribute="bottom" secondItem="tUW-C9-Fuv" secondAttribute="bottom" constant="10" id="G6a-8M-2Hr"/>
+                <constraint firstItem="Jak-Yx-4Qh" firstAttribute="leading" secondItem="tUW-C9-Fuv" secondAttribute="trailing" constant="17" id="Gpf-oj-cWR"/>
+                <constraint firstItem="boq-i8-g4e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="17" id="O06-kE-B1X"/>
+                <constraint firstItem="QeE-eJ-dOQ" firstAttribute="leading" secondItem="Jak-Yx-4Qh" secondAttribute="trailing" constant="10" id="SKh-zq-hHQ"/>
+                <constraint firstItem="tUW-C9-Fuv" firstAttribute="top" relation="greaterThanOrEqual" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="3" id="bXM-hV-t56"/>
+                <constraint firstAttribute="bottom" secondItem="jN5-5Q-oeO" secondAttribute="bottom" constant="10" id="gbe-GK-B1V"/>
+                <constraint firstItem="5OY-78-6Ap" firstAttribute="top" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="10" id="heR-gd-ubj"/>
+                <constraint firstAttribute="bottom" secondItem="Jak-Yx-4Qh" secondAttribute="bottom" constant="10" id="isy-JA-Zn8"/>
+                <constraint firstItem="boq-i8-g4e" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="5" id="lkp-qU-rcb"/>
+                <constraint firstItem="jN5-5Q-oeO" firstAttribute="top" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="10" id="m8j-9i-BwH"/>
+                <constraint firstItem="5OY-78-6Ap" firstAttribute="leading" secondItem="jN5-5Q-oeO" secondAttribute="trailing" constant="17" id="mai-1K-a1B"/>
+                <constraint firstItem="5OY-78-6Ap" firstAttribute="top" relation="greaterThanOrEqual" secondItem="boq-i8-g4e" secondAttribute="bottom" constant="3" id="pAx-zc-0zm"/>
+                <constraint firstAttribute="bottom" secondItem="5OY-78-6Ap" secondAttribute="bottom" constant="10" id="qRx-iy-ShH"/>
+                <constraint firstItem="QeE-eJ-dOQ" firstAttribute="centerY" secondItem="jN5-5Q-oeO" secondAttribute="centerY" id="rzs-tG-RST"/>
+                <constraint firstItem="jN5-5Q-oeO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="upp-rW-2YN"/>
+                <constraint firstItem="60p-8o-y5r" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="vgk-dz-B1o"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="m8j-9i-BwH"/>
+                    <exclude reference="heR-gd-ubj"/>
+                    <exclude reference="Bkd-Ov-2Fa"/>
+                    <exclude reference="rzs-tG-RST"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="goodNoLabel" destination="boq-i8-g4e" id="2zd-RC-6BN"/>
+                <outlet property="pointLabel" destination="QeE-eJ-dOQ" id="grr-bu-ioT"/>
+                <outletCollection property="OrderImgArray" destination="jN5-5Q-oeO" id="JgY-hR-enE"/>
+                <outletCollection property="OrderImgArray" destination="5OY-78-6Ap" id="Yht-xx-0ge"/>
+                <outletCollection property="OrderImgArray" destination="tUW-C9-Fuv" id="fQf-Pd-tmh"/>
+                <outletCollection property="OrderImgArray" destination="Jak-Yx-4Qh" id="tY3-HS-c9B"/>
+            </connections>
+            <point key="canvasLocation" x="154.5" y="-311.5"/>
+        </view>
+    </objects>
+</document>

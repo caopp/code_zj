@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="S9C-Xf-FQx" customClass="RegisteredView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="   恭喜你,注册成功！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5o-DD-qhv">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="UU5-O2-QWz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="UU5-O2-QWz"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="UU5-O2-QWz"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7kO-uD-ENL">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="Ibe-Aq-r8b"/>
+                        <constraint firstAttribute="width" constant="200" id="IqG-BP-ree"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="继续完成平台验证">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.borderWidth" value="1"/>
+                        <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="4"/>
+                    </userDefinedRuntimeAttributes>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Ibe-Aq-r8b"/>
+                            <exclude reference="IqG-BP-ree"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Ibe-Aq-r8b"/>
+                            <exclude reference="IqG-BP-ree"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="goonRegsteredAction:" destination="S9C-Xf-FQx" eventType="touchUpInside" id="DbW-k3-l15"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="leading" secondItem="S9C-Xf-FQx" secondAttribute="leading" constant="120" id="0Fr-MB-4RR"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="top" secondItem="S9C-Xf-FQx" secondAttribute="top" id="3q5-0b-0vo"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="leading" secondItem="7kO-uD-ENL" secondAttribute="leading" id="Cw0-aY-WQn"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="top" secondItem="S9C-Xf-FQx" secondAttribute="top" constant="294" id="J94-xn-oUS"/>
+                <constraint firstItem="7kO-uD-ENL" firstAttribute="leading" secondItem="S9C-Xf-FQx" secondAttribute="leading" id="Jk8-9s-se2"/>
+                <constraint firstAttribute="trailing" secondItem="7kO-uD-ENL" secondAttribute="trailing" id="Rtw-Ef-6wo"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="trailing" secondItem="7kO-uD-ENL" secondAttribute="trailing" id="ULT-ke-fFh"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="leading" secondItem="S9C-Xf-FQx" secondAttribute="leading" id="YAe-cz-JhJ"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="leading" secondItem="S9C-Xf-FQx" secondAttribute="leading" id="e6V-ww-LBN"/>
+                <constraint firstAttribute="trailing" secondItem="K5o-DD-qhv" secondAttribute="trailing" constant="200" id="gK3-JY-jhs"/>
+                <constraint firstAttribute="trailing" secondItem="K5o-DD-qhv" secondAttribute="trailing" constant="120" id="mQ4-kp-EhP"/>
+                <constraint firstAttribute="trailing" secondItem="K5o-DD-qhv" secondAttribute="trailing" id="q3D-Tr-zXg"/>
+                <constraint firstItem="7kO-uD-ENL" firstAttribute="top" secondItem="K5o-DD-qhv" secondAttribute="bottom" constant="20" id="sdt-v4-0aM"/>
+                <constraint firstItem="K5o-DD-qhv" firstAttribute="leading" secondItem="S9C-Xf-FQx" secondAttribute="leading" constant="200" id="shW-b6-ZPA"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="K5o-DD-qhv"/>
+                    <exclude reference="7kO-uD-ENL"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Jk8-9s-se2"/>
+                    <exclude reference="Rtw-Ef-6wo"/>
+                    <exclude reference="sdt-v4-0aM"/>
+                    <exclude reference="0Fr-MB-4RR"/>
+                    <exclude reference="3q5-0b-0vo"/>
+                    <exclude reference="Cw0-aY-WQn"/>
+                    <exclude reference="J94-xn-oUS"/>
+                    <exclude reference="ULT-ke-fFh"/>
+                    <exclude reference="YAe-cz-JhJ"/>
+                    <exclude reference="e6V-ww-LBN"/>
+                    <exclude reference="gK3-JY-jhs"/>
+                    <exclude reference="mQ4-kp-EhP"/>
+                    <exclude reference="q3D-Tr-zXg"/>
+                    <exclude reference="shW-b6-ZPA"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="K5o-DD-qhv"/>
+                    <include reference="7kO-uD-ENL"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Jk8-9s-se2"/>
+                    <exclude reference="Rtw-Ef-6wo"/>
+                    <include reference="sdt-v4-0aM"/>
+                    <exclude reference="0Fr-MB-4RR"/>
+                    <exclude reference="3q5-0b-0vo"/>
+                    <include reference="Cw0-aY-WQn"/>
+                    <include reference="J94-xn-oUS"/>
+                    <include reference="ULT-ke-fFh"/>
+                    <exclude reference="YAe-cz-JhJ"/>
+                    <exclude reference="e6V-ww-LBN"/>
+                    <include reference="gK3-JY-jhs"/>
+                    <exclude reference="mQ4-kp-EhP"/>
+                    <exclude reference="q3D-Tr-zXg"/>
+                    <include reference="shW-b6-ZPA"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="goOnRegisteredButton" destination="7kO-uD-ENL" id="sSN-qx-z9M"/>
+                <outlet property="registeredSuccessLabel" destination="K5o-DD-qhv" id="7zg-VN-SPc"/>
+            </connections>
+            <point key="canvasLocation" x="229" y="250"/>
+        </view>
+    </objects>
+</document>

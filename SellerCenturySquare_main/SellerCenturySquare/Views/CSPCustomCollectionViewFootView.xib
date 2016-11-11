@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10116"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RTO-KA-7uH" customClass="CSPCustomCollectionViewFootView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="15"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rcb-hr-spq">
+                    <rect key="frame" x="0.0" y="14" width="320" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="tUj-qu-cJj"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="rcb-hr-spq" secondAttribute="trailing" id="XRO-UK-hKL"/>
+                <constraint firstItem="rcb-hr-spq" firstAttribute="leading" secondItem="RTO-KA-7uH" secondAttribute="leading" id="lU0-2W-oE5"/>
+                <constraint firstAttribute="bottom" secondItem="rcb-hr-spq" secondAttribute="bottom" id="nXQ-Kc-zZw"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="lineView" destination="rcb-hr-spq" id="qTu-TW-qdJ"/>
+                <outlet property="lineViewHight" destination="tUj-qu-cJj" id="2nP-Ie-0Vw"/>
+            </connections>
+            <point key="canvasLocation" x="493.5" y="485"/>
+        </view>
+    </objects>
+</document>

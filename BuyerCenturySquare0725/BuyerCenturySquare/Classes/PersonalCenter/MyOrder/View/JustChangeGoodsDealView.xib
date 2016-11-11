@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="JustChangeGoodsDealView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="56"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gS-Zq-kf4">
+                    <rect key="frame" x="225" y="0.0" width="75" height="56"/>
+                    <color key="backgroundColor" red="0.92156862745098034" green="0.18823529411764706" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="RwU-Cb-TgF"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="确认收货"/>
+                    <connections>
+                        <action selector="selectMakeSureAcceptBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="dc9-Uj-nmx"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QjQ-Wk-43u">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="0.5"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="eCX-lg-mPT"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdq-OR-KZV">
+                    <rect key="frame" x="75" y="0.0" width="150" height="55.5"/>
+                    <color key="backgroundColor" red="0.10196078431372549" green="0.10196078431372549" blue="0.10196078431372549" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="查看退/换货详情"/>
+                    <connections>
+                        <action selector="selectExitMoneyBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="kkx-eT-EiJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C9c-j8-fTt">
+                    <rect key="frame" x="0.0" y="0.0" width="75" height="56"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="75" id="XH3-a5-WDe"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="客服" image="10_商品收藏_客服.png">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="selectCustomerServiceBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="aeA-2y-Cde"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="kdq-OR-KZV" firstAttribute="top" secondItem="QjQ-Wk-43u" secondAttribute="bottom" id="5bs-2C-aQy"/>
+                <constraint firstAttribute="bottom" secondItem="kdq-OR-KZV" secondAttribute="bottom" id="C71-cd-ZoE"/>
+                <constraint firstItem="1gS-Zq-kf4" firstAttribute="leading" secondItem="kdq-OR-KZV" secondAttribute="trailing" id="CI1-rJ-O0i"/>
+                <constraint firstItem="kdq-OR-KZV" firstAttribute="leading" secondItem="C9c-j8-fTt" secondAttribute="trailing" id="GDn-mg-GeT"/>
+                <constraint firstAttribute="trailing" secondItem="QjQ-Wk-43u" secondAttribute="trailing" constant="22" id="GqS-GJ-asR"/>
+                <constraint firstItem="QjQ-Wk-43u" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="HAw-lC-Nu4"/>
+                <constraint firstAttribute="bottom" secondItem="C9c-j8-fTt" secondAttribute="bottom" id="IzN-0h-uri"/>
+                <constraint firstItem="QjQ-Wk-43u" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="PGR-bF-gH6"/>
+                <constraint firstAttribute="trailing" secondItem="1gS-Zq-kf4" secondAttribute="trailing" id="PQn-he-fm3"/>
+                <constraint firstItem="C9c-j8-fTt" firstAttribute="top" secondItem="QjQ-Wk-43u" secondAttribute="bottom" id="aB5-dJ-4kb"/>
+                <constraint firstItem="C9c-j8-fTt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="aEN-Ch-Wdc"/>
+                <constraint firstItem="1gS-Zq-kf4" firstAttribute="top" secondItem="QjQ-Wk-43u" secondAttribute="bottom" id="ehk-uc-auE"/>
+                <constraint firstAttribute="bottom" secondItem="1gS-Zq-kf4" secondAttribute="bottom" id="i2Q-mN-wTz"/>
+                <constraint firstAttribute="trailing" secondItem="QjQ-Wk-43u" secondAttribute="trailing" id="wYi-8g-b6Q"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="GqS-GJ-asR"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="161" y="237"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="10_商品收藏_客服.png" width="21" height="18"/>
+    </resources>
+</document>

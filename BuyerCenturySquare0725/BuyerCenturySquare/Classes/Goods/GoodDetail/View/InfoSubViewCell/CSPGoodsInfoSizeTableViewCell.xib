@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="CSPGoodsInfoSizeTableViewCell" id="KGk-i7-Jjw" customClass="CSPGoodsInfoSizeTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="83.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="j2K-Vu-kR1" customClass="CSPSkuControlView">
+                        <rect key="frame" x="15" y="44" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="string" keyPath="title" value="XL"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bfm-Lu-aAk" customClass="CSPSkuControlView">
+                        <rect key="frame" x="167" y="44" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="MT5-Vh-XgD" customClass="CSPSkuControlView">
+                        <rect key="frame" x="15" y="84" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ccL-XS-wJS" customClass="CSPSkuControlView">
+                        <rect key="frame" x="167" y="84" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="89R-Ed-gLl" customClass="CSPSkuControlView">
+                        <rect key="frame" x="15" y="124" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q2r-a9-9DK" customClass="CSPSkuControlView">
+                        <rect key="frame" x="167" y="124" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="blR-mi-4Xb" customClass="CSPSkuControlView">
+                        <rect key="frame" x="15" y="164" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qmq-Cm-rck" customClass="CSPSkuControlView">
+                        <rect key="frame" x="167" y="164" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IrR-Ig-LNw" customClass="CSPSkuControlView">
+                        <rect key="frame" x="15" y="204" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sGh-Ed-Hgo" customClass="CSPSkuControlView">
+                        <rect key="frame" x="167" y="204" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ll5-cC-eVb" customClass="CSPSkuControlView">
+                        <rect key="frame" x="15" y="244" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wgS-pu-paB" customClass="CSPSkuControlView">
+                        <rect key="frame" x="167" y="244" width="142" height="28"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="style">
+                                <integer key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="选择尺码" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVb-lC-y4h">
+                        <rect key="frame" x="15" y="15" width="58" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="58" id="hoB-rO-Orz"/>
+                            <constraint firstAttribute="height" constant="14" id="sSm-Bm-gGK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view hidden="YES" alpha="0.64999999999999969" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r3L-ms-x3z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="84"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="r3L-ms-x3z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="4gf-bK-c2l"/>
+                    <constraint firstAttribute="bottom" secondItem="r3L-ms-x3z" secondAttribute="bottom" id="Ogl-hM-KEf"/>
+                    <constraint firstItem="UVb-lC-y4h" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Vzj-dw-W1U"/>
+                    <constraint firstItem="UVb-lC-y4h" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="gDu-Vl-HsT"/>
+                    <constraint firstItem="r3L-ms-x3z" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pQl-Ni-ftN"/>
+                    <constraint firstAttribute="trailing" secondItem="r3L-ms-x3z" secondAttribute="trailing" id="waP-cD-UhT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="alphaView" destination="r3L-ms-x3z" id="m4g-eJ-asg"/>
+                <outletCollection property="skuControlViews" destination="j2K-Vu-kR1" id="hfp-gU-6yH"/>
+                <outletCollection property="skuControlViews" destination="bfm-Lu-aAk" id="aXr-3v-RIL"/>
+                <outletCollection property="skuControlViews" destination="MT5-Vh-XgD" id="4Fw-g8-YvC"/>
+                <outletCollection property="skuControlViews" destination="ccL-XS-wJS" id="SDA-pB-sWQ"/>
+                <outletCollection property="skuControlViews" destination="89R-Ed-gLl" id="M2k-e2-9mw"/>
+                <outletCollection property="skuControlViews" destination="Q2r-a9-9DK" id="acU-Wn-hC6"/>
+                <outletCollection property="skuControlViews" destination="blR-mi-4Xb" id="y5z-Bs-4R6"/>
+                <outletCollection property="skuControlViews" destination="qmq-Cm-rck" id="Aph-2p-OUh"/>
+                <outletCollection property="skuControlViews" destination="IrR-Ig-LNw" id="Jz9-Fi-20N"/>
+                <outletCollection property="skuControlViews" destination="sGh-Ed-Hgo" id="fFd-BB-l38"/>
+                <outletCollection property="skuControlViews" destination="ll5-cC-eVb" id="0di-E0-bpT"/>
+                <outletCollection property="skuControlViews" destination="wgS-pu-paB" id="lwr-jS-dMI"/>
+            </connections>
+            <point key="canvasLocation" x="408.5" y="477"/>
+        </tableViewCell>
+    </objects>
+</document>

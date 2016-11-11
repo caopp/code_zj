@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="OrderListHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="105"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pMa-JC-zkR">
+                    <rect key="frame" x="272" y="0.0" width="48" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="Drd-jF-Ook"/>
+                    </constraints>
+                    <connections>
+                        <action selector="serviceBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="3zV-h9-Dsm"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退货退款_处理完成" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A6j-zO-ZXx">
+                    <rect key="frame" x="203" y="0.0" width="101.5" height="105"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="101.5" id="99z-jx-8xB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" red="0.96862745098039216" green="0.29019607843137252" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="VMq-4x-HiL">
+                    <rect key="frame" x="15" y="0.0" width="188.5" height="105"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.14901960784313725" green="0.14901960784313725" blue="0.14901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sSS-Ry-4hI">
+                    <rect key="frame" x="15" y="104.5" width="305" height="0.5"/>
+                    <color key="backgroundColor" red="0.78431372549019607" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="9TK-R8-e5h"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="pMa-JC-zkR" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="6vW-uo-agI"/>
+                <constraint firstItem="VMq-4x-HiL" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="9zL-s6-pR5"/>
+                <constraint firstAttribute="bottom" secondItem="sSS-Ry-4hI" secondAttribute="bottom" id="Bya-Eq-GgD"/>
+                <constraint firstItem="pMa-JC-zkR" firstAttribute="leading" secondItem="A6j-zO-ZXx" secondAttribute="trailing" id="Cq8-cs-7NS"/>
+                <constraint firstAttribute="bottom" secondItem="VMq-4x-HiL" secondAttribute="bottom" id="IUK-QH-ViP"/>
+                <constraint firstItem="A6j-zO-ZXx" firstAttribute="leading" secondItem="VMq-4x-HiL" secondAttribute="trailing" id="S4H-dg-1ax"/>
+                <constraint firstItem="A6j-zO-ZXx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Vt7-Eu-w75"/>
+                <constraint firstAttribute="trailing" secondItem="sSS-Ry-4hI" secondAttribute="trailing" id="XYk-B7-nVO"/>
+                <constraint firstAttribute="trailing" secondItem="pMa-JC-zkR" secondAttribute="trailing" id="XeR-Uh-CDA"/>
+                <constraint firstItem="VMq-4x-HiL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="bVi-0w-3UU"/>
+                <constraint firstItem="sSS-Ry-4hI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="id7-A7-jlj"/>
+                <constraint firstAttribute="trailing" secondItem="A6j-zO-ZXx" secondAttribute="trailing" constant="15" id="kRW-P3-Qg3"/>
+                <constraint firstAttribute="bottom" secondItem="pMa-JC-zkR" secondAttribute="bottom" id="rCP-aH-ODL"/>
+                <constraint firstAttribute="bottom" secondItem="A6j-zO-ZXx" secondAttribute="bottom" id="yJR-df-T8a"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="Cq8-cs-7NS"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="merchantNameLab" destination="VMq-4x-HiL" id="JJ8-zv-Iju"/>
+                <outlet property="orderDealStatusLab" destination="A6j-zO-ZXx" id="a6w-gH-i5f"/>
+            </connections>
+            <point key="canvasLocation" x="250" y="354.5"/>
+        </view>
+    </objects>
+</document>

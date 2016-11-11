@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="hz7-W5-lHR" customClass="ReturnTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="77"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hz7-W5-lHR" id="WUI-IK-z2y">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="76.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退货退款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sgB-Y5-cdZ">
+                        <rect key="frame" x="15" y="20" width="68" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已收到货，需退还已收到的货物并退款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aXJ-wH-l84">
+                        <rect key="frame" x="15" y="43" width="238" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balancePay" translatesAutoresizingMaskIntoConstraints="NO" id="i5U-C3-upP">
+                        <rect key="frame" x="297" y="32" width="8" height="12"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4f-DW-ZQ1">
+                        <rect key="frame" x="0.0" y="75.5" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.94509803920000002" green="0.94509803920000002" blue="0.94509803920000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="2" id="Gfy-JO-1Ti"/>
+                            <constraint firstAttribute="height" constant="0.5" id="kDb-1A-YW4"/>
+                            <constraint firstAttribute="height" constant="0.5" id="x7X-Wc-yIw"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Gfy-JO-1Ti"/>
+                                <exclude reference="kDb-1A-YW4"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="i5U-C3-upP" secondAttribute="trailing" constant="15" id="1OD-ch-L2V"/>
+                    <constraint firstAttribute="trailing" secondItem="d4f-DW-ZQ1" secondAttribute="trailing" id="CcB-UQ-Uag"/>
+                    <constraint firstItem="d4f-DW-ZQ1" firstAttribute="leading" secondItem="WUI-IK-z2y" secondAttribute="leading" id="Dk3-sj-X2M"/>
+                    <constraint firstItem="aXJ-wH-l84" firstAttribute="leading" secondItem="WUI-IK-z2y" secondAttribute="leading" constant="15" id="KcF-Xq-tPd"/>
+                    <constraint firstAttribute="bottom" secondItem="d4f-DW-ZQ1" secondAttribute="bottom" id="Lgy-hr-KO1"/>
+                    <constraint firstItem="sgB-Y5-cdZ" firstAttribute="leading" secondItem="WUI-IK-z2y" secondAttribute="leading" constant="15" id="Wws-dr-clK"/>
+                    <constraint firstItem="aXJ-wH-l84" firstAttribute="top" secondItem="WUI-IK-z2y" secondAttribute="top" constant="43" id="X4D-Q5-ioV"/>
+                    <constraint firstAttribute="bottom" secondItem="d4f-DW-ZQ1" secondAttribute="bottom" id="a8S-3X-jIF"/>
+                    <constraint firstItem="sgB-Y5-cdZ" firstAttribute="top" secondItem="WUI-IK-z2y" secondAttribute="top" constant="20" id="epN-dN-Mcu"/>
+                    <constraint firstItem="d4f-DW-ZQ1" firstAttribute="leading" secondItem="WUI-IK-z2y" secondAttribute="leading" id="kVi-qo-Qgd"/>
+                    <constraint firstAttribute="trailing" secondItem="d4f-DW-ZQ1" secondAttribute="trailing" id="tZe-fe-V7S"/>
+                    <constraint firstItem="i5U-C3-upP" firstAttribute="centerY" secondItem="WUI-IK-z2y" secondAttribute="centerY" id="wfL-ab-iNU"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="CcB-UQ-Uag"/>
+                        <exclude reference="Lgy-hr-KO1"/>
+                        <exclude reference="kVi-qo-Qgd"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailLabel" destination="aXJ-wH-l84" id="knH-TM-3ya"/>
+                <outlet property="filterLabel" destination="d4f-DW-ZQ1" id="L51-xy-eSV"/>
+                <outlet property="titleLabel" destination="sgB-Y5-cdZ" id="p5a-jZ-RNn"/>
+            </connections>
+            <point key="canvasLocation" x="472" y="142.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="balancePay" width="8" height="12"/>
+    </resources>
+</document>

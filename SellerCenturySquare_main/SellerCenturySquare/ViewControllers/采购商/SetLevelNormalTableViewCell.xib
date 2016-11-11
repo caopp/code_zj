@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="SetLevelNormalTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="46"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="45.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本店等级：V6" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5xc-Pf-X8M">
+                        <rect key="frame" x="15" y="12" width="105" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBY-fV-DBy">
+                        <rect key="frame" x="283" y="12" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="OT2-xK-23z"/>
+                            <constraint firstAttribute="width" constant="22" id="v6Q-iE-Qk9"/>
+                        </constraints>
+                        <state key="normal" image="04_商品图片下载-编辑_未选中">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="03_商家商品详情页_选中"/>
+                        <connections>
+                            <action selector="selectedButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9pd-e8-4UB"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bBY-fV-DBy" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="9yQ-YP-HqX"/>
+                    <constraint firstAttribute="bottom" secondItem="bBY-fV-DBy" secondAttribute="bottom" constant="11.5" id="jwG-gh-HfT"/>
+                    <constraint firstAttribute="trailing" secondItem="bBY-fV-DBy" secondAttribute="trailing" constant="15" id="tzP-ha-MbY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="levelL" destination="5xc-Pf-X8M" id="VcY-xl-7gr"/>
+                <outlet property="selectButton" destination="bBY-fV-DBy" id="Cft-hy-9dA"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="03_商家商品详情页_选中" width="21" height="21"/>
+        <image name="04_商品图片下载-编辑_未选中" width="21" height="21"/>
+    </resources>
+</document>

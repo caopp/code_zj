@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>37F17268-7164-43A1-B8E9-12CA7704E9D4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>project</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>e5f38447-4e01-0010-bd44-1548b0a6d22e++4102</key>
+		<string>http://10.12.49.71:8080/scm/svn/CenturySquare/05_Implementation/trunk/iOS/BuyerCenturySquare</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BuyerCenturySquare.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>e5f38447-4e01-0010-bd44-1548b0a6d22e++4102</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>e5f38447-4e01-0010-bd44-1548b0a6d22e++4102</key>
+		<string>http://10.12.49.71:8080/scm/svn/CenturySquare</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://10.12.49.71:8080/scm/svn/CenturySquare/05_Implementation/trunk/iOS/BuyerCenturySquare/BuyerCenturySquare.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>e5f38447-4e01-0010-bd44-1548b0a6d22e++4102</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>e5f38447-4e01-0010-bd44-1548b0a6d22e++4102</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BuyerCenturySquare</string>
+		</dict>
+	</array>
+</dict>
+</plist>

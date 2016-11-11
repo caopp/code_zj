@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="vXu-z1-n6B" customClass="MerchantDeatilNavView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iZk-lg-tZI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
+                </imageView>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" semanticContentAttribute="playback" translatesAutoresizingMaskIntoConstraints="NO" id="wDA-40-XwS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="JmB-nz-b4V">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="153"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jVy-cq-74R">
+                                <rect key="frame" x="0.0" y="30" width="40" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="Uqi-4A-KAF"/>
+                                </constraints>
+                                <state key="normal" image="public_nav_back"/>
+                                <connections>
+                                    <action selector="backBtnClick:" destination="vXu-z1-n6B" eventType="touchUpInside" id="wo5-Bs-CXJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dx7-hU-0h4">
+                                <rect key="frame" x="250" y="118" width="124.5" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title=" 补差价" image="good_postage" backgroundImage="按钮背景.png"/>
+                                <connections>
+                                    <action selector="postPageBtnClick:" destination="vXu-z1-n6B" eventType="touchUpInside" id="EE0-li-ZDa"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Aqd-Ol-JfD">
+                                <rect key="frame" x="125" y="118" width="124" height="35"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <state key="normal" title=" 商品分类" image="good_merchantCategory" backgroundImage="按钮背景.png"/>
+                                <connections>
+                                    <action selector="merchantCategoryBtnClick:" destination="vXu-z1-n6B" eventType="touchUpInside" id="64s-Vg-OFd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vZP-iz-63M">
+                                <rect key="frame" x="0.0" y="118" width="124.5" height="35"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="mkM-lU-NsB"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <size key="titleShadowOffset" width="1" height="0.0"/>
+                                <state key="normal" title=" 商家介绍" image="good_merchantIntroduce" backgroundImage="按钮背景.png"/>
+                                <connections>
+                                    <action selector="merhantIntroduceBtnClick:" destination="vXu-z1-n6B" eventType="touchUpInside" id="veU-bP-sYm"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="欧尚旗舰店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hvx-hq-OIP">
+                                <rect key="frame" x="132" y="49" width="90" height="40"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZAK-Ih-30d">
+                                <rect key="frame" x="227" y="49" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="SS6-gJ-vdw"/>
+                                </constraints>
+                                <state key="normal" image="good_customeService"/>
+                                <connections>
+                                    <action selector="serviceBtnClick:" destination="vXu-z1-n6B" eventType="touchUpInside" id="2n1-MD-wNH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Km-hC-zOq">
+                                <rect key="frame" x="335" y="49" width="40" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="488-A6-QBb"/>
+                                    <constraint firstAttribute="height" constant="25" id="J59-k5-RQZ"/>
+                                    <constraint firstAttribute="width" constant="25" id="fha-qf-dAG"/>
+                                </constraints>
+                                <state key="normal" image="good_customeService"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="J59-k5-RQZ"/>
+                                        <exclude reference="fha-qf-dAG"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="collectBtnClick:" destination="vXu-z1-n6B" eventType="touchUpInside" id="hut-rW-Wea"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="jVy-cq-74R" firstAttribute="top" secondItem="JmB-nz-b4V" secondAttribute="top" constant="30" id="3ke-Me-4y1"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ZAK-Ih-30d" secondAttribute="trailing" constant="45" id="4XA-kA-OgU"/>
+                            <constraint firstAttribute="bottom" secondItem="vZP-iz-63M" secondAttribute="bottom" id="4uz-IK-Hsg"/>
+                            <constraint firstAttribute="bottom" secondItem="Aqd-Ol-JfD" secondAttribute="bottom" id="5pe-Xu-EZM"/>
+                            <constraint firstItem="Aqd-Ol-JfD" firstAttribute="width" secondItem="vZP-iz-63M" secondAttribute="width" id="E2Y-AM-jib"/>
+                            <constraint firstItem="Hvx-hq-OIP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="jVy-cq-74R" secondAttribute="trailing" constant="5" id="EW3-c2-paZ"/>
+                            <constraint firstItem="Hvx-hq-OIP" firstAttribute="top" secondItem="JmB-nz-b4V" secondAttribute="top" constant="49" id="MBc-KS-ZOv"/>
+                            <constraint firstItem="ZAK-Ih-30d" firstAttribute="leading" secondItem="Hvx-hq-OIP" secondAttribute="trailing" constant="5" id="MYr-0L-ZmY"/>
+                            <constraint firstItem="ZAK-Ih-30d" firstAttribute="top" secondItem="JmB-nz-b4V" secondAttribute="top" constant="49" id="Oy4-qO-bEg"/>
+                            <constraint firstAttribute="bottom" secondItem="jVy-cq-74R" secondAttribute="bottom" constant="40" id="PWc-Eg-7Z1"/>
+                            <constraint firstItem="Dx7-hU-0h4" firstAttribute="width" secondItem="vZP-iz-63M" secondAttribute="width" id="QER-91-1Oe"/>
+                            <constraint firstItem="vZP-iz-63M" firstAttribute="leading" secondItem="JmB-nz-b4V" secondAttribute="leading" id="QfR-pR-bX6"/>
+                            <constraint firstItem="jVy-cq-74R" firstAttribute="leading" secondItem="JmB-nz-b4V" secondAttribute="leading" id="VAw-D8-uBx"/>
+                            <constraint firstItem="Dx7-hU-0h4" firstAttribute="top" secondItem="6Km-hC-zOq" secondAttribute="bottom" constant="29" id="VK4-H8-XfZ"/>
+                            <constraint firstItem="Dx7-hU-0h4" firstAttribute="height" secondItem="Aqd-Ol-JfD" secondAttribute="height" id="WbC-YU-jgM"/>
+                            <constraint firstItem="Dx7-hU-0h4" firstAttribute="leading" secondItem="Aqd-Ol-JfD" secondAttribute="trailing" constant="1" id="Wzq-Gr-Lpe"/>
+                            <constraint firstAttribute="bottom" secondItem="Dx7-hU-0h4" secondAttribute="bottom" id="gQu-ms-IaW"/>
+                            <constraint firstAttribute="bottom" secondItem="Aqd-Ol-JfD" secondAttribute="bottom" id="gfB-Bs-TEG"/>
+                            <constraint firstItem="6Km-hC-zOq" firstAttribute="top" secondItem="JmB-nz-b4V" secondAttribute="top" constant="49" id="iSk-ZV-wtb"/>
+                            <constraint firstItem="Aqd-Ol-JfD" firstAttribute="height" secondItem="vZP-iz-63M" secondAttribute="height" id="kUi-no-5bY"/>
+                            <constraint firstItem="Aqd-Ol-JfD" firstAttribute="leading" secondItem="vZP-iz-63M" secondAttribute="trailing" constant="1" id="nAm-FA-LmX"/>
+                            <constraint firstItem="Hvx-hq-OIP" firstAttribute="centerX" secondItem="JmB-nz-b4V" secondAttribute="centerX" constant="-10" id="nTz-nJ-xfC"/>
+                            <constraint firstItem="Aqd-Ol-JfD" firstAttribute="top" secondItem="ZAK-Ih-30d" secondAttribute="bottom" constant="29" id="oCb-Pz-iYS"/>
+                            <constraint firstItem="vZP-iz-63M" firstAttribute="top" secondItem="jVy-cq-74R" secondAttribute="bottom" constant="10" id="pWO-6e-AMI"/>
+                            <constraint firstAttribute="trailing" secondItem="Dx7-hU-0h4" secondAttribute="trailing" id="sKa-h0-KdJ"/>
+                            <constraint firstAttribute="trailing" secondItem="6Km-hC-zOq" secondAttribute="trailing" id="wkq-uD-ieV"/>
+                            <constraint firstItem="vZP-iz-63M" firstAttribute="top" secondItem="Hvx-hq-OIP" secondAttribute="bottom" constant="29" id="wxY-ue-hm0"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="PWc-Eg-7Z1"/>
+                                <exclude reference="gfB-Bs-TEG"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <blurEffect style="dark"/>
+                </visualEffectView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="iZk-lg-tZI" secondAttribute="trailing" id="8rj-OZ-EZd"/>
+                <constraint firstItem="iZk-lg-tZI" firstAttribute="top" secondItem="vXu-z1-n6B" secondAttribute="top" id="KKm-c6-d5y"/>
+                <constraint firstAttribute="bottom" secondItem="wDA-40-XwS" secondAttribute="bottom" id="KV6-8p-2yc"/>
+                <constraint firstItem="wDA-40-XwS" firstAttribute="leading" secondItem="vXu-z1-n6B" secondAttribute="leading" id="Xu6-nK-kcH"/>
+                <constraint firstItem="wDA-40-XwS" firstAttribute="top" secondItem="vXu-z1-n6B" secondAttribute="top" id="ae7-oh-nVk"/>
+                <constraint firstAttribute="bottom" secondItem="iZk-lg-tZI" secondAttribute="bottom" id="eaL-u4-ojM"/>
+                <constraint firstItem="iZk-lg-tZI" firstAttribute="leading" secondItem="vXu-z1-n6B" secondAttribute="leading" id="nbE-xO-sYX"/>
+                <constraint firstAttribute="trailing" secondItem="wDA-40-XwS" secondAttribute="trailing" id="rAv-9f-RfW"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="collectBtn" destination="6Km-hC-zOq" id="GSE-Py-VRw"/>
+                <outlet property="merchantCategoryBtn" destination="Aqd-Ol-JfD" id="Yz4-SL-Lrs"/>
+                <outlet property="merchantIntroduceBtn" destination="vZP-iz-63M" id="7UC-m3-dCJ"/>
+                <outlet property="merchantNameLabel" destination="Hvx-hq-OIP" id="cLd-AC-Tyd"/>
+                <outlet property="postageBtn" destination="Dx7-hU-0h4" id="2WG-2H-cMD"/>
+                <outlet property="serviceBtn" destination="ZAK-Ih-30d" id="0Od-nD-pC9"/>
+                <outlet property="showImgeView" destination="iZk-lg-tZI" id="G4g-0A-pvi"/>
+            </connections>
+            <point key="canvasLocation" x="187.5" y="274.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="good_customeService" width="21" height="21"/>
+        <image name="good_merchantCategory" width="13" height="12"/>
+        <image name="good_merchantIntroduce" width="13" height="12"/>
+        <image name="good_postage" width="20" height="13"/>
+        <image name="public_nav_back" width="10" height="18"/>
+        <image name="按钮背景.png" width="249" height="70"/>
+    </resources>
+</document>

@@ -1,0 +1,1083 @@
+
+/* Class = "UIBarButtonItem"; title = "退出"; ObjectID = "03O-cS-Hvl"; */
+"03O-cS-Hvl.title" = "退出";
+
+/* Class = "UILabel"; text = "L x 3"; ObjectID = "0Uu-qA-kYj"; */
+"0Uu-qA-kYj.text" = "L x 3";
+
+/* Class = "UIButton"; normalTitle = "再次申请"; ObjectID = "0a6-Yl-5Dd"; */
+"0a6-Yl-5Dd.normalTitle" = "再次申请";
+
+/* Class = "UIButton"; normalTitle = "购买次数"; ObjectID = "0bH-QK-9xJ"; */
+"0bH-QK-9xJ.normalTitle" = "购买次数";
+
+/* Class = "UILabel"; text = "$123.00"; ObjectID = "0vH-Yx-G2X"; */
+"0vH-Yx-G2X.text" = "$123.00";
+
+/* Class = "UIButton"; normalTitle = "级别评定"; ObjectID = "1Af-hJ-a9Q"; */
+"1Af-hJ-a9Q.normalTitle" = "级别评定";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "1Kh-YX-taP"; */
+"1Kh-YX-taP.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "店铺"; ObjectID = "1O8-Zx-5d6"; */
+"1O8-Zx-5d6.normalTitle" = "店铺";
+
+/* Class = "UILabel"; text = "$ 70"; ObjectID = "1VE-ci-yf0"; */
+"1VE-ci-yf0.text" = "$ 70";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "1Vp-CE-8ea"; */
+"1Vp-CE-8ea.text" = "M x 3";
+
+/* Class = "UILabel"; text = "2015-03-25     18:23:15"; ObjectID = "1f7-xX-znJ"; */
+"1f7-xX-znJ.text" = "2015-03-25     18:23:15";
+
+/* Class = "UIButton"; normalTitle = "购买下载次数"; ObjectID = "1iu-Vk-kvb"; */
+"1iu-Vk-kvb.normalTitle" = "购买下载次数";
+
+/* Class = "UILabel"; text = "尺码:"; ObjectID = "29k-eG-ajt"; */
+"29k-eG-ajt.text" = "尺码:";
+
+/* Class = "UIButton"; normalTitle = "退出当前账号"; ObjectID = "2GL-w8-b5F"; */
+"2GL-w8-b5F.normalTitle" = "退出当前账号";
+
+/* Class = "UILabel"; text = "颜色: 蓝色"; ObjectID = "2O4-3E-w6y"; */
+"2O4-3E-w6y.text" = "颜色: 蓝色";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "2PQ-3l-Xhm"; */
+"2PQ-3l-Xhm.text" = "M x 3";
+
+/* Class = "UILabel"; text = "V5"; ObjectID = "2rt-tS-zS0"; */
+"2rt-tS-zS0.text" = "V5";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "320-fN-kse"; */
+"320-fN-kse.text" = "M x 3";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "34e-Vu-Arv"; */
+"34e-Vu-Arv.text" = "XXL x 3";
+
+/* Class = "UILabel"; text = "$56.00 x 1"; ObjectID = "3Eb-Mk-cVI"; */
+"3Eb-Mk-cVI.text" = "$56.00 x 1";
+
+/* Class = "UIButton"; normalTitle = "确认升级"; ObjectID = "3HY-Ug-9pO"; */
+"3HY-Ug-9pO.normalTitle" = "确认升级";
+
+/* Class = "UILabel"; text = "已失效"; ObjectID = "3bj-oy-FhE"; */
+"3bj-oy-FhE.text" = "已失效";
+
+/* Class = "UIButton"; normalTitle = "退出当前账号"; ObjectID = "3el-CB-emu"; */
+"3el-CB-emu.normalTitle" = "退出当前账号";
+
+/* Class = "UIButton"; normalTitle = "进入叮咚欧品"; ObjectID = "3nT-Ob-CGp"; */
+"3nT-Ob-CGp.normalTitle" = "进入叮咚欧品";
+
+/* Class = "UIButton"; normalTitle = "询单"; ObjectID = "3tz-qD-6e5"; */
+"3tz-qD-6e5.normalTitle" = "询单";
+
+/* Class = "UILabel"; text = "$56.00 x 1"; ObjectID = "3uI-pz-sqO"; */
+"3uI-pz-sqO.text" = "$56.00 x 1";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "4Bn-fD-YkN"; */
+"4Bn-fD-YkN.normalTitle" = "获取验证码";
+
+/* Class = "UIButton"; normalTitle = "结算"; ObjectID = "4M2-35-R1e"; */
+"4M2-35-R1e.normalTitle" = "结算";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "4oO-Rf-Xcz"; */
+"4oO-Rf-Xcz.text" = "M x 3";
+
+/* Class = "UILabel"; text = "L x 3"; ObjectID = "4vD-jw-5GB"; */
+"4vD-jw-5GB.text" = "L x 3";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "4wl-h8-MN1"; */
+"4wl-h8-MN1.text" = "M x 3";
+
+/* Class = "UILabel"; text = "颜色: 蓝色"; ObjectID = "5Mf-Zw-8xm"; */
+"5Mf-Zw-8xm.text" = "颜色: 蓝色";
+
+/* Class = "UITextField"; placeholder = "请输入身份证号码"; ObjectID = "5Qb-mN-ja8"; */
+"5Qb-mN-ja8.placeholder" = "请输入身份证号码";
+
+/* Class = "UIButton"; normalTitle = "付款"; ObjectID = "5ud-iK-gvq"; */
+"5ud-iK-gvq.normalTitle" = "付款";
+
+/* Class = "UILabel"; text = "使用预付款余额支付，支付金额将转为消费积分。"; ObjectID = "607-SC-GZV"; */
+"607-SC-GZV.text" = "使用预付款余额支付，支付金额将转为消费积分。";
+
+/* Class = "UILabel"; text = "没有收到邀请可在此提交申请\n通过审核后即可进入平台"; ObjectID = "6ES-yt-Nk3"; */
+"6ES-yt-Nk3.text" = "没有收到邀请可在此提交申请\n通过审核后即可进入平台";
+
+/* Class = "UILabel"; text = "支付宝支付"; ObjectID = "6Ly-wg-E1l"; */
+"6Ly-wg-E1l.text" = "支付宝支付";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "6e2-Gj-oRK"; */
+"6e2-Gj-oRK.text" = "x 4";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "6wQ-UC-qVy"; */
+"6wQ-UC-qVy.text" = "XXL x 3";
+
+/* Class = "UILabel"; text = "恭喜您, 注册成功!"; ObjectID = "6zV-sR-FhR"; */
+"6zV-sR-FhR.text" = "恭喜您, 注册成功!";
+
+/* Class = "UILabel"; text = "邮费专拍-欧尚旗舰店"; ObjectID = "7X8-v0-OgP"; */
+"7X8-v0-OgP.text" = "邮费专拍-欧尚旗舰店";
+
+/* Class = "UILabel"; text = "我们将在3个工作日内以短信的形式\n将申请结果发送到您的手机中\n请留意查收"; ObjectID = "8Nf-Eg-edy"; */
+"8Nf-Eg-edy.text" = "我们将在3个工作日内以短信的形式\n将申请结果发送到您的手机中\n请留意查收";
+
+/* Class = "UITextField"; placeholder = "省市区"; ObjectID = "8Pv-Gt-48O"; */
+"8Pv-Gt-48O.placeholder" = "省市区";
+
+/* Class = "UILabel"; text = "L x 3"; ObjectID = "8dQ-c6-XFw"; */
+"8dQ-c6-XFw.text" = "L x 3";
+
+/* Class = "UITextField"; placeholder = "请输入注册时使用的手机号码"; ObjectID = "8id-mi-uni"; */
+"8id-mi-uni.placeholder" = "请输入注册时使用的手机号码";
+
+/* Class = "UITextView"; text = "您遇到什么问题，或者哪些功能建议，欢迎在此提出！我们将持续跟进优化。"; ObjectID = "9BI-GD-Odm"; */
+"9BI-GD-Odm.text" = "您遇到什么问题，或者哪些功能建议，欢迎在此提出！我们将持续跟进优化。";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "9JM-1T-0c5"; */
+"9JM-1T-0c5.text" = "XXL x 3";
+
+/* Class = "UILabel"; text = "余额支付"; ObjectID = "9KE-66-sw4"; */
+"9KE-66-sw4.text" = "余额支付";
+
+/* Class = "UILabel"; text = "全选"; ObjectID = "9Su-NK-MMQ"; */
+"9Su-NK-MMQ.text" = "全选";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "9YZ-ZZ-rY5"; */
+"9YZ-ZZ-rY5.text" = "x 4";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "9aa-cm-9dr"; */
+"9aa-cm-9dr.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "立即验证"; ObjectID = "9bI-h2-bqa"; */
+"9bI-h2-bqa.normalTitle" = "立即验证";
+
+/* Class = "UITextField"; placeholder = "请输入营业执照"; ObjectID = "A6Y-D0-XEO"; */
+"A6Y-D0-XEO.placeholder" = "请输入营业执照";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "AAx-zg-Vak"; */
+"AAx-zg-Vak.text" = "XXL x 3";
+
+/* Class = "UIButton"; normalTitle = "再次申请"; ObjectID = "AGc-Xp-wqX"; */
+"AGc-Xp-wqX.normalTitle" = "再次申请";
+
+/* Class = "UILabel"; text = "起批量已变化请修改订购数量"; ObjectID = "AIf-h5-YDE"; */
+"AIf-h5-YDE.text" = "起批量已变化请修改订购数量";
+
+/* Class = "UIBarButtonItem"; title = "退出"; ObjectID = "ALs-ku-1Gr"; */
+"ALs-ku-1Gr.title" = "退出";
+
+/* Class = "UITextField"; placeholder = "邮政编码"; ObjectID = "AgH-Ki-Sii"; */
+"AgH-Ki-Sii.placeholder" = "邮政编码";
+
+/* Class = "UITextField"; placeholder = "新密码"; ObjectID = "Aij-Sq-XPs"; */
+"Aij-Sq-XPs.placeholder" = "新密码";
+
+/* Class = "UITextField"; placeholder = "省市区"; ObjectID = "Auc-SA-Mtu"; */
+"Auc-SA-Mtu.placeholder" = "省市区";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "AyU-nu-PC1"; */
+"AyU-nu-PC1.text" = "x 4";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "BA1-Fy-Wnf"; */
+"BA1-Fy-Wnf.text" = "$56.00";
+
+/* Class = "UILabel"; text = "身份证照"; ObjectID = "BD4-Ul-2jO"; */
+"BD4-Ul-2jO.text" = "身份证照";
+
+/* Class = "UILabel"; text = "收到叮咚欧品或朋友的邀请\n可凭短信中邀请码进行验证"; ObjectID = "C0z-uR-Gif"; */
+"C0z-uR-Gif.text" = "收到叮咚欧品或朋友的邀请\n可凭短信中邀请码进行验证";
+
+/* Class = "UILabel"; text = "审核通过"; ObjectID = "C6T-0n-0u1"; */
+"C6T-0n-0u1.text" = "审核通过";
+
+/* Class = "UILabel"; text = "V6"; ObjectID = "CNR-BW-JmK"; */
+"CNR-BW-JmK.text" = "V6";
+
+/* Class = "UILabel"; text = "129110"; ObjectID = "CXv-DR-Mto"; */
+"CXv-DR-Mto.text" = "129110";
+
+/* Class = "UILabel"; text = "全选"; ObjectID = "CdQ-4h-sf7"; */
+"CdQ-4h-sf7.text" = "全选";
+
+/* Class = "UILabel"; text = "￥"; ObjectID = "Ch8-BP-UbW"; */
+"Ch8-BP-UbW.text" = "￥";
+
+/* Class = "UILabel"; text = "欧尚旗舰店"; ObjectID = "Cpu-N6-qvH"; */
+"Cpu-N6-qvH.text" = "欧尚旗舰店";
+
+/* Class = "UIButton"; normalTitle = "再次下载"; ObjectID = "D98-wX-ItB"; */
+"D98-wX-ItB.normalTitle" = "再次下载";
+
+/* Class = "UIButton"; normalTitle = "再次下载"; ObjectID = "DJ7-Yc-Rt8"; */
+"DJ7-Yc-Rt8.normalTitle" = "再次下载";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "DZZ-Xr-hre"; */
+"DZZ-Xr-hre.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "Db0-lP-MBZ"; */
+"Db0-lP-MBZ.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "清除"; ObjectID = "Dd9-R4-UL5"; */
+"Dd9-R4-UL5.normalTitle" = "清除";
+
+/* Class = "UIButton"; normalTitle = "注册"; ObjectID = "DfR-JQ-OT3"; */
+"DfR-JQ-OT3.normalTitle" = "注册";
+
+/* Class = "UILabel"; text = "购买次数:"; ObjectID = "Djk-yL-H73"; */
+"Djk-yL-H73.text" = "购买次数:";
+
+/* Class = "UILabel"; text = "预付货款余额"; ObjectID = "E5X-4A-LD9"; */
+"E5X-4A-LD9.text" = "预付货款余额";
+
+/* Class = "UILabel"; text = "韩版五角星印花修身短裙"; ObjectID = "EBN-MR-Gv5"; */
+"EBN-MR-Gv5.text" = "韩版五角星印花修身短裙";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "EXD-yG-8rZ"; */
+"EXD-yG-8rZ.text" = "x 4";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "Ea8-Yq-83X"; */
+"Ea8-Yq-83X.text" = "XL x 3";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ebk-h6-ULb"; */
+"Ebk-h6-ULb.text" = "Label";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "Ecc-bN-bA4"; */
+"Ecc-bN-bA4.text" = "$56.00";
+
+/* Class = "UILabel"; text = "样板"; ObjectID = "Edm-tG-aZf"; */
+"Edm-tG-aZf.text" = "样板";
+
+/* Class = "UIButton"; normalTitle = "有"; ObjectID = "EhW-8j-0W3"; */
+"EhW-8j-0W3.normalTitle" = "有";
+
+/* Class = "UILabel"; text = "A1006"; ObjectID = "Etv-ca-NjA"; */
+"Etv-ca-NjA.text" = "A1006";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Exa-5T-pE9"; */
+"Exa-5T-pE9.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "查看历史下载"; ObjectID = "Exx-1G-v0P"; */
+"Exx-1G-v0P.normalTitle" = "查看历史下载";
+
+/* Class = "UIButton"; normalTitle = "确认订单"; ObjectID = "F80-qc-BXq"; */
+"F80-qc-BXq.normalTitle" = "确认订单";
+
+/* Class = "UILabel"; text = "88"; ObjectID = "FOl-yB-KZ1"; */
+"FOl-yB-KZ1.text" = "88";
+
+/* Class = "UILabel"; text = "200/200"; ObjectID = "FVU-V4-R5c"; */
+"FVU-V4-R5c.text" = "200/200";
+
+/* Class = "UILabel"; text = "显示密码"; ObjectID = "FYs-Ik-7b1"; */
+"FYs-Ik-7b1.text" = "显示密码";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "Fh3-Cj-rjz"; */
+"Fh3-Cj-rjz.text" = "M x 3";
+
+/* Class = "UILabel"; text = "2"; ObjectID = "Fk0-N0-DLL"; */
+"Fk0-N0-DLL.text" = "2";
+
+/* Class = "UITextField"; placeholder = "6-12位数字、字母、符号"; ObjectID = "Fx7-Sc-8n3"; */
+"Fx7-Sc-8n3.placeholder" = "6-12位数字、字母、符号";
+
+/* Class = "UILabel"; text = "客服电话: 0755-23546190"; ObjectID = "G7p-du-KKo"; */
+"G7p-du-KKo.text" = "客服电话: 0755-23546190";
+
+/* Class = "UILabel"; text = "客服电话: 0755-23546190"; ObjectID = "GHw-ue-Nih"; */
+"GHw-ue-Nih.text" = "客服电话: 0755-23546190";
+
+/* Class = "UILabel"; text = "已失效"; ObjectID = "GZx-om-PsT"; */
+"GZx-om-PsT.text" = "已失效";
+
+/* Class = "UIBarButtonItem"; title = "退出"; ObjectID = "GeG-uE-Zc2"; */
+"GeG-uE-Zc2.title" = "退出";
+
+/* Class = "UIButton"; normalTitle = "上传营业执照图片"; ObjectID = "Gf2-KZ-ZSS"; */
+"Gf2-KZ-ZSS.normalTitle" = "上传营业执照图片";
+
+/* Class = "UILabel"; text = "剩余下载次数"; ObjectID = "Gmm-wK-Ion"; */
+"Gmm-wK-Ion.text" = "剩余下载次数";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "GqK-aV-502"; */
+"GqK-aV-502.text" = "M x 3";
+
+/* Class = "UILabel"; text = "叮咚欧品客服电话: 0755-23546190"; ObjectID = "Gwz-Uf-7X8"; */
+"Gwz-Uf-7X8.text" = "叮咚欧品客服电话: 0755-23546190";
+
+/* Class = "UILabel"; text = "已收到短信邀请"; ObjectID = "GxU-Cw-nsy"; */
+"GxU-Cw-nsy.text" = "已收到短信邀请";
+
+/* Class = "UILabel"; text = "介绍"; ObjectID = "Gz2-bR-WO2"; */
+"Gz2-bR-WO2.text" = "介绍";
+
+/* Class = "UILabel"; text = "使用预付款余额支付:"; ObjectID = "HL8-DI-ovd"; */
+"HL8-DI-ovd.text" = "使用预付款余额支付:";
+
+/* Class = "UILabel"; text = "收到叮咚欧品和朋友的邀请,可凭短信的邀请码再次验证"; ObjectID = "HMf-Sg-O5X"; */
+"HMf-Sg-O5X.text" = "收到叮咚欧品和朋友的邀请,可凭短信的邀请码再次验证";
+
+/* Class = "UITextField"; placeholder = "请输入原登录密码"; ObjectID = "Huo-YC-r9z"; */
+"Huo-YC-r9z.placeholder" = "请输入原登录密码";
+
+/* Class = "UILabel"; text = "您是否收到短信邀请?"; ObjectID = "I3V-UI-ihT"; */
+"I3V-UI-ihT.text" = "您是否收到短信邀请?";
+
+/* Class = "UILabel"; text = "$56.00 x 1"; ObjectID = "I4f-kN-Ijy"; */
+"I4f-kN-Ijy.text" = "$56.00 x 1";
+
+/* Class = "UILabel"; text = "很抱歉,您的账号已关闭!"; ObjectID = "IIa-2Z-ANA"; */
+"IIa-2Z-ANA.text" = "很抱歉,您的账号已关闭!";
+
+/* Class = "UILabel"; text = "暂无可以补货的商品"; ObjectID = "IMA-DB-pW3"; */
+"IMA-DB-pW3.text" = "暂无可以补货的商品";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "Ihm-lp-0dU"; */
+"Ihm-lp-0dU.text" = "x 4";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "Iso-WL-mNv"; */
+"Iso-WL-mNv.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UIButton"; normalTitle = "再次下载"; ObjectID = "JE9-Hb-Ali"; */
+"JE9-Hb-Ali.normalTitle" = "再次下载";
+
+/* Class = "UILabel"; text = "全选"; ObjectID = "JOe-ON-MhE"; */
+"JOe-ON-MhE.text" = "全选";
+
+/* Class = "UIBarButtonItem"; title = "提交"; ObjectID = "JPK-LC-1Sa"; */
+"JPK-LC-1Sa.title" = "提交";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "Jwu-iM-AJZ"; */
+"Jwu-iM-AJZ.text" = "M x 3";
+
+/* Class = "UILabel"; text = "粉红色 起批:3件"; ObjectID = "K0U-Q2-jM2"; */
+"K0U-Q2-jM2.text" = "粉红色 起批:3件";
+
+/* Class = "UILabel"; text = "购买次数:"; ObjectID = "KFw-Lv-eFp"; */
+"KFw-Lv-eFp.text" = "购买次数:";
+
+/* Class = "UITextField"; placeholder = "手机号"; ObjectID = "KK0-Iu-Hqn"; */
+"KK0-Iu-Hqn.placeholder" = "手机号";
+
+/* Class = "UILabel"; text = "女装"; ObjectID = "Krv-pX-9p8"; */
+"Krv-pX-9p8.text" = "女装";
+
+/* Class = "UILabel"; text = "$123.00"; ObjectID = "Ksu-8a-geW"; */
+"Ksu-8a-geW.text" = "$123.00";
+
+/* Class = "UIButton"; normalTitle = "取消收藏"; ObjectID = "Kti-p7-HgE"; */
+"Kti-p7-HgE.normalTitle" = "取消收藏";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "L5S-RL-DnE"; */
+"L5S-RL-DnE.text" = "M x 3";
+
+/* Class = "UITextField"; placeholder = "姓名"; ObjectID = "LGT-Vd-kj5"; */
+"LGT-Vd-kj5.placeholder" = "姓名";
+
+/* Class = "UINavigationItem"; title = "意见反馈"; ObjectID = "LPw-U0-9iN"; */
+"LPw-U0-9iN.title" = "意见反馈";
+
+/* Class = "UILabel"; text = "￥"; ObjectID = "Li6-AR-UMb"; */
+"Li6-AR-UMb.text" = "￥";
+
+/* Class = "UILabel"; text = "0"; ObjectID = "Lkf-GE-ekb"; */
+"Lkf-GE-ekb.text" = "0";
+
+/* Class = "UILabel"; text = "剩余下载次数:"; ObjectID = "M0g-qe-vs1"; */
+"M0g-qe-vs1.text" = "剩余下载次数:";
+
+/* Class = "UILabel"; text = "设置支付密码，"; ObjectID = "M51-fF-kOK"; */
+"M51-fF-kOK.text" = "设置支付密码，";
+
+/* Class = "UILabel"; text = "2、一个商品的【窗口图】和【客观图】可分开下载，下载后，各扣减1个下载次数。"; ObjectID = "MVx-qN-3qt"; */
+"MVx-qN-3qt.text" = "2、一个商品的【窗口图】和【客观图】可分开下载，下载后，各扣减1个下载次数。";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "Mez-eY-b4O"; */
+"Mez-eY-b4O.text" = "XL x 3";
+
+/* Class = "UIBarButtonItem"; title = "会员特权"; ObjectID = "Mgg-r0-fix"; */
+"Mgg-r0-fix.title" = "会员特权";
+
+/* Class = "UILabel"; text = "会员可查看"; ObjectID = "Mjh-jh-r2h"; */
+"Mjh-jh-r2h.text" = "会员可查看";
+
+/* Class = "UILabel"; text = "粉红色 起批:3件"; ObjectID = "NOk-yF-fKu"; */
+"NOk-yF-fKu.text" = "粉红色 起批:3件";
+
+/* Class = "UILabel"; text = "合计:"; ObjectID = "NXR-CL-4kk"; */
+"NXR-CL-4kk.text" = "合计:";
+
+/* Class = "UIButton"; normalTitle = "去挑选"; ObjectID = "NZY-yA-H3U"; */
+"NZY-yA-H3U.normalTitle" = "去挑选";
+
+/* Class = "UILabel"; text = "请选择第三方支付方式"; ObjectID = "NbX-SY-A52"; */
+"NbX-SY-A52.text" = "请选择第三方支付方式";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "O1z-0t-V2Y"; */
+"O1z-0t-V2Y.text" = "Label";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "OS4-v9-k6h"; */
+"OS4-v9-k6h.text" = "$56.00";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "OY9-w1-RYN"; */
+"OY9-w1-RYN.text" = "XXL x 3";
+
+/* Class = "UIButton"; normalTitle = "购买下载次数"; ObjectID = "Oa6-iy-U98"; */
+"Oa6-iy-U98.normalTitle" = "购买下载次数";
+
+/* Class = "UILabel"; text = "请输入123123123123收到的短信校验码"; ObjectID = "PH0-3S-08a"; */
+"PH0-3S-08a.text" = "请输入123123123123收到的短信校验码";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "PNa-eL-66F"; */
+"PNa-eL-66F.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "免费下载图片次数"; ObjectID = "Pii-sM-Dgk"; */
+"Pii-sM-Dgk.text" = "免费下载图片次数";
+
+/* Class = "UILabel"; text = "线上服务"; ObjectID = "Pmc-JE-he6"; */
+"Pmc-JE-he6.text" = "线上服务";
+
+/* Class = "UILabel"; text = "现货数量"; ObjectID = "Pu9-7a-X5a"; */
+"Pu9-7a-X5a.text" = "现货数量";
+
+/* Class = "UIButton"; normalTitle = "地址管理"; ObjectID = "Q7o-1m-1sP"; */
+"Q7o-1m-1sP.normalTitle" = "地址管理";
+
+/* Class = "UIButton"; normalTitle = "确认收货"; ObjectID = "QDp-BJ-5I9"; */
+"QDp-BJ-5I9.normalTitle" = "确认收货";
+
+/* Class = "UILabel"; text = "您的个人资料填写不属实如仍想加入\n叮咚欧品在此重新提交申请"; ObjectID = "QKw-tA-Az1"; */
+"QKw-tA-Az1.text" = "您的个人资料填写不属实如仍想加入\n叮咚欧品在此重新提交申请";
+
+/* Class = "UILabel"; text = "最懂你的快时尚欧美女装批发平台。"; ObjectID = "QPg-gL-GOo"; */
+"QPg-gL-GOo.text" = "最懂你的快时尚欧美女装批发平台。";
+
+/* Class = "UIButton"; normalTitle = "上传身份证图片"; ObjectID = "Qbd-8f-Jxu"; */
+"Qbd-8f-Jxu.normalTitle" = "上传身份证图片";
+
+/* Class = "UITextField"; placeholder = "请输入手机号"; ObjectID = "Qfz-wX-8pZ"; */
+"Qfz-wX-8pZ.placeholder" = "请输入手机号";
+
+/* Class = "UILabel"; text = "客服电话: 0755-23546190"; ObjectID = "QwR-in-N4d"; */
+"QwR-in-N4d.text" = "客服电话: 0755-23546190";
+
+/* Class = "UILabel"; text = "$56.00 x 1"; ObjectID = "RJz-bH-MlU"; */
+"RJz-bH-MlU.text" = "$56.00 x 1";
+
+/* Class = "UILabel"; text = "您可以再次申请开通, 或致电客服"; ObjectID = "RKr-YE-biA"; */
+"RKr-YE-biA.text" = "您可以再次申请开通, 或致电客服";
+
+/* Class = "UILabel"; text = "共7件"; ObjectID = "RTA-p7-dM7"; */
+"RTA-p7-dM7.text" = "共7件";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "RYp-Qf-O6E"; */
+"RYp-Qf-O6E.text" = "Label";
+
+/* Class = "UILabel"; text = "购物车"; ObjectID = "Rd1-Op-T23"; */
+"Rd1-Op-T23.text" = "购物车";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "S1j-8S-HMZ"; */
+"S1j-8S-HMZ.text" = "M x 3";
+
+/* Class = "UILabel"; text = "3、重复下载同1个商品，将累加计算下载次数。下载后的图片请妥善保管。\n"; ObjectID = "S9a-gn-kZT"; */
+"S9a-gn-kZT.text" = "3、重复下载同1个商品，将累加计算下载次数。下载后的图片请妥善保管。\n";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "SMW-bO-n5s"; */
+"SMW-bO-n5s.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "20次/￥100"; ObjectID = "SSi-G6-HBK"; */
+"SSi-G6-HBK.text" = "20次/￥100";
+
+/* Class = "UIBarButtonItem"; title = "会员特权"; ObjectID = "SW4-S9-KPw"; */
+"SW4-S9-KPw.title" = "会员特权";
+
+/* Class = "UISegmentedControl"; Sya-M9-ASU.segmentTitles[0] = "男"; ObjectID = "Sya-M9-ASU"; */
+"Sya-M9-ASU.segmentTitles[0]" = "男";
+
+/* Class = "UISegmentedControl"; Sya-M9-ASU.segmentTitles[1] = "女"; ObjectID = "Sya-M9-ASU"; */
+"Sya-M9-ASU.segmentTitles[1]" = "女";
+
+/* Class = "UIButton"; normalTitle = "清除"; ObjectID = "T8n-4l-6gA"; */
+"T8n-4l-6gA.normalTitle" = "清除";
+
+/* Class = "UITextField"; placeholder = "请输入注册时使用的手机号码"; ObjectID = "TG7-ci-s5v"; */
+"TG7-ci-s5v.placeholder" = "请输入注册时使用的手机号码";
+
+/* Class = "UITextField"; placeholder = "详细地址"; ObjectID = "TTA-TL-J3W"; */
+"TTA-TL-J3W.placeholder" = "详细地址";
+
+/* Class = "UILabel"; text = "20次/￥100"; ObjectID = "TgD-mA-tWZ"; */
+"TgD-mA-tWZ.text" = "20次/￥100";
+
+/* Class = "UILabel"; text = "您还没有订购商品"; ObjectID = "Thd-97-Mps"; */
+"Thd-97-Mps.text" = "您还没有订购商品";
+
+/* Class = "UITextField"; placeholder = "请输入支付密码"; ObjectID = "Tni-uz-mHE"; */
+"Tni-uz-mHE.placeholder" = "请输入支付密码";
+
+/* Class = "UILabel"; text = "样板"; ObjectID = "ToY-15-L4X"; */
+"ToY-15-L4X.text" = "样板";
+
+/* Class = "UITextField"; placeholder = "详细地址"; ObjectID = "TtS-2z-XvX"; */
+"TtS-2z-XvX.placeholder" = "详细地址";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "UMc-lz-g7O"; */
+"UMc-lz-g7O.text" = "XXL x 3";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "Uja-OS-ZaI"; */
+"Uja-OS-ZaI.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "加入购物车"; ObjectID = "VCl-g5-8UD"; */
+"VCl-g5-8UD.normalTitle" = "加入购物车";
+
+/* Class = "UILabel"; text = "显示密码"; ObjectID = "VPI-EP-eLh"; */
+"VPI-EP-eLh.text" = "显示密码";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "Vln-ch-G3m"; */
+"Vln-ch-G3m.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "询单"; ObjectID = "VuO-PO-MHk"; */
+"VuO-PO-MHk.normalTitle" = "询单";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "W6l-ST-Deg"; */
+"W6l-ST-Deg.text" = "$56.00";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "WCb-bY-NuC"; */
+"WCb-bY-NuC.text" = "$56.00";
+
+/* Class = "UIBarButtonItem"; title = "失效商品"; ObjectID = "WCu-JT-Iyf"; */
+"WCu-JT-Iyf.title" = "失效商品";
+
+/* Class = "UIButton"; normalTitle = "确认支付"; ObjectID = "WVA-V7-kAS"; */
+"WVA-V7-kAS.normalTitle" = "确认支付";
+
+/* Class = "UIButton"; normalTitle = "询单"; ObjectID = "WcL-Bf-uVb"; */
+"WcL-Bf-uVb.normalTitle" = "询单";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "WtO-kJ-XLc"; */
+"WtO-kJ-XLc.text" = "x 4";
+
+/* Class = "UILabel"; text = "50"; ObjectID = "Wta-pl-48f"; */
+"Wta-pl-48f.text" = "50";
+
+/* Class = "UITextField"; placeholder = "收货人姓名"; ObjectID = "X75-Sv-BqX"; */
+"X75-Sv-BqX.placeholder" = "收货人姓名";
+
+/* Class = "UILabel"; text = "NEW"; ObjectID = "XYq-eT-rNm"; */
+"XYq-eT-rNm.text" = "NEW";
+
+/* Class = "UILabel"; text = "$56.00 x 1"; ObjectID = "Xgd-VE-va7"; */
+"Xgd-VE-va7.text" = "$56.00 x 1";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "XwW-xn-wGA"; */
+"XwW-xn-wGA.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "XzI-Eo-egM"; */
+"XzI-Eo-egM.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "YRS-sC-1by"; */
+"YRS-sC-1by.text" = "XL x 3";
+
+/* Class = "UITextField"; placeholder = "重新输入新密码"; ObjectID = "YTB-7d-ggB"; */
+"YTB-7d-ggB.placeholder" = "重新输入新密码";
+
+/* Class = "UILabel"; text = "5件起批"; ObjectID = "Yri-09-ocA"; */
+"Yri-09-ocA.text" = "5件起批";
+
+/* Class = "UITextField"; placeholder = "请输入座机号码"; ObjectID = "YwL-l0-ox5"; */
+"YwL-l0-ox5.placeholder" = "请输入座机号码";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "ZEd-YP-xUV"; */
+"ZEd-YP-xUV.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "ZcM-J4-Ig6"; */
+"ZcM-J4-Ig6.text" = "$56.00";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Zey-az-9if"; */
+"Zey-az-9if.text" = "Label";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "ZsV-2t-ekB"; */
+"ZsV-2t-ekB.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "尺码:"; ObjectID = "a4k-Ux-hzu"; */
+"a4k-Ux-hzu.text" = "尺码:";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "a9y-Lr-oOU"; */
+"a9y-Lr-oOU.normalTitle" = "删除";
+
+/* Class = "UITextField"; placeholder = "请输入密码"; ObjectID = "aC0-fK-XQd"; */
+"aC0-fK-XQd.placeholder" = "请输入密码";
+
+/* Class = "UIButton"; normalTitle = "继续完成平台验证"; ObjectID = "aNr-mF-ymY"; */
+"aNr-mF-ymY.normalTitle" = "继续完成平台验证";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "aa8-04-tNf"; */
+"aa8-04-tNf.text" = "XXL x 3";
+
+/* Class = "UILabel"; text = "￥521.50"; ObjectID = "atP-a9-3Ph"; */
+"atP-a9-3Ph.text" = "￥521.50";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "axz-wO-Ang"; */
+"axz-wO-Ang.text" = "XXL x 3";
+
+/* Class = "UIButton"; normalTitle = "店铺"; ObjectID = "b1C-0g-5xM"; */
+"b1C-0g-5xM.normalTitle" = "店铺";
+
+/* Class = "UILabel"; text = "5"; ObjectID = "b4G-7s-eHK"; */
+"b4G-7s-eHK.text" = "5";
+
+/* Class = "UIButton"; normalTitle = "线下服务"; ObjectID = "b8a-MF-wmB"; */
+"b8a-MF-wmB.normalTitle" = "线下服务";
+
+/* Class = "UILabel"; text = "1、图片下载后，请到您的“手机相册”中查阅即可。"; ObjectID = "bDe-ae-iQW"; */
+"bDe-ae-iQW.text" = "1、图片下载后，请到您的“手机相册”中查阅即可。";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "bED-7J-APH"; */
+"bED-7J-APH.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "全选"; ObjectID = "bEh-6Z-teC"; */
+"bEh-6Z-teC.text" = "全选";
+
+/* Class = "UILabel"; text = "您的等级"; ObjectID = "bJd-50-MEd"; */
+"bJd-50-MEd.text" = "您的等级";
+
+/* Class = "UILabel"; text = "V3会员购买商品图10次下载权限"; ObjectID = "bTV-sA-fvm"; */
+"bTV-sA-fvm.text" = "V3会员购买商品图10次下载权限";
+
+/* Class = "UIButton"; normalTitle = "再次下载"; ObjectID = "bge-90-pqH"; */
+"bge-90-pqH.normalTitle" = "再次下载";
+
+/* Class = "UILabel"; text = "￥35889.00"; ObjectID = "brR-7p-r6l"; */
+"brR-7p-r6l.text" = "￥35889.00";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "btA-B7-XcJ"; */
+"btA-B7-XcJ.text" = "XL x 3";
+
+/* Class = "UIButton"; normalTitle = "正下载"; ObjectID = "btt-Nx-Fee"; */
+"btt-Nx-Fee.normalTitle" = "正下载";
+
+/* Class = "UIButton"; selectedTitle = "正下载"; ObjectID = "btt-Nx-Fee"; */
+"btt-Nx-Fee.selectedTitle" = "正下载";
+
+/* Class = "UIButton"; normalTitle = "在线申请"; ObjectID = "c33-jg-zUb"; */
+"c33-jg-zUb.normalTitle" = "在线申请";
+
+/* Class = "UILabel"; text = "粉红色 起批:3件"; ObjectID = "cUa-Y9-xvo"; */
+"cUa-Y9-xvo.text" = "粉红色 起批:3件";
+
+/* Class = "UILabel"; text = "粉红色 起批:3件"; ObjectID = "cWq-yM-OPD"; */
+"cWq-yM-OPD.text" = "粉红色 起批:3件";
+
+/* Class = "UILabel"; text = "L x 3"; ObjectID = "cbN-yM-IEf"; */
+"cbN-yM-IEf.text" = "L x 3";
+
+/* Class = "UILabel"; text = "密码由6-12位英文字母、数字或符号组成"; ObjectID = "cf2-xJ-QQ2"; */
+"cf2-xJ-QQ2.text" = "密码由6-12位英文字母、数字或符号组成";
+
+/* Class = "UILabel"; text = "可下载商品数量：10"; ObjectID = "cvo-a8-n69"; */
+"cvo-a8-n69.text" = "可下载商品数量：10";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "dDU-Lw-P7v"; */
+"dDU-Lw-P7v.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "￥1"; ObjectID = "dG6-Pu-57I"; */
+"dG6-Pu-57I.text" = "￥1";
+
+/* Class = "UIButton"; normalTitle = "已下载"; ObjectID = "dwW-DP-vdy"; */
+"dwW-DP-vdy.normalTitle" = "已下载";
+
+/* Class = "UIButton"; selectedTitle = "已下载"; ObjectID = "dwW-DP-vdy"; */
+"dwW-DP-vdy.selectedTitle" = "已下载";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "e2N-Wj-zed"; */
+"e2N-Wj-zed.text" = "M x 3";
+
+/* Class = "UILabel"; text = "身份信息错误"; ObjectID = "eFD-nX-UAG"; */
+"eFD-nX-UAG.text" = "身份信息错误";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "eOD-Ix-hIj"; */
+"eOD-Ix-hIj.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "发货通知"; ObjectID = "eR6-iQ-xVC"; */
+"eR6-iQ-xVC.text" = "发货通知";
+
+/* Class = "UIButton"; normalTitle = "+ 新建收货地址"; ObjectID = "fGm-7v-Z6y"; */
+"fGm-7v-Z6y.normalTitle" = "+ 新建收货地址";
+
+/* Class = "UILabel"; text = "忘记支付密码"; ObjectID = "fK7-An-Cxi"; */
+"fK7-An-Cxi.text" = "忘记支付密码";
+
+/* Class = "UIButton"; normalTitle = "已下载完成"; ObjectID = "ffe-TN-qF8"; */
+"ffe-TN-qF8.normalTitle" = "已下载完成";
+
+/* Class = "UILabel"; text = "moumou"; ObjectID = "gCh-YS-Sye"; */
+"gCh-YS-Sye.text" = "moumou";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "gIp-KP-KJb"; */
+"gIp-KP-KJb.text" = "M x 3";
+
+/* Class = "UILabel"; text = "您订购过的且仍然在线的商品 才可以再次补货"; ObjectID = "gQB-U8-2Yc"; */
+"gQB-U8-2Yc.text" = "您订购过的且仍然在线的商品 才可以再次补货";
+
+/* Class = "UIButton"; normalTitle = "取消订单"; ObjectID = "gWY-ab-sW6"; */
+"gWY-ab-sW6.normalTitle" = "取消订单";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "gZP-QT-8k7"; */
+"gZP-QT-8k7.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "giN-4m-ooq"; */
+"giN-4m-ooq.text" = "M x 3";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "gnM-bC-BIG"; */
+"gnM-bC-BIG.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "叮咚欧品-最懂你的高端服装批发平台\n受邀或申请审核后才可进入"; ObjectID = "gto-3w-Rca"; */
+"gto-3w-Rca.text" = "叮咚欧品-最懂你的高端服装批发平台\n受邀或申请审核后才可进入";
+
+/* Class = "UILabel"; text = "女装"; ObjectID = "h4n-5b-Gqu"; */
+"h4n-5b-Gqu.text" = "女装";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "h8c-pX-aUL"; */
+"h8c-pX-aUL.text" = "M x 3";
+
+/* Class = "UILabel"; text = "尺码:"; ObjectID = "hMQ-M1-4S1"; */
+"hMQ-M1-4S1.text" = "尺码:";
+
+/* Class = "UILabel"; text = "购物车"; ObjectID = "hRL-lL-7My"; */
+"hRL-lL-7My.text" = "购物车";
+
+/* Class = "UILabel"; text = "密码由6-12位英文字母、数字或符号组成"; ObjectID = "ha2-h3-SZD"; */
+"ha2-h3-SZD.text" = "密码由6-12位英文字母、数字或符号组成";
+
+/* Class = "UILabel"; text = "XXL x 3"; ObjectID = "hhP-qT-e9c"; */
+"hhP-qT-e9c.text" = "XXL x 3";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "hni-CL-eav"; */
+"hni-CL-eav.text" = "M x 3";
+
+/* Class = "UILabel"; text = "V4预付货款:"; ObjectID = "hzm-ja-gXK"; */
+"hzm-ja-gXK.text" = "V4预付货款:";
+
+/* Class = "UIButton"; normalTitle = "我同意《叮咚欧品用户协议》"; ObjectID = "i2G-UB-zoI"; */
+"i2G-UB-zoI.normalTitle" = "我同意《叮咚欧品用户协议》";
+
+/* Class = "UIButton"; selectedTitle = "我同意《叮咚欧品用户协议》"; ObjectID = "i2G-UB-zoI"; */
+"i2G-UB-zoI.selectedTitle" = "我同意《叮咚欧品用户协议》";
+
+/* Class = "UITextView"; text = "说明：\n1、叮咚欧品在以下条款中是指叮咚欧品APP和叮咚欧品网站。\n2、叮咚欧品用户协议包括《叮咚欧品交易服务协议》、《叮咚欧品货款代收代付服务协议》两部分；\n3、叮咚欧品用户注册时，即同时拥有相同账号的两种服务功能；\n4、这两部分为叮咚欧品用户协议不可分割的部分，因此叮咚欧品用户必须同时遵守这两部分的协议内容；\n5、本协议包含由叮咚欧品公布的《叮咚欧品规则》内容，您使用叮咚欧品的服务即表明您完全同意《叮咚欧品规则》关于您权利和责任之约定。\n\n                     第一部分 叮咚欧品交易服务协议\n    一、本服务协议双方为深圳市左键视觉科技有限公司（下称“叮咚欧品”）与叮咚欧品网用户，本服务协议具有合同效力。\n （一）本服务协议内容包括协议正文及所有叮咚欧品已经发布的或将来可能发布的各类规则。所有规则为协议不可分割的一部分，与协议正文具有同等法律效力。\n\n（二）在本服务协议中没有以“规则”字样表示的链接文字所指示的文件不属于本服务协议的组成部分，而是其它内容的协议或有关参考数据，与本协议没有法律上的直接关系。\n\n（三）用户在使用叮咚欧品提供的各项服务的同时，承诺接受并遵守各项相关规则的规定。叮咚欧品有权根据需要不时地制定、修改本协议或各类规则，如本协议有任何变更，叮咚欧品将在网站上刊载公告，无需另行单独通知用户。如用户不同意相关变更，必须停止使用“服务”。经修订的协议一经在叮咚欧品公布后，立即自动生效。各类规则会在发布后生效，亦成为本协议的一部分。登录或继续使用“服务”将表示用户接受经修订的协议。除另行明确声明外，任何使“服务”范围扩大或功能增强的新内容均受本协议约束。\n\n（四）用户确认本服务协议后，本服务协议即在用户和叮咚欧品之间产生法律效力。请用户务必在注册之前认真阅读全部服务协议内容，如有任何疑问，可向叮咚欧品咨询。\n（1）本服务协议中重点提示的条款请用户认真阅读，当用户点击协议正本下方的“确认”按钮并按照叮咚欧品注册程序成功注册为用户时，用户的行为表示其已经仔细阅读、完全理解、同意并签署了本服务协议。\n（2）本协议不涉及用户与叮咚欧品其它用户之间因网上交易而产生的法律关系及法律纠纷。\n\n二、 定义\n（一）叮咚欧品交易平台：有关叮叮咚欧品APP和叮咚欧品网站交易平台上的术语或图示的含义，详见叮咚欧品帮助。\n\n（二）用户及用户注册：用户必须是具备完全民事行为能力的自然人，或者是具有合法经营资格的实体组织。无民事行为能力人、限制民事行为能力人以及无经营或特定经营资格的组织不当注册为叮咚欧品用户或超过其民事权利或行为能力范围从事交易的，其与叮咚欧品之间的服务协议自始无效，叮咚欧品一经发现，有权立即注销该用户，并追究其使用叮咚欧品 “服务”的一切法律责任。用户注册是指用户登陆叮咚欧品，并按要求填写相关信息并确认同意履行相关用户协议的过程。用户因进行交易、获取有偿服务或接触叮咚欧品服务器而发生的所有应纳税赋，以及一切硬件、软件、服务及其它方面的费用均由用户负责支付。叮咚欧品仅作为交易地点。叮咚欧品仅作为用户物色交易对象，就货物和服务的交易进行协商，以及获取各类与贸易相关的服务的地点。叮咚欧品不能控制交易所涉及的物品的质量、安全或合法性，商贸信息的真实性或准确性，以及交易方履行其在贸易协议项下的各项义务的能力。叮咚欧品并不作为买家或是卖家的身份参与买卖行为的本身。叮咚欧品提醒用户应该通过自己的谨慎判断确定登录物品及相关信息的真实性、合法性和有效性。\n\n三、 用户权利和义务：\n（一）用户有权利拥有自己在叮咚欧品的用户名及交易密码，并有权利使用自己的用户名及密码随时登陆叮咚欧品交易平台。用户不得以任何形式擅自转让或授权他人使用自己的叮咚欧品用户名。用户将对用户名和密码安全负全部责任，每个用户都要对以其用户名进行的所有活动和事件负全责。用户若发现任何非法使用用户帐号或存在安全漏洞的情况，请立即通知叮咚欧品。\n\n（二）用户有权根据本服务协议的规定以及叮咚欧品发布的相关规则利用叮咚欧品查询物品信息、发布交易信息、登录物品、参加网上物品竞买、与其它用户订立物品买卖合同、评价其它用户的信用、参加叮咚欧品的有关活动以及有权享受叮咚欧品提供的其它的有关信息服务。\n\n（三）用户在叮咚欧品交易过程中如与其他用户因交易产生纠纷，可以请求叮咚欧品从中予以协调。用户如发现其他用户有违法或违反本服务协议的行为，可以向叮咚欧品进行反映要求处理。如用户因在叮咚欧品交易与其他用户产生诉讼的，用户有权通过司法部门要求叮咚欧品提供相关资料。\n用户有义务在注册时提供自己的真实资料，并保证诸如电子邮件地址、联系电话、联系地址、邮政编码等内容的有效性及安全性，保证叮咚欧品及其他用户可以通过上述联系方式与自己进行联系。同时，用户也有义务在相关资料实际变更时及时更新有关注册资料。用户保证不以他人资料在叮咚欧品进行注册或认证，如有由此产生的纠纷，由用户自行承担。\n\n（四）用户应当保证在使用叮咚欧品进行交易过程中遵守诚实信用的原则，不在交易过程中采取不正当竞争行为，不扰乱交易的正常秩序，不从事与交易无关的行为。\n\n（五）用户在叮咚欧品上不得发布各类违法或违规信息\n用户在叮咚欧品上不得买卖国家禁止销售的或限制销售的物品、不得买卖侵犯他人知识产权或其它合法权益的物品，也不得买卖违背社会公共利益或公共道德的、或是叮咚欧品认为不适合在叮咚欧品销售的物品。具体内容详见《禁止和限制销售物品规则》。\n\n（六）用户承诺自己在使用叮咚欧品时实施的所有行为均遵守国家法律、法规和叮咚欧品的相关规定以及各种社会公共利益或公共道德。如有违反导致任何法律后果的发生，用户将以自己的名义独立承担所有相应的法律责任。\n\n\n四、叮咚欧品的权利和义务。\n（一）叮咚欧品有义务在现有技术上维护整个交易平台的正常运行，并努力提升和改进技术，使用户的交易活动得以顺利进行。\n\n（二）对用户在注册使用叮咚欧品中所遇到的与交易或注册有关的问题及反映的情况，叮咚欧品应及时作出回复。\n\n（三）对于用户在叮咚欧品上的不当行为或其它任何叮咚欧品认为应当终止服务的情况，叮咚欧品有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。\n\n（四）因网络交易平台的特殊性，叮咚欧品只对用户提供的资料进行形式审查，叮咚欧品没有义务对所有用户的注册数据、所有的交易行为以及与交易有关的其它事项进行事先审查，但如存在下列情况：\n（1）用户或其它第三方通知叮咚欧品，认为某个具体用户或具体交易事项可能存在重大问题。\n（2）用户或其它第三方向叮咚欧品告知交易平台上有违法或不当行为的，叮咚欧品以普通非专业交易者的知识水平标准对相关内容进行判别，可以明显认为这些内容或行为具有违法或不当性质的。\n叮咚欧品有权根据不同情况选择保留或删除相关信息或继续、停止对该用户提供服务，并追究相关法律责任。\n\n（五）用户在叮咚欧品交易过程中如与其它用户因交易产生纠纷，请求叮咚欧品从中予以调处，经叮咚欧品审核后，叮咚欧品有权通过电子邮件联系向纠纷双方了解情况，并将所了解的情况通过电子邮件互相通知对方。\n\n（六）用户因在叮咚欧品交易与其它用户产生诉讼的，用户通过司法部门或行政部门依照法定程序要求叮咚欧品提供相关数据，叮咚欧品应积极配合并提供有关资料。\n\n（七）叮咚欧品有权对用户的注册数据及交易行为进行查阅，发现注册数据或交易行为中存在任何问题或怀疑，均有权向用户发出询问及要求改正的通知或者直接作出删除等处理。\n经国家生效法律文书或行政处罚决定确认用户存在违法行为，或者叮咚欧品有足够事实依据可以认定用户存在违法或违反服务协议行为的，叮咚欧品有权在叮咚欧品APP及叮咚欧品网站上以网络发布形式公布用户的违法行为。\n\n（八）对于用户在叮咚欧品交易平台发布的下列各类信息，叮咚欧品有权在不通知用户的前提下进行删除或采取其它限制性措施，包括但不限于以规避费用为目的的信息；以炒作信用为目的的信息；叮咚欧品有理由相信存在欺诈等恶意或虚假内容的信息；叮咚欧品有理由相信与交易无关或不是以交易为目的的信息；叮咚欧品有理由相信存在恶意竞价或其它试图扰乱正常交易秩序因素的信息；叮咚欧品有理由相信该信息违反公共利益或可能严重损害叮咚欧品和其它用户合法利益的。\n\n（九）许可使用权。 用户以此授予叮咚欧品及其关联公司独家的、全球通用的、永久的、免费的许可使用权利 (并有权在多个层面对该权利进行再授权)，使叮咚欧品及其关联公司有权(全部或部份地) 使用、复制、修订、改写、发布、翻译、分发、执行和展示用户的全部资料数据（包括但不限于注册资料、交易行为数据及全部展示于网站的各类信息）或制作其派生作品，和/或以现在已知或日后开发的任何形式、媒体或技术，将上述信息纳入其它作品内。\n\n（十）叮咚欧品会在用户的计算机上设定或取用叮咚欧品cookies。 叮咚欧品允许那些在叮咚欧品网页上发布广告的公司到用户计算机上设定或取用 cookies 。 在用户登录时获取数据，叮咚欧品使用cookies可为用户用户提供个性化服务。 如果拒绝所有 cookies，用户将不能使用需要登录的叮咚欧品产品及服务内容。\n\n五、服务的中断和终止：\n（一）用户同意，在叮咚欧品未向用户收取服务费的情况下，叮咚欧品可自行全权决定以任何理由 (包括但不限于叮咚欧品认为用户已违反本协议的字面意义和精神，或以不符合本协议的字面意义和精神的方式行事，或用户在超过180天的时间内未以用户的账号及密码登录网站等) 终止用户的“服务”密码、账户 (或其任何部份) 或用户对“服务”的使用，并删除（不再保存）用户在使用“服务”中提交的任何资料。同时叮咚欧品可自行全权决定，在发出通知或不发出通知的情况下，随时停止提供“服务”或其任何部份。账号终止后，叮咚欧品没有义务为用户保留原账号中或与之相关的任何信息，或转发任何未曾阅读或发送的信息给用户或第三方。此外，用户同意，叮咚欧品不就终止用户接入“服务”而对用户或任何第三者承担任何责任。\n\n（二）如用户向叮咚欧品提出注销叮咚欧品注册用户身份时，经叮咚欧品审核同意，由叮咚欧品注销该注册用户，用户即解除与叮咚欧品的服务协议关系。但注销该用户账号后，叮咚欧品仍保留下列权利：\n（1）用户注销后，叮咚欧品有权保留该用户的注册数据及以前的交易行为记录。\n\n（2）用户注销后，如用户在注销前在叮咚欧品交易平台上存在违法行为或违反合同的行为，叮咚欧品仍可行使本服务协议所规定的权利；\n\n（三）在下列情况下，叮咚欧品可以通过注销用户的方式终止服务：\n（1）在用户违反本服务协议相关规定时，叮咚欧品有权终止向该用户提供服务。叮咚欧品将在中断服务时通知用户。但如该用户在被叮咚欧品终止提供服务后，再一次直接或间接或以他人名义注册为叮咚欧品用户的，叮咚欧品有权再次单方面终止向该用户提供服务；\n\n（2）如叮咚欧品通过用户提供的信息与用户联系时，发现用户在注册时填写的电子邮箱已不存在或无法接收电子邮件的，经叮咚欧品以其它联系方式通知用户更改，而用户在三个工作日内仍未能提供新的电子邮箱地址的，叮咚欧品有权终止向该用户提供服务；\n\n（3）一旦叮咚欧品发现用户注册数据中主要内容（身份信息、联系方式等）是虚假的，叮咚欧品有权随时终止向该用户提供服务；\n\n（4）本服务协议终止或更新时，用户明示不愿接受新的服务协议的；\n\n（5）其它叮咚欧品认为需终止服务的情况。\n\n（四）服务中断、终止之前用户交易行为的处理因用户违反法律法规或者违反服务协议规定而致使叮咚欧品中断、终止对用户服务的，对于服务中断、终止之前用户交易行为依下列原则处理：\n（1）服务中断、终止之前，用户已经上传至叮咚欧品的物品尚未交易或尚未交易完成的，叮咚欧品有权在中断、终止服务的同时删除此项物品的相关信息；\n\n（2）服务中断、终止之前，用户已经就其它用户出售的具体物品作出要约或要约邀请，但交易尚未结束，叮咚欧品有权在中断或终止服务的同时删除该用户的相关要约或要约邀请；\n\n（3）服务中断、终止之前，用户已经与另一用户就具体交易达成一致，叮咚欧品可以不删除该项交易，但叮咚欧品有权在中断、终止服务的同时将用户被中断或终止服务的情况通知用户的交易对方。\n\n六、责任范围：\n（一）用户明确理解和同意，叮咚欧品不对因下述任一情况而导致的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其它无形损失的损害赔偿 (无论叮咚欧品是否已被告知该等损害赔偿的可能性)：\n（1）因不可抗力或其它叮咚欧品无法控制的原因使叮咚欧品系统崩溃或无法正常使用导致网上交易无法完成或丢失有关的信息、记录等；\n\n（2）使用或未能使用服务；\n\n（3）第三方未经批准的接入或第三方更改用户的传输数据或数据；\n\n（4）第三方对“服务”的声明或关于“服务”的行为；或非因叮咚欧品的原因而引起的与“服务”有关的任何其它事宜，包括疏忽。\n(二)用户明确理解并同意，如因其违反有关法律或者本协议之规定，使叮咚欧品遭受任何损失，受到任何第三方的索赔，或任何行政管理部门的处罚，用户应对叮咚欧品提供赔偿，包括叮咚欧品遭受的损失和合理的律师费用。\n\n七、隐私权政策：\n（一）适用范围：\n（1）在用户注册叮咚欧品账户或者使用叮咚欧品账户时，用户根据叮咚欧品要求提供的个人注册信息；\n\n（2）在用户使用叮咚欧品服务，参加叮咚欧品活动，或访问叮咚欧品网页时，叮咚欧品自动接收并记录的用户浏览器上的服务器数值，包括但不限于IP地址等数据及用户要求取用的网页记录；\n\n（3）叮咚欧品收集到的用户在叮咚欧品进行交易的有关数据，包括但不限于出价、购买、物品登录、信用评价及违规记录；\n\n（4）叮咚欧品通过合法途径从商业伙伴处取得的用户个人数据。\n\n（二）信息使用：\n（1）叮咚欧品不会向任何人出售或出借用户的个人信息，除非事先得到用户的书面许可。\n\n（2）叮咚欧品亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播用户的个人信息。任何用户如从事上述活动，一经发现，叮咚欧品有权立即终止与该用户的服务协议，查封其账号。\n\n（3）为服务用户的目的，叮咚欧品可以通过使用用户的个人信息，向用户提供服务，包括但不限于向用户发出产品和服务信息，或者与叮咚欧品合作伙伴共享信息以便他们向用户发送有关其产品和服务的信息（后者需要用户的事先同意）。\n\n（三）信息披露：\n用户的个人信息将在下述情况下部分或全部被披露：\n（1）经用户同意，向第三方披露；\n\n（2）如用户是合资格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；\n\n（3）根据法律的有关规定，或者应行政或司法机构的要求，向第三方或者行政、司法机构披露；\n\n（4）如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露；\n\n（5）为提供你所要求的产品和服务，而必须和第三方分享用户的个人信息；\n\n（6）其它叮咚欧品根据法律或者网站政策认为合适的披露；\n\n（7）在叮咚欧品创建的某一交易中，如交易任何一方履行或部分履行了交易义务并提出信息披露请求的， 叮咚欧品有全权可以决定向该用户提供其交易对方的联络方式等必要信息，以促成交易的完成或纠纷的解决。\n\n（四）信息安全：\n（1）叮咚欧品及叮咚欧品账户均有安全保护功能，请妥善保管用户的账户及密码信息；\n\n（2）在使用叮咚欧品服务进行网上交易时，用户不可避免的要向交易对方或潜在的交易对方提供自己的个人信息，如联络方式或者邮政地址。请用户妥善保护自己的个人信息，仅在必要的情形下向他人提供；\n\n（3）如果用户发现自己的个人信息泄密，尤其是叮咚欧品账户或叮咚欧品账户及密码发生泄露，请用户立即联络叮咚欧品客服，以便叮咚欧品采取相应措施。\n\n（五）Cookie的使用：\n（1）通过叮咚欧品所设Cookie所取得的有关信息，将适用本政策；\n\n（2）在叮咚欧品上发布广告的公司通过广告在用户计算机上设定的Cookies，将按其自己的隐私权政策使用。\n编辑和删除个人信息的权限： 用户可以点击我的叮咚欧品对用户的个人信息进行编辑和删除，除非叮咚欧品另有规定。\n\n（六）政策修改：\n叮咚欧品保留对本政策作出不时修改的权利。\n\n（七）管辖：\n本服务条款之解释与适用，以及与本服务条款有关的争议，均应依照中华人民共和国法律予以处理，并以广东省深圳市福田区人民法院为第一管辖法院。\n\n\n            \n\n\n                第二部分 叮咚欧品货款代收代付服务协议\n说明：\n“货款代收服务”（以下简称本服务）是由深圳市左键视觉科技有限公司（以下简称本公司）向叮咚欧品卖家提供的货款代收服务及提款服务、向叮咚欧品买家提供的货款代付业务及退款业务。本协议由您和本公司签订。\n一、声明与承诺\n（一）您确认，在您注册成为叮咚欧品用户以接受本服务之前，你已充分阅读、理解并接受本协议的全部内容，一旦您使用本服务，即表示您同意遵循本协议之所有约定。\n\n（二）您同意，本公司有权随时对本协议内容进行单方面的变更，并以在APP/本公司网站公告的方式予以公布，无需另行单独通知您；若您在本协议内容公告变更后继续使用本服务的，视为您已充分阅读、理解并接受修改后的协议内容，也将遵循修改后的协议内容使用本服务；若您不同意修改后的协议内容，您应停止使用本服务。\n\n（三）您声明，在您同意接受本协议并注册成为叮咚欧品用户时，您是具有法律规定的完全民事权利能力和民事行为能力，能够独立承担民事责任的自然人、法人或其他组织；本协议内容不受您所属国家或地区的排斥。不具备前述条件的，您应立即终止注册或停止使用本服务。\n\n二、“货款代收代付服务”概要\n（一）“叮咚欧品账户”：指在您使用本服务时，本公司向您提供的唯一编号。您可自行设置密码，并用以查询或计量您的预付、应收或应付款，代收、代管和代付均通过叮咚欧品收银台和叮咚欧品账户进行。\n\n（二）货款代收代付服务：即本公司向您提供的货款代收代付的中介服务，其中包含\n（1）代管：您可以使用本服务指定的方式向您的叮咚欧品账户充值，并委托本公司代为保管。\n\n（2）代收：您可以要求本公司代为收取其他叮咚欧品用户向您支付的各类款项。\n\n（3）代付：您可以要求本公司将代管或代收的您的款项支付给您指定的第三方。一经您同意，本公司代付后，非经法律程序或者非依本协议之约定，该支付是不可逆转的。\n\n（4）退返：您可以要求本公司退返本公司代管的您的款项（即退返）或向您支付您的应收款（即提现）。当您向本公司做出退返（提现）指示时，必须提供一个与您委托本公司代管时的汇款人或您的名称相符的有效的国内银行账户，本公司将于收到指示后的五个工作日内，将相应的款项汇入您提供的有效银行账户（根据您提供的银行不同，会产生汇入时间上的差异）。除本条约定外，本公司不提供其他受领方式。\n\n（5）查询：本公司将对您在叮咚欧品的所有操作进行记录，不论该操作之目的最终是否实现。您可以在本系统中实时查询您的账户名下的交易记录，您认为记录有误的，本公司将向您提供本公司已按照您的指示收付款的记录。您理解并同意您最终收到款项的服务是由您提供的银行账户对应的银行提供的，您需向该银行请求查证。\n\n（6）款项专属：对您支付到本公司并归属至您叮咚欧品账户的款项及您通过叮咚欧品账户收到的货款，本公司将予以妥善保管，除本协议另行规定外，不作任何其他非您指示的用途。本公司通过您的用户名和密码识别您的指示，请您妥善保管您的用户名和密码，对于因密码泄露所致的损失，由您自行承担。 本服务所涉及到的任何款项只以人民币计结，不提供任何形式的汇兑业务。\n\n（7）交易异常处理：您使用本服务时，可能由于银行本身系统问题、银行相关作业网络连线问题或其他不可抗拒因素，造成本服务无法提供。您确保您所输入的您的资料无误，如果因资料错误造成本公司于上述异常状况发生时，无法及时通知您相关交易后续处理方式的，本公司不承担任何损害赔偿责任。\n\n（8）您同意，基于运行和交易安全的需要,本公司可以暂时停止提供或者限制本服务部分功能,或提供新的功能,在任何功能减少、增加或者变化时,只要您仍然使用本服务,表示您仍然同意本协议或者变更后的协议。\n\n（三）账户安全\n您将对使用该账户及密码进行的一切操作及言论负完全的责任，您同意：\n（1）不向其他任何人泄露该账户及密码，亦不使用其他任何人的“叮咚欧品账户”及密码。\n\n（2）如您发现有他人冒用或盗用您的账户及密码或任何其他未经合法授权之情形时，应立即以有效方式通知本公司，要求本公司暂停相关服务。同时，您理解本公司对您的请求采取行动需要合理期限，在此之前，本公司对已执行的指令及(或)所导致的您的损失不承担任何责任。\n\n三、“货款代收代付服务”使用规则\n为有效保障您使用本服务进行交易时的合法权益，您理解并同意接受以下规则：\n（一）一旦您使用本服务，您即授权本公司代理您在您及（或）您指定人符合指定条件或状态时，支付款项给您指定人，或收取您指定人支付给您的款项。\n\n（二）本公司通过以下两种方式中接受来自您的指令：其一，您在本网站或其他可使用本服务的网站上通过登录该账户密码依照本服务预设流程所修改或确认的交易状态；其二您通过您注册时作为该账户名称或者与该账户绑定的手机或其他专属于您的通讯工具（以下合称该手机）号码向本系统发送的信息（短信或电话等）回复。无论您通过以上两种方式中的任一种向本公司发出指令，都不可撤回或撤销，且成为本公司代理您支付或收取款项的唯一指令。在您与第三方发生交易纠纷时，您授权本公司自行判断并决定将争议货款的全部或部分支付给交易一方或双方。\n\n（三）您在使用本服务过程中，本协议内容、网页上出现的关于交易操作的提示或本公司发送到该手机的信息（短信或电话等）内容是您使用本服务的相关规则，您使用本服务即表示您同意接受本服务的相关规则。您了解并同意本公司单方修改服务的相关规则，而无须征得您的同意，服务规则应以您使用服务时的页面提示（或发送到该手机的短信或电话等）为准，您同意并遵照服务规则是您使用本服务的前提。\n\n（四）本公司会以电子邮件（或发送到该手机的短信或电话等）方式通知您交易进展情况以及提示您进行下一步的操作，但本公司不保证您能够收到或者及时收到该邮件（或发送到该手机的短信或电话等），且不对此承担任何后果，因此，在交易过程中您应当及时登录到叮咚欧品APP/叮咚欧品网站查看和进行交易操作。因您没有及时查看和对交易状态进行修改或确认或未能提交相关申请而导致的任何纠纷或损失，本公司不负任何责任。\n\n（五）您如果需要向交易对方交付货物，应根据交易状态页面（该手机接收到的信息）显示的买方地址，委托有合法经营资格的承运人将货物直接运送至对方或其指定收货人，并要求对方或其委托的第三方（该第三方应当提供对方的授权文件并出示对方及第三方的身份证原件）在收货凭证上签字确认，因货物延迟送达或在送达过程中的丢失、损坏，本公司不承担任何责任，应由您与交易对方自行处理。\n\n（六）本公司对您所交易的标的物不提供任何形式的鉴定、证明的服务。如果您与交易对方发生交易纠纷，您授权由本公司根据本协议及本网站上载明的各项规则进行处理。您为解决纠纷而支出的通讯费、文件复印费、鉴定费等均由您自行承担。因市场因素致使商品涨价跌价而使任何一方得益或者受到损失而产生的纠纷（《争议处理规则》另有约定的除外），本公司不予处理。\n\n（七）若您未完成注册过程成为叮咚欧品用户，他人通过本服务向您支付款项时，相应款项将无法划汇给您，您授权本公司暂时代为保管该款项，直到您完成该账户的注册和实名认证。\n\n（八）本公司会将与您叮咚欧品账户相关的资金，独立于本公司营运资金之外，且不会将该资金用于非您指示的用途。\n\n（九）本公司并非银行或其它金融机构，本服务也非金融业务，本协议项下的资金移转均通过银行来实现，你理解并同意您的资金于流转途中的合理时间。\n\n（十）您完全承担您使用本服务期间由本公司保管或代收或代付的款项的货币贬值风险及可能的利息损失。\n\n（十一）在您注册成为叮咚欧品用户时，您授权本公司通过银行或向第三者审核您的身份和资格，并通过叮咚欧品APP和叮咚欧品（http://www.dingdongoupin.com）或其它网站取得关于您使用本服务的相关资料。\n\n（十二）您使用本服务进行交易或使用该账户登陆其他支持本服务的网站时，您即授权本公司将您的个人信息和交易信息披露给与您交易的另一方或您登陆的网站，该信息包括但不限于：您的真实姓名、联系方式、信用状况、叮咚欧品账户。\n\n（十三）您不得将本服务用于非本公司许可的其他用途。\n\n（十四）交易风险\n（1）当您通过本服务进行各项交易或接受交易款项时，若您或对方未遵从本服务条款或网站说明、交易页面中之操作步骤，则本公司有权拒绝为您与交易对方提供相关服务，且本公司不承担损害赔偿责任。若发生上述状况，而款项已先行划付至您或他人的叮咚欧品账户名下，您同意本公司有权直接自相关账户余额中扣回款项及禁止您要求支付此笔款项之权利。此款项若已汇入您的银行账户，您同意本公司有向您事后索回之权利，因您的原因导致本公司事后追索的，您应当承担本公司合理的追索费用。\n\n（2）因您的过错导致的任何损失由您自行承担，该过错包括但不限于：不按照交易提示操作，未及时进行交易操作，遗忘或泄漏密码，密码被他人破解，您使用的手机或计算机被他人侵入。\n\n（十五）服务费用\n（1）在您使用本服务时，本公司有权依照叮咚欧品的收费标准向您收取服务费用。本公司拥有制订及调整服务费之权利，具体服务费用以您使用本服务时本网站上所列之收费方式公告或您与本公司达成的其他书面协议为准。\n\n（2）除非另有说明或约定，您同意本公司有权自您委托本公司代管、代收或代付的款项中直接扣除上述服务费用。\n\n四、“货款代收代付服务”使用限制\n（一）您在使用本服务时应遵守中华人民共和国相关法律法规、您所在国家或地区之法令及相关国际惯例，不将本服务用于任何非法目的（包括用于禁止或限制交易物品的交易），也不以任何非法方式使用本服务。\n\n（二）您不得利用本服务从事侵害他人合法权益之行为，否则应承担所有相关法律责任，因此导致本公司或本公司雇员受损的，您应承担赔偿责任。上述行为包括但不限于：\n（1）侵害他人名誉权、隐私权、商业秘密、商标权、著作权、专利权等合法权益。\n\n（2）违反依法定或约定之保密义务。\n\n（3）冒用他人名义使用本服务。\n\n（4）从事不法交易行为，如洗钱、贩卖枪支、毒品、禁药、盗版软件、黄色淫秽物品、其他本公司认为不得使用本服务进行交易的物品等。\n\n（5）提供赌博资讯或以任何方式引诱他人参与赌博。\n\n（6）非法使用他人银行账户（包括信用卡账户）或无效银行账号（包括信用卡账户）交易。\n\n（7）违反《银行卡业务管理办法》使用银行卡，或利用信用卡套取现金（以下简称套现）。\n\n（8）进行与您或交易对方宣称的交易内容不符的交易，或不真实的交易。\n\n（9）从事任何可能含有电脑病毒或是可能侵害本服务系统、资料之行为。\n\n（10）其他本公司有正当理由认为不适当之行为。\n\n（三）您理解并同意，本公司不对因下述任一情况导致的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其他无形损失的损害赔偿 (无论本公司是否已被告知该等损害赔偿的可能性)：\n（1）本公司有权基于单方判断，包含但不限于本公司认为您已经违反本协议的明文规定及精神，暂停、中断或终止向您提供本服务或其任何部分，并移除您的资料。\n\n（2）本公司在发现异常交易或有疑义或有违反法律规定或本协议约定之虞时，有权不经通知先行暂停或终止该账户的使用（包括但不限于对该账户名下的款项和在途交易采取取消交易、调账等限制措施），并拒绝您使用本服务之部分或全部功能。\n\n（3）在必要时，本公司无需事先通知即可终止提供本服务，并暂停、关闭或删除该账户及您账号中所有相关资料及档案，并将您滞留在该账户的全部合法资金退回到您的银行账户。\n\n（四）如您需要注销您的叮咚欧品账户，应先经本公司审核同意。本公司注销该账户，即表明本公司与您之间的协议已解除，但您仍应对您使用本服务期间的行为承担可能的违约或损害赔偿责任。\n\n五、隐私权保护\n一旦您同意本协议或使用本服务，您即同意本公司按照以下条款来使用和披露您的个人信息。\n（一）未成年人的特别注意事项\n在阅读本协议已注册叮咚欧品用户时，您尚未满18周岁的，您不能使用本服务，请您终止您的注册行为，不要向我们提供您的任何个人信息。\n\n（二）用户名和密码\n在您注册为叮咚欧品用户时，我们会要求您设置用户名和密码来识别您的身份，并可能会要求您设置密码提示问题及其答案，以便在您丢失密码时用以确认您的身份。您仅可通过您设置的密码来使用该账户，如果您泄漏了密码，您可能会丢失您的个人识别信息，并可能导致对您不利的法律后果。该账户和密码因任何原因受到潜在或现实危险时，您应该立即和本公司取得联系，在本公司采取行动前，本公司对此不负任何责任。\n\n（三）注册信息\n您注册该账户时应向本公司提供您的真实姓名、地址、国籍、电话号码和电子邮件地址，您还可以选择来填写相关附加信息（包括但不限于您公司所在的省份和城市、时区和邮政编码、传真号码、个人主页和您的职务）。为有针对性地向您提供新的服务和机会，您了解并同意本公司或您登录的其他网站将通过您的电子邮件地址或该手机通知您这些信息。\n\n（四）银行账户信息\n本公司所提供的服务将需要您提供您的银行账户信息，在您提供相应信息后，本公司将严格履行相关保密约定。\n\n（五）交易行为\n为了保障您使用本服务的安全以及不断改进服务质量，本公司将记录并保存您登录和使用本服务的相关信息，但本公司承诺不将此类信息提供给任何第三方（除双方另有约定或法律法规另有规定外）。\n\n（六）广告\n本公司会对叮咚欧品用户的身份数据进行综合统计，并出于销售和奖励的需要使用或披露。\n\n（七）Cookie的使用\n您了解并同意，本公司使用cookie来使本网站对用户更友好，它可以帮您省去为使用我们的服务而重复输入注册信息和跟踪您的浏览器的状态。\n\n（八）第三方\n本网站将公布叮咚欧品用户提供的商业机会，其他叮咚欧品用户可以获知这些商业机会。除了本公司和您使用该账户成功登录过的其他网站，本公司不会向任何第三方提供、出售、出租、分享您的个人信息。除了按法定或约定情况下披露您的信息，本公司将恪尽善意管理人的义务。\n\n（九）信息的存储和交换\n您的信息和资料存储在位于中国的服务器上，为了备份的需要，本公司可能将您的信息和资料传送到位于别国的服务器上。\n\n（十）安全\n本公司仅按现有技术提供相应的安全措施来使本公司掌握的信息不丢失，不被滥用和变造。这些安全措施包括向其它服务器备份数据和对用户密码加密。尽管有这些安全措施，但本公司不保证这些信息的绝对安全。\n\n六、系统中断或故障\n系统因下列状况无法正常运作，使您无法使用各项服务时，本公司不承担损害赔偿责任，该状况包括但不限于：\n（一）本公司在本网站公告之系统停机维护期间。\n（二）电信设备出现故障不能进行数据传输的。\n（三）因台风、地震、海啸、洪水、停电、战争、恐怖袭击等不可抗力之因素，造成本公司系统障碍不能执行业务的。\n（四）由于黑客攻击、电信部门技术调整或故障、APP/网站升级、银行方面的问题等原因而造成的服务中断或者延迟。\n\n\n七、责任范围及责任限制\n（一）本公司仅对本协议中列明的责任承担范围负责。\n\n（二）您明确因交易所产生的任何风险应由您与交易对方承担。\n\n（三）叮咚欧品用户信息是由用户本人自行提供的，本公司无法保证该信息之准确、及时和完整，您应对您的判断承担全部责任。\n\n（四）本公司不对交易标的及本服务提供任何形式的保证，包括但不限于以下事项：\n（1）本服务符合您的需求。\n（2）本服务不受干扰、及时提供或免于出错。\n（3）您经由本服务购买或取得之任何产品、服务、资讯或其他资料符合您的期望。\n\n（五）本服务之合作单位，所提供之服务品质及内容由该合作单位自行负责。\n\n（六）您经由本服务之使用下载或取得任何资料，应由您自行考量且自负风险，因资料之下载而导致您手机／电脑系统之任何损坏或资料流失，您应负完全责任。\n\n（七）您自本公司及本公司工作人员或经由本服务取得之建议和资讯，无论其为书面或口头形式，均不构成本公司对本服务之保证。\n\n（八）在法律允许的情况下，本公司对于与本协议有关或由本协议引起的任何间接的、惩罚性的、特殊的、派生的损失（包括业务损失、收益损失、利润损失、使用数据或其他经济利益的损失），不论是如何产生的，也不论是由对本协议的违约（包括违反保证）还是由侵权造成的，均不负有任何责任，即使事先已被告知此等损失的可能性。另外即使本协议规定的排他性救济没有达到其基本目的，也应排除本公司对上述损失的责任。\n\n（九）除本协议另有规定外，在任何情况下，本公司对本协议所承担的违约赔偿责任总额不超过向您收取的当次服务费用总额。\n\n八、商标、知识产权的保护\n（一）本网站上所有内容，包括但不限于著作、图片、档案、资讯、资料、网站架构、网站画面的安排、网页设计，均由本公司或本公司关联企业依法拥有其知识产权，包括但不限于商标权、专利权、著作权、商业秘密等。\n\n（二）非经本公司或本公司关联企业书面同意，任何人不得擅自使用、修改、复制、公开传播、改变、散布、发行或公开发表本APP/本网站程序或内容。\n\n（三）尊重知识产权是您应尽的义务，如有违反，您应承担损害赔偿责任。\n\n九、法律适用与管辖\n本协议之效力、解释、变更、执行与争议解决均适用中华人民共和国法律，没有相关法律规定的，参照通用国际商业惯例和（或）行业惯例。\n因本协议产生之争议，均应依照中华人民共和国法律予以处理，并以广东省深圳市福田区人民法院为第一审管辖法院。\n"; ObjectID = "ieo-Ec-Zpx"; */
+"ieo-Ec-Zpx.text" = "说明：\n1、叮咚欧品在以下条款中是指叮咚欧品APP和叮咚欧品网站。\n2、叮咚欧品用户协议包括《叮咚欧品交易服务协议》、《叮咚欧品货款代收代付服务协议》两部分；\n3、叮咚欧品用户注册时，即同时拥有相同账号的两种服务功能；\n4、这两部分为叮咚欧品用户协议不可分割的部分，因此叮咚欧品用户必须同时遵守这两部分的协议内容；\n5、本协议包含由叮咚欧品公布的《叮咚欧品规则》内容，您使用叮咚欧品的服务即表明您完全同意《叮咚欧品规则》关于您权利和责任之约定。\n\n                     第一部分 叮咚欧品交易服务协议\n    一、本服务协议双方为深圳市左键视觉科技有限公司（下称“叮咚欧品”）与叮咚欧品网用户，本服务协议具有合同效力。\n （一）本服务协议内容包括协议正文及所有叮咚欧品已经发布的或将来可能发布的各类规则。所有规则为协议不可分割的一部分，与协议正文具有同等法律效力。\n\n（二）在本服务协议中没有以“规则”字样表示的链接文字所指示的文件不属于本服务协议的组成部分，而是其它内容的协议或有关参考数据，与本协议没有法律上的直接关系。\n\n（三）用户在使用叮咚欧品提供的各项服务的同时，承诺接受并遵守各项相关规则的规定。叮咚欧品有权根据需要不时地制定、修改本协议或各类规则，如本协议有任何变更，叮咚欧品将在网站上刊载公告，无需另行单独通知用户。如用户不同意相关变更，必须停止使用“服务”。经修订的协议一经在叮咚欧品公布后，立即自动生效。各类规则会在发布后生效，亦成为本协议的一部分。登录或继续使用“服务”将表示用户接受经修订的协议。除另行明确声明外，任何使“服务”范围扩大或功能增强的新内容均受本协议约束。\n\n（四）用户确认本服务协议后，本服务协议即在用户和叮咚欧品之间产生法律效力。请用户务必在注册之前认真阅读全部服务协议内容，如有任何疑问，可向叮咚欧品咨询。\n（1）本服务协议中重点提示的条款请用户认真阅读，当用户点击协议正本下方的“确认”按钮并按照叮咚欧品注册程序成功注册为用户时，用户的行为表示其已经仔细阅读、完全理解、同意并签署了本服务协议。\n（2）本协议不涉及用户与叮咚欧品其它用户之间因网上交易而产生的法律关系及法律纠纷。\n\n二、 定义\n（一）叮咚欧品交易平台：有关叮叮咚欧品APP和叮咚欧品网站交易平台上的术语或图示的含义，详见叮咚欧品帮助。\n\n（二）用户及用户注册：用户必须是具备完全民事行为能力的自然人，或者是具有合法经营资格的实体组织。无民事行为能力人、限制民事行为能力人以及无经营或特定经营资格的组织不当注册为叮咚欧品用户或超过其民事权利或行为能力范围从事交易的，其与叮咚欧品之间的服务协议自始无效，叮咚欧品一经发现，有权立即注销该用户，并追究其使用叮咚欧品 “服务”的一切法律责任。用户注册是指用户登陆叮咚欧品，并按要求填写相关信息并确认同意履行相关用户协议的过程。用户因进行交易、获取有偿服务或接触叮咚欧品服务器而发生的所有应纳税赋，以及一切硬件、软件、服务及其它方面的费用均由用户负责支付。叮咚欧品仅作为交易地点。叮咚欧品仅作为用户物色交易对象，就货物和服务的交易进行协商，以及获取各类与贸易相关的服务的地点。叮咚欧品不能控制交易所涉及的物品的质量、安全或合法性，商贸信息的真实性或准确性，以及交易方履行其在贸易协议项下的各项义务的能力。叮咚欧品并不作为买家或是卖家的身份参与买卖行为的本身。叮咚欧品提醒用户应该通过自己的谨慎判断确定登录物品及相关信息的真实性、合法性和有效性。\n\n三、 用户权利和义务：\n（一）用户有权利拥有自己在叮咚欧品的用户名及交易密码，并有权利使用自己的用户名及密码随时登陆叮咚欧品交易平台。用户不得以任何形式擅自转让或授权他人使用自己的叮咚欧品用户名。用户将对用户名和密码安全负全部责任，每个用户都要对以其用户名进行的所有活动和事件负全责。用户若发现任何非法使用用户帐号或存在安全漏洞的情况，请立即通知叮咚欧品。\n\n（二）用户有权根据本服务协议的规定以及叮咚欧品发布的相关规则利用叮咚欧品查询物品信息、发布交易信息、登录物品、参加网上物品竞买、与其它用户订立物品买卖合同、评价其它用户的信用、参加叮咚欧品的有关活动以及有权享受叮咚欧品提供的其它的有关信息服务。\n\n（三）用户在叮咚欧品交易过程中如与其他用户因交易产生纠纷，可以请求叮咚欧品从中予以协调。用户如发现其他用户有违法或违反本服务协议的行为，可以向叮咚欧品进行反映要求处理。如用户因在叮咚欧品交易与其他用户产生诉讼的，用户有权通过司法部门要求叮咚欧品提供相关资料。\n用户有义务在注册时提供自己的真实资料，并保证诸如电子邮件地址、联系电话、联系地址、邮政编码等内容的有效性及安全性，保证叮咚欧品及其他用户可以通过上述联系方式与自己进行联系。同时，用户也有义务在相关资料实际变更时及时更新有关注册资料。用户保证不以他人资料在叮咚欧品进行注册或认证，如有由此产生的纠纷，由用户自行承担。\n\n（四）用户应当保证在使用叮咚欧品进行交易过程中遵守诚实信用的原则，不在交易过程中采取不正当竞争行为，不扰乱交易的正常秩序，不从事与交易无关的行为。\n\n（五）用户在叮咚欧品上不得发布各类违法或违规信息\n用户在叮咚欧品上不得买卖国家禁止销售的或限制销售的物品、不得买卖侵犯他人知识产权或其它合法权益的物品，也不得买卖违背社会公共利益或公共道德的、或是叮咚欧品认为不适合在叮咚欧品销售的物品。具体内容详见《禁止和限制销售物品规则》。\n\n（六）用户承诺自己在使用叮咚欧品时实施的所有行为均遵守国家法律、法规和叮咚欧品的相关规定以及各种社会公共利益或公共道德。如有违反导致任何法律后果的发生，用户将以自己的名义独立承担所有相应的法律责任。\n\n\n四、叮咚欧品的权利和义务。\n（一）叮咚欧品有义务在现有技术上维护整个交易平台的正常运行，并努力提升和改进技术，使用户的交易活动得以顺利进行。\n\n（二）对用户在注册使用叮咚欧品中所遇到的与交易或注册有关的问题及反映的情况，叮咚欧品应及时作出回复。\n\n（三）对于用户在叮咚欧品上的不当行为或其它任何叮咚欧品认为应当终止服务的情况，叮咚欧品有权随时作出删除相关信息、终止服务提供等处理，而无须征得用户的同意。\n\n（四）因网络交易平台的特殊性，叮咚欧品只对用户提供的资料进行形式审查，叮咚欧品没有义务对所有用户的注册数据、所有的交易行为以及与交易有关的其它事项进行事先审查，但如存在下列情况：\n（1）用户或其它第三方通知叮咚欧品，认为某个具体用户或具体交易事项可能存在重大问题。\n（2）用户或其它第三方向叮咚欧品告知交易平台上有违法或不当行为的，叮咚欧品以普通非专业交易者的知识水平标准对相关内容进行判别，可以明显认为这些内容或行为具有违法或不当性质的。\n叮咚欧品有权根据不同情况选择保留或删除相关信息或继续、停止对该用户提供服务，并追究相关法律责任。\n\n（五）用户在叮咚欧品交易过程中如与其它用户因交易产生纠纷，请求叮咚欧品从中予以调处，经叮咚欧品审核后，叮咚欧品有权通过电子邮件联系向纠纷双方了解情况，并将所了解的情况通过电子邮件互相通知对方。\n\n（六）用户因在叮咚欧品交易与其它用户产生诉讼的，用户通过司法部门或行政部门依照法定程序要求叮咚欧品提供相关数据，叮咚欧品应积极配合并提供有关资料。\n\n（七）叮咚欧品有权对用户的注册数据及交易行为进行查阅，发现注册数据或交易行为中存在任何问题或怀疑，均有权向用户发出询问及要求改正的通知或者直接作出删除等处理。\n经国家生效法律文书或行政处罚决定确认用户存在违法行为，或者叮咚欧品有足够事实依据可以认定用户存在违法或违反服务协议行为的，叮咚欧品有权在叮咚欧品APP及叮咚欧品网站上以网络发布形式公布用户的违法行为。\n\n（八）对于用户在叮咚欧品交易平台发布的下列各类信息，叮咚欧品有权在不通知用户的前提下进行删除或采取其它限制性措施，包括但不限于以规避费用为目的的信息；以炒作信用为目的的信息；叮咚欧品有理由相信存在欺诈等恶意或虚假内容的信息；叮咚欧品有理由相信与交易无关或不是以交易为目的的信息；叮咚欧品有理由相信存在恶意竞价或其它试图扰乱正常交易秩序因素的信息；叮咚欧品有理由相信该信息违反公共利益或可能严重损害叮咚欧品和其它用户合法利益的。\n\n（九）许可使用权。 用户以此授予叮咚欧品及其关联公司独家的、全球通用的、永久的、免费的许可使用权利 (并有权在多个层面对该权利进行再授权)，使叮咚欧品及其关联公司有权(全部或部份地) 使用、复制、修订、改写、发布、翻译、分发、执行和展示用户的全部资料数据（包括但不限于注册资料、交易行为数据及全部展示于网站的各类信息）或制作其派生作品，和/或以现在已知或日后开发的任何形式、媒体或技术，将上述信息纳入其它作品内。\n\n（十）叮咚欧品会在用户的计算机上设定或取用叮咚欧品cookies。 叮咚欧品允许那些在叮咚欧品网页上发布广告的公司到用户计算机上设定或取用 cookies 。 在用户登录时获取数据，叮咚欧品使用cookies可为用户用户提供个性化服务。 如果拒绝所有 cookies，用户将不能使用需要登录的叮咚欧品产品及服务内容。\n\n五、服务的中断和终止：\n（一）用户同意，在叮咚欧品未向用户收取服务费的情况下，叮咚欧品可自行全权决定以任何理由 (包括但不限于叮咚欧品认为用户已违反本协议的字面意义和精神，或以不符合本协议的字面意义和精神的方式行事，或用户在超过180天的时间内未以用户的账号及密码登录网站等) 终止用户的“服务”密码、账户 (或其任何部份) 或用户对“服务”的使用，并删除（不再保存）用户在使用“服务”中提交的任何资料。同时叮咚欧品可自行全权决定，在发出通知或不发出通知的情况下，随时停止提供“服务”或其任何部份。账号终止后，叮咚欧品没有义务为用户保留原账号中或与之相关的任何信息，或转发任何未曾阅读或发送的信息给用户或第三方。此外，用户同意，叮咚欧品不就终止用户接入“服务”而对用户或任何第三者承担任何责任。\n\n（二）如用户向叮咚欧品提出注销叮咚欧品注册用户身份时，经叮咚欧品审核同意，由叮咚欧品注销该注册用户，用户即解除与叮咚欧品的服务协议关系。但注销该用户账号后，叮咚欧品仍保留下列权利：\n（1）用户注销后，叮咚欧品有权保留该用户的注册数据及以前的交易行为记录。\n\n（2）用户注销后，如用户在注销前在叮咚欧品交易平台上存在违法行为或违反合同的行为，叮咚欧品仍可行使本服务协议所规定的权利；\n\n（三）在下列情况下，叮咚欧品可以通过注销用户的方式终止服务：\n（1）在用户违反本服务协议相关规定时，叮咚欧品有权终止向该用户提供服务。叮咚欧品将在中断服务时通知用户。但如该用户在被叮咚欧品终止提供服务后，再一次直接或间接或以他人名义注册为叮咚欧品用户的，叮咚欧品有权再次单方面终止向该用户提供服务；\n\n（2）如叮咚欧品通过用户提供的信息与用户联系时，发现用户在注册时填写的电子邮箱已不存在或无法接收电子邮件的，经叮咚欧品以其它联系方式通知用户更改，而用户在三个工作日内仍未能提供新的电子邮箱地址的，叮咚欧品有权终止向该用户提供服务；\n\n（3）一旦叮咚欧品发现用户注册数据中主要内容（身份信息、联系方式等）是虚假的，叮咚欧品有权随时终止向该用户提供服务；\n\n（4）本服务协议终止或更新时，用户明示不愿接受新的服务协议的；\n\n（5）其它叮咚欧品认为需终止服务的情况。\n\n（四）服务中断、终止之前用户交易行为的处理因用户违反法律法规或者违反服务协议规定而致使叮咚欧品中断、终止对用户服务的，对于服务中断、终止之前用户交易行为依下列原则处理：\n（1）服务中断、终止之前，用户已经上传至叮咚欧品的物品尚未交易或尚未交易完成的，叮咚欧品有权在中断、终止服务的同时删除此项物品的相关信息；\n\n（2）服务中断、终止之前，用户已经就其它用户出售的具体物品作出要约或要约邀请，但交易尚未结束，叮咚欧品有权在中断或终止服务的同时删除该用户的相关要约或要约邀请；\n\n（3）服务中断、终止之前，用户已经与另一用户就具体交易达成一致，叮咚欧品可以不删除该项交易，但叮咚欧品有权在中断、终止服务的同时将用户被中断或终止服务的情况通知用户的交易对方。\n\n六、责任范围：\n（一）用户明确理解和同意，叮咚欧品不对因下述任一情况而导致的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其它无形损失的损害赔偿 (无论叮咚欧品是否已被告知该等损害赔偿的可能性)：\n（1）因不可抗力或其它叮咚欧品无法控制的原因使叮咚欧品系统崩溃或无法正常使用导致网上交易无法完成或丢失有关的信息、记录等；\n\n（2）使用或未能使用服务；\n\n（3）第三方未经批准的接入或第三方更改用户的传输数据或数据；\n\n（4）第三方对“服务”的声明或关于“服务”的行为；或非因叮咚欧品的原因而引起的与“服务”有关的任何其它事宜，包括疏忽。\n(二)用户明确理解并同意，如因其违反有关法律或者本协议之规定，使叮咚欧品遭受任何损失，受到任何第三方的索赔，或任何行政管理部门的处罚，用户应对叮咚欧品提供赔偿，包括叮咚欧品遭受的损失和合理的律师费用。\n\n七、隐私权政策：\n（一）适用范围：\n（1）在用户注册叮咚欧品账户或者使用叮咚欧品账户时，用户根据叮咚欧品要求提供的个人注册信息；\n\n（2）在用户使用叮咚欧品服务，参加叮咚欧品活动，或访问叮咚欧品网页时，叮咚欧品自动接收并记录的用户浏览器上的服务器数值，包括但不限于IP地址等数据及用户要求取用的网页记录；\n\n（3）叮咚欧品收集到的用户在叮咚欧品进行交易的有关数据，包括但不限于出价、购买、物品登录、信用评价及违规记录；\n\n（4）叮咚欧品通过合法途径从商业伙伴处取得的用户个人数据。\n\n（二）信息使用：\n（1）叮咚欧品不会向任何人出售或出借用户的个人信息，除非事先得到用户的书面许可。\n\n（2）叮咚欧品亦不允许任何第三方以任何手段收集、编辑、出售或者无偿传播用户的个人信息。任何用户如从事上述活动，一经发现，叮咚欧品有权立即终止与该用户的服务协议，查封其账号。\n\n（3）为服务用户的目的，叮咚欧品可以通过使用用户的个人信息，向用户提供服务，包括但不限于向用户发出产品和服务信息，或者与叮咚欧品合作伙伴共享信息以便他们向用户发送有关其产品和服务的信息（后者需要用户的事先同意）。\n\n（三）信息披露：\n用户的个人信息将在下述情况下部分或全部被披露：\n（1）经用户同意，向第三方披露；\n\n（2）如用户是合资格的知识产权投诉人并已提起投诉，应被投诉人要求，向被投诉人披露，以便双方处理可能的权利纠纷；\n\n（3）根据法律的有关规定，或者应行政或司法机构的要求，向第三方或者行政、司法机构披露；\n\n（4）如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露；\n\n（5）为提供你所要求的产品和服务，而必须和第三方分享用户的个人信息；\n\n（6）其它叮咚欧品根据法律或者网站政策认为合适的披露；\n\n（7）在叮咚欧品创建的某一交易中，如交易任何一方履行或部分履行了交易义务并提出信息披露请求的， 叮咚欧品有全权可以决定向该用户提供其交易对方的联络方式等必要信息，以促成交易的完成或纠纷的解决。\n\n（四）信息安全：\n（1）叮咚欧品及叮咚欧品账户均有安全保护功能，请妥善保管用户的账户及密码信息；\n\n（2）在使用叮咚欧品服务进行网上交易时，用户不可避免的要向交易对方或潜在的交易对方提供自己的个人信息，如联络方式或者邮政地址。请用户妥善保护自己的个人信息，仅在必要的情形下向他人提供；\n\n（3）如果用户发现自己的个人信息泄密，尤其是叮咚欧品账户或叮咚欧品账户及密码发生泄露，请用户立即联络叮咚欧品客服，以便叮咚欧品采取相应措施。\n\n（五）Cookie的使用：\n（1）通过叮咚欧品所设Cookie所取得的有关信息，将适用本政策；\n\n（2）在叮咚欧品上发布广告的公司通过广告在用户计算机上设定的Cookies，将按其自己的隐私权政策使用。\n编辑和删除个人信息的权限： 用户可以点击我的叮咚欧品对用户的个人信息进行编辑和删除，除非叮咚欧品另有规定。\n\n（六）政策修改：\n叮咚欧品保留对本政策作出不时修改的权利。\n\n（七）管辖：\n本服务条款之解释与适用，以及与本服务条款有关的争议，均应依照中华人民共和国法律予以处理，并以广东省深圳市福田区人民法院为第一管辖法院。\n\n\n            \n\n\n                第二部分 叮咚欧品货款代收代付服务协议\n说明：\n“货款代收服务”（以下简称本服务）是由深圳市左键视觉科技有限公司（以下简称本公司）向叮咚欧品卖家提供的货款代收服务及提款服务、向叮咚欧品买家提供的货款代付业务及退款业务。本协议由您和本公司签订。\n一、声明与承诺\n（一）您确认，在您注册成为叮咚欧品用户以接受本服务之前，你已充分阅读、理解并接受本协议的全部内容，一旦您使用本服务，即表示您同意遵循本协议之所有约定。\n\n（二）您同意，本公司有权随时对本协议内容进行单方面的变更，并以在APP/本公司网站公告的方式予以公布，无需另行单独通知您；若您在本协议内容公告变更后继续使用本服务的，视为您已充分阅读、理解并接受修改后的协议内容，也将遵循修改后的协议内容使用本服务；若您不同意修改后的协议内容，您应停止使用本服务。\n\n（三）您声明，在您同意接受本协议并注册成为叮咚欧品用户时，您是具有法律规定的完全民事权利能力和民事行为能力，能够独立承担民事责任的自然人、法人或其他组织；本协议内容不受您所属国家或地区的排斥。不具备前述条件的，您应立即终止注册或停止使用本服务。\n\n二、“货款代收代付服务”概要\n（一）“叮咚欧品账户”：指在您使用本服务时，本公司向您提供的唯一编号。您可自行设置密码，并用以查询或计量您的预付、应收或应付款，代收、代管和代付均通过叮咚欧品收银台和叮咚欧品账户进行。\n\n（二）货款代收代付服务：即本公司向您提供的货款代收代付的中介服务，其中包含\n（1）代管：您可以使用本服务指定的方式向您的叮咚欧品账户充值，并委托本公司代为保管。\n\n（2）代收：您可以要求本公司代为收取其他叮咚欧品用户向您支付的各类款项。\n\n（3）代付：您可以要求本公司将代管或代收的您的款项支付给您指定的第三方。一经您同意，本公司代付后，非经法律程序或者非依本协议之约定，该支付是不可逆转的。\n\n（4）退返：您可以要求本公司退返本公司代管的您的款项（即退返）或向您支付您的应收款（即提现）。当您向本公司做出退返（提现）指示时，必须提供一个与您委托本公司代管时的汇款人或您的名称相符的有效的国内银行账户，本公司将于收到指示后的五个工作日内，将相应的款项汇入您提供的有效银行账户（根据您提供的银行不同，会产生汇入时间上的差异）。除本条约定外，本公司不提供其他受领方式。\n\n（5）查询：本公司将对您在叮咚欧品的所有操作进行记录，不论该操作之目的最终是否实现。您可以在本系统中实时查询您的账户名下的交易记录，您认为记录有误的，本公司将向您提供本公司已按照您的指示收付款的记录。您理解并同意您最终收到款项的服务是由您提供的银行账户对应的银行提供的，您需向该银行请求查证。\n\n（6）款项专属：对您支付到本公司并归属至您叮咚欧品账户的款项及您通过叮咚欧品账户收到的货款，本公司将予以妥善保管，除本协议另行规定外，不作任何其他非您指示的用途。本公司通过您的用户名和密码识别您的指示，请您妥善保管您的用户名和密码，对于因密码泄露所致的损失，由您自行承担。 本服务所涉及到的任何款项只以人民币计结，不提供任何形式的汇兑业务。\n\n（7）交易异常处理：您使用本服务时，可能由于银行本身系统问题、银行相关作业网络连线问题或其他不可抗拒因素，造成本服务无法提供。您确保您所输入的您的资料无误，如果因资料错误造成本公司于上述异常状况发生时，无法及时通知您相关交易后续处理方式的，本公司不承担任何损害赔偿责任。\n\n（8）您同意，基于运行和交易安全的需要,本公司可以暂时停止提供或者限制本服务部分功能,或提供新的功能,在任何功能减少、增加或者变化时,只要您仍然使用本服务,表示您仍然同意本协议或者变更后的协议。\n\n（三）账户安全\n您将对使用该账户及密码进行的一切操作及言论负完全的责任，您同意：\n（1）不向其他任何人泄露该账户及密码，亦不使用其他任何人的“叮咚欧品账户”及密码。\n\n（2）如您发现有他人冒用或盗用您的账户及密码或任何其他未经合法授权之情形时，应立即以有效方式通知本公司，要求本公司暂停相关服务。同时，您理解本公司对您的请求采取行动需要合理期限，在此之前，本公司对已执行的指令及(或)所导致的您的损失不承担任何责任。\n\n三、“货款代收代付服务”使用规则\n为有效保障您使用本服务进行交易时的合法权益，您理解并同意接受以下规则：\n（一）一旦您使用本服务，您即授权本公司代理您在您及（或）您指定人符合指定条件或状态时，支付款项给您指定人，或收取您指定人支付给您的款项。\n\n（二）本公司通过以下两种方式中接受来自您的指令：其一，您在本网站或其他可使用本服务的网站上通过登录该账户密码依照本服务预设流程所修改或确认的交易状态；其二您通过您注册时作为该账户名称或者与该账户绑定的手机或其他专属于您的通讯工具（以下合称该手机）号码向本系统发送的信息（短信或电话等）回复。无论您通过以上两种方式中的任一种向本公司发出指令，都不可撤回或撤销，且成为本公司代理您支付或收取款项的唯一指令。在您与第三方发生交易纠纷时，您授权本公司自行判断并决定将争议货款的全部或部分支付给交易一方或双方。\n\n（三）您在使用本服务过程中，本协议内容、网页上出现的关于交易操作的提示或本公司发送到该手机的信息（短信或电话等）内容是您使用本服务的相关规则，您使用本服务即表示您同意接受本服务的相关规则。您了解并同意本公司单方修改服务的相关规则，而无须征得您的同意，服务规则应以您使用服务时的页面提示（或发送到该手机的短信或电话等）为准，您同意并遵照服务规则是您使用本服务的前提。\n\n（四）本公司会以电子邮件（或发送到该手机的短信或电话等）方式通知您交易进展情况以及提示您进行下一步的操作，但本公司不保证您能够收到或者及时收到该邮件（或发送到该手机的短信或电话等），且不对此承担任何后果，因此，在交易过程中您应当及时登录到叮咚欧品APP/叮咚欧品网站查看和进行交易操作。因您没有及时查看和对交易状态进行修改或确认或未能提交相关申请而导致的任何纠纷或损失，本公司不负任何责任。\n\n（五）您如果需要向交易对方交付货物，应根据交易状态页面（该手机接收到的信息）显示的买方地址，委托有合法经营资格的承运人将货物直接运送至对方或其指定收货人，并要求对方或其委托的第三方（该第三方应当提供对方的授权文件并出示对方及第三方的身份证原件）在收货凭证上签字确认，因货物延迟送达或在送达过程中的丢失、损坏，本公司不承担任何责任，应由您与交易对方自行处理。\n\n（六）本公司对您所交易的标的物不提供任何形式的鉴定、证明的服务。如果您与交易对方发生交易纠纷，您授权由本公司根据本协议及本网站上载明的各项规则进行处理。您为解决纠纷而支出的通讯费、文件复印费、鉴定费等均由您自行承担。因市场因素致使商品涨价跌价而使任何一方得益或者受到损失而产生的纠纷（《争议处理规则》另有约定的除外），本公司不予处理。\n\n（七）若您未完成注册过程成为叮咚欧品用户，他人通过本服务向您支付款项时，相应款项将无法划汇给您，您授权本公司暂时代为保管该款项，直到您完成该账户的注册和实名认证。\n\n（八）本公司会将与您叮咚欧品账户相关的资金，独立于本公司营运资金之外，且不会将该资金用于非您指示的用途。\n\n（九）本公司并非银行或其它金融机构，本服务也非金融业务，本协议项下的资金移转均通过银行来实现，你理解并同意您的资金于流转途中的合理时间。\n\n（十）您完全承担您使用本服务期间由本公司保管或代收或代付的款项的货币贬值风险及可能的利息损失。\n\n（十一）在您注册成为叮咚欧品用户时，您授权本公司通过银行或向第三者审核您的身份和资格，并通过叮咚欧品APP和叮咚欧品（http://www.dingdongoupin.com）或其它网站取得关于您使用本服务的相关资料。\n\n（十二）您使用本服务进行交易或使用该账户登陆其他支持本服务的网站时，您即授权本公司将您的个人信息和交易信息披露给与您交易的另一方或您登陆的网站，该信息包括但不限于：您的真实姓名、联系方式、信用状况、叮咚欧品账户。\n\n（十三）您不得将本服务用于非本公司许可的其他用途。\n\n（十四）交易风险\n（1）当您通过本服务进行各项交易或接受交易款项时，若您或对方未遵从本服务条款或网站说明、交易页面中之操作步骤，则本公司有权拒绝为您与交易对方提供相关服务，且本公司不承担损害赔偿责任。若发生上述状况，而款项已先行划付至您或他人的叮咚欧品账户名下，您同意本公司有权直接自相关账户余额中扣回款项及禁止您要求支付此笔款项之权利。此款项若已汇入您的银行账户，您同意本公司有向您事后索回之权利，因您的原因导致本公司事后追索的，您应当承担本公司合理的追索费用。\n\n（2）因您的过错导致的任何损失由您自行承担，该过错包括但不限于：不按照交易提示操作，未及时进行交易操作，遗忘或泄漏密码，密码被他人破解，您使用的手机或计算机被他人侵入。\n\n（十五）服务费用\n（1）在您使用本服务时，本公司有权依照叮咚欧品的收费标准向您收取服务费用。本公司拥有制订及调整服务费之权利，具体服务费用以您使用本服务时本网站上所列之收费方式公告或您与本公司达成的其他书面协议为准。\n\n（2）除非另有说明或约定，您同意本公司有权自您委托本公司代管、代收或代付的款项中直接扣除上述服务费用。\n\n四、“货款代收代付服务”使用限制\n（一）您在使用本服务时应遵守中华人民共和国相关法律法规、您所在国家或地区之法令及相关国际惯例，不将本服务用于任何非法目的（包括用于禁止或限制交易物品的交易），也不以任何非法方式使用本服务。\n\n（二）您不得利用本服务从事侵害他人合法权益之行为，否则应承担所有相关法律责任，因此导致本公司或本公司雇员受损的，您应承担赔偿责任。上述行为包括但不限于：\n（1）侵害他人名誉权、隐私权、商业秘密、商标权、著作权、专利权等合法权益。\n\n（2）违反依法定或约定之保密义务。\n\n（3）冒用他人名义使用本服务。\n\n（4）从事不法交易行为，如洗钱、贩卖枪支、毒品、禁药、盗版软件、黄色淫秽物品、其他本公司认为不得使用本服务进行交易的物品等。\n\n（5）提供赌博资讯或以任何方式引诱他人参与赌博。\n\n（6）非法使用他人银行账户（包括信用卡账户）或无效银行账号（包括信用卡账户）交易。\n\n（7）违反《银行卡业务管理办法》使用银行卡，或利用信用卡套取现金（以下简称套现）。\n\n（8）进行与您或交易对方宣称的交易内容不符的交易，或不真实的交易。\n\n（9）从事任何可能含有电脑病毒或是可能侵害本服务系统、资料之行为。\n\n（10）其他本公司有正当理由认为不适当之行为。\n\n（三）您理解并同意，本公司不对因下述任一情况导致的任何损害赔偿承担责任，包括但不限于利润、商誉、使用、数据等方面的损失或其他无形损失的损害赔偿 (无论本公司是否已被告知该等损害赔偿的可能性)：\n（1）本公司有权基于单方判断，包含但不限于本公司认为您已经违反本协议的明文规定及精神，暂停、中断或终止向您提供本服务或其任何部分，并移除您的资料。\n\n（2）本公司在发现异常交易或有疑义或有违反法律规定或本协议约定之虞时，有权不经通知先行暂停或终止该账户的使用（包括但不限于对该账户名下的款项和在途交易采取取消交易、调账等限制措施），并拒绝您使用本服务之部分或全部功能。\n\n（3）在必要时，本公司无需事先通知即可终止提供本服务，并暂停、关闭或删除该账户及您账号中所有相关资料及档案，并将您滞留在该账户的全部合法资金退回到您的银行账户。\n\n（四）如您需要注销您的叮咚欧品账户，应先经本公司审核同意。本公司注销该账户，即表明本公司与您之间的协议已解除，但您仍应对您使用本服务期间的行为承担可能的违约或损害赔偿责任。\n\n五、隐私权保护\n一旦您同意本协议或使用本服务，您即同意本公司按照以下条款来使用和披露您的个人信息。\n（一）未成年人的特别注意事项\n在阅读本协议已注册叮咚欧品用户时，您尚未满18周岁的，您不能使用本服务，请您终止您的注册行为，不要向我们提供您的任何个人信息。\n\n（二）用户名和密码\n在您注册为叮咚欧品用户时，我们会要求您设置用户名和密码来识别您的身份，并可能会要求您设置密码提示问题及其答案，以便在您丢失密码时用以确认您的身份。您仅可通过您设置的密码来使用该账户，如果您泄漏了密码，您可能会丢失您的个人识别信息，并可能导致对您不利的法律后果。该账户和密码因任何原因受到潜在或现实危险时，您应该立即和本公司取得联系，在本公司采取行动前，本公司对此不负任何责任。\n\n（三）注册信息\n您注册该账户时应向本公司提供您的真实姓名、地址、国籍、电话号码和电子邮件地址，您还可以选择来填写相关附加信息（包括但不限于您公司所在的省份和城市、时区和邮政编码、传真号码、个人主页和您的职务）。为有针对性地向您提供新的服务和机会，您了解并同意本公司或您登录的其他网站将通过您的电子邮件地址或该手机通知您这些信息。\n\n（四）银行账户信息\n本公司所提供的服务将需要您提供您的银行账户信息，在您提供相应信息后，本公司将严格履行相关保密约定。\n\n（五）交易行为\n为了保障您使用本服务的安全以及不断改进服务质量，本公司将记录并保存您登录和使用本服务的相关信息，但本公司承诺不将此类信息提供给任何第三方（除双方另有约定或法律法规另有规定外）。\n\n（六）广告\n本公司会对叮咚欧品用户的身份数据进行综合统计，并出于销售和奖励的需要使用或披露。\n\n（七）Cookie的使用\n您了解并同意，本公司使用cookie来使本网站对用户更友好，它可以帮您省去为使用我们的服务而重复输入注册信息和跟踪您的浏览器的状态。\n\n（八）第三方\n本网站将公布叮咚欧品用户提供的商业机会，其他叮咚欧品用户可以获知这些商业机会。除了本公司和您使用该账户成功登录过的其他网站，本公司不会向任何第三方提供、出售、出租、分享您的个人信息。除了按法定或约定情况下披露您的信息，本公司将恪尽善意管理人的义务。\n\n（九）信息的存储和交换\n您的信息和资料存储在位于中国的服务器上，为了备份的需要，本公司可能将您的信息和资料传送到位于别国的服务器上。\n\n（十）安全\n本公司仅按现有技术提供相应的安全措施来使本公司掌握的信息不丢失，不被滥用和变造。这些安全措施包括向其它服务器备份数据和对用户密码加密。尽管有这些安全措施，但本公司不保证这些信息的绝对安全。\n\n六、系统中断或故障\n系统因下列状况无法正常运作，使您无法使用各项服务时，本公司不承担损害赔偿责任，该状况包括但不限于：\n（一）本公司在本网站公告之系统停机维护期间。\n（二）电信设备出现故障不能进行数据传输的。\n（三）因台风、地震、海啸、洪水、停电、战争、恐怖袭击等不可抗力之因素，造成本公司系统障碍不能执行业务的。\n（四）由于黑客攻击、电信部门技术调整或故障、APP/网站升级、银行方面的问题等原因而造成的服务中断或者延迟。\n\n\n七、责任范围及责任限制\n（一）本公司仅对本协议中列明的责任承担范围负责。\n\n（二）您明确因交易所产生的任何风险应由您与交易对方承担。\n\n（三）叮咚欧品用户信息是由用户本人自行提供的，本公司无法保证该信息之准确、及时和完整，您应对您的判断承担全部责任。\n\n（四）本公司不对交易标的及本服务提供任何形式的保证，包括但不限于以下事项：\n（1）本服务符合您的需求。\n（2）本服务不受干扰、及时提供或免于出错。\n（3）您经由本服务购买或取得之任何产品、服务、资讯或其他资料符合您的期望。\n\n（五）本服务之合作单位，所提供之服务品质及内容由该合作单位自行负责。\n\n（六）您经由本服务之使用下载或取得任何资料，应由您自行考量且自负风险，因资料之下载而导致您手机／电脑系统之任何损坏或资料流失，您应负完全责任。\n\n（七）您自本公司及本公司工作人员或经由本服务取得之建议和资讯，无论其为书面或口头形式，均不构成本公司对本服务之保证。\n\n（八）在法律允许的情况下，本公司对于与本协议有关或由本协议引起的任何间接的、惩罚性的、特殊的、派生的损失（包括业务损失、收益损失、利润损失、使用数据或其他经济利益的损失），不论是如何产生的，也不论是由对本协议的违约（包括违反保证）还是由侵权造成的，均不负有任何责任，即使事先已被告知此等损失的可能性。另外即使本协议规定的排他性救济没有达到其基本目的，也应排除本公司对上述损失的责任。\n\n（九）除本协议另有规定外，在任何情况下，本公司对本协议所承担的违约赔偿责任总额不超过向您收取的当次服务费用总额。\n\n八、商标、知识产权的保护\n（一）本网站上所有内容，包括但不限于著作、图片、档案、资讯、资料、网站架构、网站画面的安排、网页设计，均由本公司或本公司关联企业依法拥有其知识产权，包括但不限于商标权、专利权、著作权、商业秘密等。\n\n（二）非经本公司或本公司关联企业书面同意，任何人不得擅自使用、修改、复制、公开传播、改变、散布、发行或公开发表本APP/本网站程序或内容。\n\n（三）尊重知识产权是您应尽的义务，如有违反，您应承担损害赔偿责任。\n\n九、法律适用与管辖\n本协议之效力、解释、变更、执行与争议解决均适用中华人民共和国法律，没有相关法律规定的，参照通用国际商业惯例和（或）行业惯例。\n因本协议产生之争议，均应依照中华人民共和国法律予以处理，并以广东省深圳市福田区人民法院为第一审管辖法院。\n";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "in9-Gs-aYt"; */
+"in9-Gs-aYt.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UIButton"; normalTitle = "收藏商品"; ObjectID = "iw0-5y-GFX"; */
+"iw0-5y-GFX.normalTitle" = "收藏商品";
+
+/* Class = "UIButton"; normalTitle = "去验证"; ObjectID = "j7h-ds-Xgc"; */
+"j7h-ds-Xgc.normalTitle" = "去验证";
+
+/* Class = "UILabel"; text = "叮咚欧品客服电话: 0755-23546190"; ObjectID = "jDV-QI-sLA"; */
+"jDV-QI-sLA.text" = "叮咚欧品客服电话: 0755-23546190";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "jM9-Ff-SEx"; */
+"jM9-Ff-SEx.text" = "x 4";
+
+/* Class = "UILabel"; text = "全选"; ObjectID = "jeF-ss-xtc"; */
+"jeF-ss-xtc.text" = "全选";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "k3b-x5-egI"; */
+"k3b-x5-egI.normalTitle" = "登录";
+
+/* Class = "UILabel"; text = "预付款余额不足:"; ObjectID = "k77-ZA-6Aq"; */
+"k77-ZA-6Aq.text" = "预付款余额不足:";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "kBz-Pa-iRT"; */
+"kBz-Pa-iRT.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "样板"; ObjectID = "kD3-bk-BN9"; */
+"kD3-bk-BN9.text" = "样板";
+
+/* Class = "UILabel"; text = "210"; ObjectID = "kbw-Vc-xor"; */
+"kbw-Vc-xor.text" = "210";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "kdk-8L-mD9"; */
+"kdk-8L-mD9.text" = "$56.00";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "khG-d3-1zP"; */
+"khG-d3-1zP.text" = "XL x 3";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "kqD-il-URs"; */
+"kqD-il-URs.text" = "M x 3";
+
+/* Class = "UILabel"; text = "本月消费积分"; ObjectID = "kvj-SE-exd"; */
+"kvj-SE-exd.text" = "本月消费积分";
+
+/* Class = "UILabel"; text = "99"; ObjectID = "kxN-TW-stx"; */
+"kxN-TW-stx.text" = "99";
+
+/* Class = "UIButton"; normalTitle = "编辑"; ObjectID = "lTN-0u-kwc"; */
+"lTN-0u-kwc.normalTitle" = "编辑";
+
+/* Class = "UILabel"; text = "购买次数:"; ObjectID = "lZe-qt-5NR"; */
+"lZe-qt-5NR.text" = "购买次数:";
+
+/* Class = "UILabel"; text = "三日内上新"; ObjectID = "lnC-yP-2CV"; */
+"lnC-yP-2CV.text" = "三日内上新";
+
+/* Class = "UILabel"; text = "您在欧尚精品店订购的5件商品已经发货，订单号位：123123123"; ObjectID = "m5f-hz-0oQ"; */
+"m5f-hz-0oQ.text" = "您在欧尚精品店订购的5件商品已经发货，订单号位：123123123";
+
+/* Class = "UILabel"; text = "余额支付:￥210"; ObjectID = "m7P-qi-DnY"; */
+"m7P-qi-DnY.text" = "余额支付:￥210";
+
+/* Class = "UILabel"; text = "登录密码修改成功！"; ObjectID = "m8h-EE-acS"; */
+"m8h-EE-acS.text" = "登录密码修改成功！";
+
+/* Class = "UILabel"; text = "￥"; ObjectID = "mGr-2T-nmw"; */
+"mGr-2T-nmw.text" = "￥";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "mU6-Xp-YwV"; */
+"mU6-Xp-YwV.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "删除"; ObjectID = "mg4-I6-Xme"; */
+"mg4-I6-Xme.normalTitle" = "删除";
+
+/* Class = "UILabel"; text = "moumou"; ObjectID = "msq-Di-qZN"; */
+"msq-Di-qZN.text" = "moumou";
+
+/* Class = "UILabel"; text = "第三方支付:￥331"; ObjectID = "nA1-k5-eaA"; */
+"nA1-k5-eaA.text" = "第三方支付:￥331";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "nF9-ga-FbG"; */
+"nF9-ga-FbG.normalTitle" = "下一步";
+
+/* Class = "UIButton"; normalTitle = "确认去支付"; ObjectID = "nQE-jd-qe6"; */
+"nQE-jd-qe6.normalTitle" = "确认去支付";
+
+/* Class = "UILabel"; text = "全选"; ObjectID = "nRu-oI-UQy"; */
+"nRu-oI-UQy.text" = "全选";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "ngZ-LS-ZrD"; */
+"ngZ-LS-ZrD.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "o5s-ea-uky"; */
+"o5s-ea-uky.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "oD1-0C-uAh"; */
+"oD1-0C-uAh.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "叮咚欧品客服电话: 0755-23546190"; ObjectID = "odO-Xw-vrU"; */
+"odO-Xw-vrU.text" = "叮咚欧品客服电话: 0755-23546190";
+
+/* Class = "UILabel"; text = "20000"; ObjectID = "opm-FG-T9O"; */
+"opm-FG-T9O.text" = "20000";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "p3Q-Bo-yXw"; */
+"p3Q-Bo-yXw.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UIButton"; normalTitle = "修改"; ObjectID = "pAb-cg-SwR"; */
+"pAb-cg-SwR.normalTitle" = "修改";
+
+/* Class = "UILabel"; text = "可从商品详情页中下载"; ObjectID = "pAj-oZ-wed"; */
+"pAj-oZ-wed.text" = "可从商品详情页中下载";
+
+/* Class = "UILabel"; text = "合计:"; ObjectID = "pOm-1v-8db"; */
+"pOm-1v-8db.text" = "合计:";
+
+/* Class = "UILabel"; text = "样板"; ObjectID = "pQx-7K-MCa"; */
+"pQx-7K-MCa.text" = "样板";
+
+/* Class = "UIButton"; normalTitle = "购买下载次数"; ObjectID = "pTe-GO-1QT"; */
+"pTe-GO-1QT.normalTitle" = "购买下载次数";
+
+/* Class = "UILabel"; text = "微信支付"; ObjectID = "pdc-JI-G30"; */
+"pdc-JI-G30.text" = "微信支付";
+
+/* Class = "UILabel"; text = "申请未通过"; ObjectID = "pfM-ol-eu1"; */
+"pfM-ol-eu1.text" = "申请未通过";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "piu-Eg-B8l"; */
+"piu-Eg-B8l.text" = "$56.00";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "qMv-zV-Xm3"; */
+"qMv-zV-Xm3.text" = "x 4";
+
+/* Class = "UIButton"; normalTitle = "会员升级"; ObjectID = "qPs-fu-XEb"; */
+"qPs-fu-XEb.normalTitle" = "会员升级";
+
+/* Class = "UIButton"; normalTitle = "购买下载次数"; ObjectID = "qQP-vQ-n3m"; */
+"qQP-vQ-n3m.normalTitle" = "购买下载次数";
+
+/* Class = "UIButton"; normalTitle = "取消收藏"; ObjectID = "qUT-BL-5eQ"; */
+"qUT-BL-5eQ.normalTitle" = "取消收藏";
+
+/* Class = "UIButton"; normalTitle = "加入购物车"; ObjectID = "qaC-s5-a1y"; */
+"qaC-s5-a1y.normalTitle" = "加入购物车";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "qbm-bR-3vD"; */
+"qbm-bR-3vD.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "反馈类型"; ObjectID = "qvI-Dy-XnG"; */
+"qvI-Dy-XnG.text" = "反馈类型";
+
+/* Class = "UIButton"; normalTitle = "保存"; ObjectID = "rQL-J0-H8o"; */
+"rQL-J0-H8o.normalTitle" = "保存";
+
+/* Class = "UILabel"; text = "等待\n审核"; ObjectID = "rZ4-5W-acW"; */
+"rZ4-5W-acW.text" = "等待\n审核";
+
+/* Class = "UILabel"; text = "您暂未下载商品图片"; ObjectID = "roO-pj-fUM"; */
+"roO-pj-fUM.text" = "您暂未下载商品图片";
+
+/* Class = "UILabel"; text = "当前等级：V4"; ObjectID = "rqv-Q8-qm1"; */
+"rqv-Q8-qm1.text" = "当前等级：V4";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "s0O-Bu-m2R"; */
+"s0O-Bu-m2R.text" = "M x 3";
+
+/* Class = "UILabel"; text = "天\n前"; ObjectID = "s2N-io-F5E"; */
+"s2N-io-F5E.text" = "天\n前";
+
+/* Class = "UILabel"; text = "￥"; ObjectID = "s5l-Sz-X0U"; */
+"s5l-Sz-X0U.text" = "￥";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "sE4-ZO-0xE"; */
+"sE4-ZO-0xE.normalTitle" = "确定";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "sKR-si-L0M"; */
+"sKR-si-L0M.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "sYw-lE-c6t"; */
+"sYw-lE-c6t.text" = "XL x 3";
+
+/* Class = "UILabel"; text = "5月27日更新"; ObjectID = "sqW-VG-u06"; */
+"sqW-VG-u06.text" = "5月27日更新";
+
+/* Class = "UILabel"; text = "欧尚旗舰店"; ObjectID = "t6b-Hl-8F8"; */
+"t6b-Hl-8F8.text" = "欧尚旗舰店";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "t9b-ch-qka"; */
+"t9b-ch-qka.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "营业执照"; ObjectID = "tG6-6A-T0z"; */
+"tG6-6A-T0z.text" = "营业执照";
+
+/* Class = "UITextField"; placeholder = "请输入新登录密码"; ObjectID = "tVk-sC-Hv3"; */
+"tVk-sC-Hv3.placeholder" = "请输入新登录密码";
+
+/* Class = "UILabel"; text = "$56.00"; ObjectID = "tXm-lM-Uq7"; */
+"tXm-lM-Uq7.text" = "$56.00";
+
+/* Class = "UIButton"; normalTitle = "同意协议"; ObjectID = "tfA-JC-cCr"; */
+"tfA-JC-cCr.normalTitle" = "同意协议";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "toM-wD-aU0"; */
+"toM-wD-aU0.text" = "M x 3";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "twH-OC-KE4"; */
+"twH-OC-KE4.normalTitle" = "提交";
+
+/* Class = "UILabel"; text = "您还没有订购商品"; ObjectID = "u61-Il-ukv"; */
+"u61-Il-ukv.text" = "您还没有订购商品";
+
+/* Class = "UIButton"; normalTitle = "去挑选"; ObjectID = "uKJ-hf-PQc"; */
+"uKJ-hf-PQc.normalTitle" = "去挑选";
+
+/* Class = "UILabel"; text = "您暂未在商家订购过商品"; ObjectID = "uNK-XR-VKy"; */
+"uNK-XR-VKy.text" = "您暂未在商家订购过商品";
+
+/* Class = "UIButton"; normalTitle = "线上服务"; ObjectID = "uZX-WI-XrO"; */
+"uZX-WI-XrO.normalTitle" = "线上服务";
+
+/* Class = "UILabel"; text = "购买支付"; ObjectID = "ufz-6Y-MPY"; */
+"ufz-6Y-MPY.text" = "购买支付";
+
+/* Class = "UILabel"; text = "应付金额(元)"; ObjectID = "ujY-nm-28U"; */
+"ujY-nm-28U.text" = "应付金额(元)";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "ukg-wM-23U"; */
+"ukg-wM-23U.normalTitle" = "下一步";
+
+/* Class = "UITextField"; placeholder = "手机号"; ObjectID = "v6N-aZ-p5H"; */
+"v6N-aZ-p5H.placeholder" = "手机号";
+
+/* Class = "UILabel"; text = "剩余下载次数:"; ObjectID = "vFW-oS-qfK"; */
+"vFW-oS-qfK.text" = "剩余下载次数:";
+
+/* Class = "UIButton"; normalTitle = "退出当前账户"; ObjectID = "vKm-mS-Y6e"; */
+"vKm-mS-Y6e.normalTitle" = "退出当前账户";
+
+/* Class = "UILabel"; text = "登录密码修改成功"; ObjectID = "vVr-TD-2qH"; */
+"vVr-TD-2qH.text" = "登录密码修改成功";
+
+/* Class = "UILabel"; text = "L x 3"; ObjectID = "vg5-nw-u4U"; */
+"vg5-nw-u4U.text" = "L x 3";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "vwD-rU-9l2"; */
+"vwD-rU-9l2.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UIButton"; normalTitle = "忘记密码"; ObjectID = "vwm-Yu-frt"; */
+"vwm-Yu-frt.normalTitle" = "忘记密码";
+
+/* Class = "UITextField"; placeholder = "请输入验证码"; ObjectID = "w1Q-ro-SZu"; */
+"w1Q-ro-SZu.placeholder" = "请输入验证码";
+
+/* Class = "UILabel"; text = "$56.00 x 1"; ObjectID = "w36-Hc-rFG"; */
+"w36-Hc-rFG.text" = "$56.00 x 1";
+
+/* Class = "UITextField"; placeholder = "请输入校验码"; ObjectID = "w9g-ZZ-S5f"; */
+"w9g-ZZ-S5f.placeholder" = "请输入校验码";
+
+/* Class = "UIButton"; normalTitle = "退出当前账号"; ObjectID = "wJo-FE-Mf3"; */
+"wJo-FE-Mf3.normalTitle" = "退出当前账号";
+
+/* Class = "UIButton"; normalTitle = "验证"; ObjectID = "wR9-4Y-AK5"; */
+"wR9-4Y-AK5.normalTitle" = "验证";
+
+/* Class = "UILabel"; text = "V6"; ObjectID = "wbO-5g-mDU"; */
+"wbO-5g-mDU.text" = "V6";
+
+/* Class = "UILabel"; text = "A1006"; ObjectID = "wdj-iW-hE8"; */
+"wdj-iW-hE8.text" = "A1006";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "xF0-wM-hY7"; */
+"xF0-wM-hY7.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "xea-dN-l6I"; */
+"xea-dN-l6I.text" = "XL x 3";
+
+/* Class = "UILabel"; text = "x 4"; ObjectID = "xzv-p9-U4M"; */
+"xzv-p9-U4M.text" = "x 4";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "yI2-3e-yML"; */
+"yI2-3e-yML.text" = "XL x 3";
+
+/* Class = "UILabel"; text = "期货数量"; ObjectID = "yNz-iT-t9u"; */
+"yNz-iT-t9u.text" = "期货数量";
+
+/* Class = "UITextField"; placeholder = "请输入6-12位数字、字母密码"; ObjectID = "ysL-MX-4Rg"; */
+"ysL-MX-4Rg.placeholder" = "请输入6-12位数字、字母密码";
+
+/* Class = "UILabel"; text = "2015春新款笔挺阔条纹宽松大裙"; ObjectID = "yso-nF-hrg"; */
+"yso-nF-hrg.text" = "2015春新款笔挺阔条纹宽松大裙";
+
+/* Class = "UIButton"; normalTitle = "无"; ObjectID = "z5w-yK-foa"; */
+"z5w-yK-foa.normalTitle" = "无";
+
+/* Class = "UILabel"; text = "请勿与登录密码一致"; ObjectID = "zPl-Ey-L8j"; */
+"zPl-Ey-L8j.text" = "请勿与登录密码一致";
+
+/* Class = "UILabel"; text = "XL x 3"; ObjectID = "zZA-Yc-HFh"; */
+"zZA-Yc-HFh.text" = "XL x 3";
+
+/* Class = "UILabel"; text = "颜色: 蓝色"; ObjectID = "zmX-R5-TK8"; */
+"zmX-R5-TK8.text" = "颜色: 蓝色";
+
+/* Class = "UILabel"; text = "M x 3"; ObjectID = "zpB-g2-D3J"; */
+"zpB-g2-D3J.text" = "M x 3";
+
+/* Class = "UILabel"; text = "521.50"; ObjectID = "zvO-0N-D89"; */
+"zvO-0N-D89.text" = "521.50";

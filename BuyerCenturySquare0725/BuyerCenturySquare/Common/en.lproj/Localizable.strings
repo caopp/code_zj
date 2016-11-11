@@ -1,0 +1,36 @@
+/*
+ Localizable.strings
+ BuyerCenter
+ 
+ Created by 左键视觉 on 15/10/26.
+ Copyright © 2015年 左键视觉. All rights reserved.
+ */
+/*
+ 登录注册
+ */
+
+
+/*
+ 商家
+ */
+// !=====商家列表
+
+
+/*
+ 商品
+ */
+
+// !列表
+"goodTitle"="AllGoods";
+
+
+
+
+/*
+ 个人中心
+ */
+
+/*
+ 采购车
+ */
+

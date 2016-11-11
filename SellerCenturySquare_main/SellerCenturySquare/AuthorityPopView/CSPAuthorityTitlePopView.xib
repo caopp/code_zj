@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceHanSansCN-Normal.otf">
+            <string>SourceHanSansCN-Normal</string>
+            <string>SourceHanSansCN-Normal</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CSPAuthorityTitlePopView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rvH-0B-Uw2">
+                    <rect key="frame" x="15" y="237" width="290" height="95"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="75o-bV-Y5o">
+                            <rect key="frame" x="0.0" y="0.0" width="290" height="30"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不可下载" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQK-74-rFn">
+                                    <rect key="frame" x="117" y="9" width="57" height="13"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="13" id="P8N-yG-TzC"/>
+                                        <constraint firstAttribute="width" constant="57" id="gfk-uT-bzf"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="SourceHanSansCN-Normal" family="Source Han Sans CN" pointSize="13"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mu-lb-Ihx">
+                                    <rect key="frame" x="258" y="5" width="20" height="20"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="20" id="Gwc-sU-lcz"/>
+                                        <constraint firstAttribute="height" constant="20" id="tw9-Sa-PWF"/>
+                                    </constraints>
+                                    <state key="normal" backgroundImage="弹窗_清除.png">
+                                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="cancelButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="ZgO-Hw-P4a"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="76b-23-jvB"/>
+                                <constraint firstItem="3mu-lb-Ihx" firstAttribute="top" secondItem="75o-bV-Y5o" secondAttribute="top" constant="5" id="KIl-GK-tXZ"/>
+                                <constraint firstAttribute="centerY" secondItem="HQK-74-rFn" secondAttribute="centerY" id="PjP-Cu-7Ah"/>
+                                <constraint firstAttribute="trailing" secondItem="3mu-lb-Ihx" secondAttribute="trailing" constant="12" id="d6h-Ks-bQX"/>
+                                <constraint firstAttribute="centerX" secondItem="HQK-74-rFn" secondAttribute="centerX" id="paQ-4Z-Avy"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="您的等级:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bUn-qk-4ca">
+                            <rect key="frame" x="12" y="42" width="267" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="0RQ-wX-Ar1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="SourceHanSansCN-Normal" family="Source Han Sans CN" pointSize="12"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="95" id="DuH-ia-Hcc"/>
+                        <constraint firstItem="bUn-qk-4ca" firstAttribute="leading" secondItem="rvH-0B-Uw2" secondAttribute="leading" constant="12" id="INg-h1-Pfs"/>
+                        <constraint firstItem="75o-bV-Y5o" firstAttribute="top" secondItem="rvH-0B-Uw2" secondAttribute="top" id="T1x-aA-frS"/>
+                        <constraint firstItem="bUn-qk-4ca" firstAttribute="top" secondItem="75o-bV-Y5o" secondAttribute="bottom" constant="12" id="Ty6-zm-juV"/>
+                        <constraint firstItem="75o-bV-Y5o" firstAttribute="leading" secondItem="rvH-0B-Uw2" secondAttribute="leading" id="UZz-SY-LgU"/>
+                        <constraint firstAttribute="trailing" secondItem="75o-bV-Y5o" secondAttribute="trailing" id="aEP-8f-nbk"/>
+                        <constraint firstAttribute="trailing" secondItem="bUn-qk-4ca" secondAttribute="trailing" constant="11" id="gsL-18-45f"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="0.75" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="rvH-0B-Uw2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="2uL-lu-5Go"/>
+                <constraint firstAttribute="trailing" secondItem="rvH-0B-Uw2" secondAttribute="trailing" constant="15" id="7mg-na-2SB"/>
+                <constraint firstAttribute="centerY" secondItem="rvH-0B-Uw2" secondAttribute="centerY" id="85K-TQ-F6u"/>
+            </constraints>
+            <connections>
+                <outlet property="backgroundView" destination="rvH-0B-Uw2" id="jV6-eg-Px5"/>
+                <outlet property="cancelButton" destination="3mu-lb-Ihx" id="tSZ-Uh-Vhy"/>
+                <outlet property="detailLabel" destination="bUn-qk-4ca" id="ndn-7Y-xDH"/>
+                <outlet property="titleBackgroundeView" destination="75o-bV-Y5o" id="1bz-Rl-y3d"/>
+                <outlet property="titleLabel" destination="HQK-74-rFn" id="CPK-lW-U1b"/>
+            </connections>
+            <point key="canvasLocation" x="290" y="248"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="弹窗_清除.png" width="16" height="16"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="RL2-8c-lMI" customClass="FreightplateMailView">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CD0-v7-Okr">
+                    <rect key="frame" x="3" y="44" width="42" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="42" id="6I7-9v-0hT"/>
+                        <constraint firstAttribute="height" constant="42" id="DLh-Sb-jbJ"/>
+                    </constraints>
+                    <state key="normal" image="10_设置_设收货地址_未选中状态.png"/>
+                    <state key="selected" image="选中状态"/>
+                    <connections>
+                        <action selector="selctedButtonAction:" destination="RL2-8c-lMI" eventType="touchUpInside" id="ICG-Tw-0fi"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FeE-8q-jZ8">
+                    <rect key="frame" x="0.0" y="44" width="371" height="1"/>
+                    <color key="backgroundColor" red="0.23741608729999999" green="1" blue="0.27366844909999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="N6P-CV-5uz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="运费模版" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OWk-G6-tV9">
+                    <rect key="frame" x="15" y="15" width="333" height="17"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="Ae9-fl-67Q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="设为默认模板" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sa8-cA-Kz4">
+                    <rect key="frame" x="45" y="58" width="100" height="14"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="hPb-yF-bpv"/>
+                        <constraint firstAttribute="width" constant="100" id="ooS-1g-X9y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统模版不可删除" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V0Y-PF-Eiu">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="14" id="3Eu-7a-awq"/>
+                        <constraint firstAttribute="width" constant="181" id="XE1-fO-GvL"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="3Eu-7a-awq"/>
+                            <exclude reference="XE1-fO-GvL"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="3Eu-7a-awq"/>
+                            <include reference="XE1-fO-GvL"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="FeE-8q-jZ8" firstAttribute="trailing" secondItem="RL2-8c-lMI" secondAttribute="trailingMargin" id="4WP-o8-Fci"/>
+                <constraint firstItem="OWk-G6-tV9" firstAttribute="leading" secondItem="RL2-8c-lMI" secondAttribute="leading" constant="36" id="5hw-PB-oJa"/>
+                <constraint firstItem="CD0-v7-Okr" firstAttribute="top" secondItem="FeE-8q-jZ8" secondAttribute="top" id="8wQ-gz-Pxc"/>
+                <constraint firstAttribute="trailing" secondItem="V0Y-PF-Eiu" secondAttribute="trailing" constant="15" id="Km6-t0-dXC"/>
+                <constraint firstItem="FeE-8q-jZ8" firstAttribute="leading" secondItem="RL2-8c-lMI" secondAttribute="leading" constant="21" id="M3a-dZ-sRM"/>
+                <constraint firstItem="FeE-8q-jZ8" firstAttribute="top" secondItem="OWk-G6-tV9" secondAttribute="bottom" constant="12" id="Ms2-zn-A0w"/>
+                <constraint firstAttribute="trailing" secondItem="OWk-G6-tV9" secondAttribute="trailing" constant="31" id="XiN-k2-6LD"/>
+                <constraint firstItem="sa8-cA-Kz4" firstAttribute="centerY" secondItem="CD0-v7-Okr" secondAttribute="centerY" id="mDV-sM-TFi"/>
+                <constraint firstItem="V0Y-PF-Eiu" firstAttribute="centerY" secondItem="sa8-cA-Kz4" secondAttribute="centerY" id="o3a-3M-RYC"/>
+                <constraint firstItem="CD0-v7-Okr" firstAttribute="leading" secondItem="RL2-8c-lMI" secondAttribute="leading" constant="24" id="qNH-Ok-j14"/>
+                <constraint firstItem="FeE-8q-jZ8" firstAttribute="top" secondItem="RL2-8c-lMI" secondAttribute="top" constant="55" id="rG6-NH-tb9"/>
+                <constraint firstItem="sa8-cA-Kz4" firstAttribute="leading" secondItem="CD0-v7-Okr" secondAttribute="trailing" id="wsY-Es-wji"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="CD0-v7-Okr"/>
+                    <exclude reference="FeE-8q-jZ8"/>
+                    <exclude reference="OWk-G6-tV9"/>
+                    <exclude reference="sa8-cA-Kz4"/>
+                    <exclude reference="V0Y-PF-Eiu"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="5hw-PB-oJa"/>
+                    <exclude reference="XiN-k2-6LD"/>
+                    <exclude reference="Km6-t0-dXC"/>
+                    <exclude reference="o3a-3M-RYC"/>
+                    <exclude reference="4WP-o8-Fci"/>
+                    <exclude reference="M3a-dZ-sRM"/>
+                    <exclude reference="Ms2-zn-A0w"/>
+                    <exclude reference="rG6-NH-tb9"/>
+                    <exclude reference="mDV-sM-TFi"/>
+                    <exclude reference="wsY-Es-wji"/>
+                    <exclude reference="8wQ-gz-Pxc"/>
+                    <exclude reference="qNH-Ok-j14"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="CD0-v7-Okr"/>
+                    <include reference="FeE-8q-jZ8"/>
+                    <include reference="OWk-G6-tV9"/>
+                    <include reference="sa8-cA-Kz4"/>
+                    <include reference="V0Y-PF-Eiu"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="5hw-PB-oJa"/>
+                    <include reference="XiN-k2-6LD"/>
+                    <include reference="Km6-t0-dXC"/>
+                    <include reference="o3a-3M-RYC"/>
+                    <include reference="4WP-o8-Fci"/>
+                    <include reference="M3a-dZ-sRM"/>
+                    <include reference="Ms2-zn-A0w"/>
+                    <include reference="rG6-NH-tb9"/>
+                    <include reference="mDV-sM-TFi"/>
+                    <include reference="wsY-Es-wji"/>
+                    <include reference="8wQ-gz-Pxc"/>
+                    <include reference="qNH-Ok-j14"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="selectedBtn" destination="CD0-v7-Okr" id="qgB-wB-Stm"/>
+            </connections>
+            <point key="canvasLocation" x="276" y="342"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="10_设置_设收货地址_未选中状态.png" width="21" height="21"/>
+        <image name="选中状态" width="21" height="21"/>
+    </resources>
+</document>

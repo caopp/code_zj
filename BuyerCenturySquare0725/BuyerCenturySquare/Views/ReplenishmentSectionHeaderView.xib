@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CSPReplenishmentSectionHeaderView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="30"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ouO-7g-on2">
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oel-dk-4e6" userLabel="topLineView">
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="peq-3F-qfC"/>
+                            </constraints>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hcv-LQ-D3m" userLabel="bottomLineView">
+                            <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="TM2-Y3-6Wf"/>
+                            </constraints>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CR5-2S-ESr">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="25" id="csq-Kl-nJy"/>
+                                <constraint firstAttribute="height" constant="25" id="eXU-fN-ceZ"/>
+                            </constraints>
+                            <state key="normal" image="10_设置_设收货地址_未选中状态.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="10_设置_设收货地址_选中状态.png"/>
+                            <connections>
+                                <action selector="selectButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="ieD-xr-1Lo"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rqF-ys-y9X">
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <state key="normal" title="Button">
+                                <color key="titleColor" red="0.32584697008132935" green="0.32583719491958618" blue="0.32584273815155029" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="merchantNameButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Rql-Ok-Dxu"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="rqF-ys-y9X" firstAttribute="leading" secondItem="CR5-2S-ESr" secondAttribute="trailing" constant="8" id="27f-nS-5sm"/>
+                        <constraint firstAttribute="centerY" secondItem="CR5-2S-ESr" secondAttribute="centerY" id="IlG-fQ-NK1"/>
+                        <constraint firstItem="Oel-dk-4e6" firstAttribute="leading" secondItem="ouO-7g-on2" secondAttribute="leading" id="QAq-bA-TIt"/>
+                        <constraint firstItem="CR5-2S-ESr" firstAttribute="leading" secondItem="ouO-7g-on2" secondAttribute="leading" constant="15" id="SmE-EC-G6d"/>
+                        <constraint firstItem="Oel-dk-4e6" firstAttribute="top" secondItem="ouO-7g-on2" secondAttribute="top" id="Wi4-CT-FzN"/>
+                        <constraint firstItem="rqF-ys-y9X" firstAttribute="centerY" secondItem="CR5-2S-ESr" secondAttribute="centerY" id="aoW-3g-2q1"/>
+                        <constraint firstItem="hcv-LQ-D3m" firstAttribute="leading" secondItem="ouO-7g-on2" secondAttribute="leading" id="avc-hQ-3OI"/>
+                        <constraint firstAttribute="trailing" secondItem="hcv-LQ-D3m" secondAttribute="trailing" id="eOH-xv-Wyb"/>
+                        <constraint firstAttribute="bottom" secondItem="hcv-LQ-D3m" secondAttribute="bottom" id="jQs-Jn-J0L"/>
+                        <constraint firstAttribute="trailing" secondItem="Oel-dk-4e6" secondAttribute="trailing" id="yxk-cu-lCF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ouO-7g-on2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3CG-xH-QUZ"/>
+                <constraint firstAttribute="trailing" secondItem="ouO-7g-on2" secondAttribute="trailing" id="Alz-gR-Xj5"/>
+                <constraint firstAttribute="bottom" secondItem="ouO-7g-on2" secondAttribute="bottom" id="Cec-8M-FZc"/>
+                <constraint firstItem="ouO-7g-on2" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Q1b-ty-P60"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="merchantNameButton" destination="rqF-ys-y9X" id="Nzm-9o-aUb"/>
+                <outlet property="selectButton" destination="CR5-2S-ESr" id="4Xq-l2-JIb"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="10_设置_设收货地址_未选中状态.png" width="21" height="21"/>
+        <image name="10_设置_设收货地址_选中状态.png" width="21" height="21"/>
+    </resources>
+</document>

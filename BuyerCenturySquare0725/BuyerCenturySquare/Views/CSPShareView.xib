@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CSPShareView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="243"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AdU-Tt-9ub">
+                    <rect key="frame" x="0.0" y="193" width="320" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="hFp-Mp-v60"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Y3r-hb-aCE"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分享内容仅含商品图（窗口图、客观图）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wj-dn-dZE">
+                    <rect key="frame" x="21" y="50" width="278" height="15"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Skf-nr-0vQ"/>
+                        <constraint firstAttribute="width" constant="278" id="fmb-bo-hV5"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="微信好友" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0I2-Ba-Wlf">
+                    <rect key="frame" x="79" y="141" width="42" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="3VJ-0I-Msm"/>
+                        <constraint firstAttribute="width" constant="42" id="KVE-nG-Yge"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="朋友圈" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbX-EY-ssR">
+                    <rect key="frame" x="200" y="141" width="42" height="10"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="2fj-cO-nnf"/>
+                        <constraint firstAttribute="width" constant="42" id="I5k-M7-9sR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXo-3S-H53">
+                    <rect key="frame" x="200" y="89" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="DBs-2q-Vy9"/>
+                        <constraint firstAttribute="width" constant="40" id="Tp1-bn-xJT"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="朋友圈.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shareToWeChatMoments:" destination="iN0-l3-epB" eventType="touchUpInside" id="6Xu-ON-mxd"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGi-Ii-DWV">
+                    <rect key="frame" x="80" y="89" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="awG-jt-bt5"/>
+                        <constraint firstAttribute="width" constant="40" id="leE-E6-6V6"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="09_支付_微信.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="shareToWechatFriend:" destination="iN0-l3-epB" eventType="touchUpInside" id="Juv-hE-EFX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="AdU-Tt-9ub" secondAttribute="bottom" id="5Fy-Sc-XTt"/>
+                <constraint firstAttribute="centerX" secondItem="3Wj-dn-dZE" secondAttribute="centerX" id="AK5-tk-gYo"/>
+                <constraint firstAttribute="trailing" secondItem="zbX-EY-ssR" secondAttribute="trailing" constant="78" id="Hwc-Kb-aKt"/>
+                <constraint firstItem="0I2-Ba-Wlf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="79" id="Jzw-Yq-Hvh"/>
+                <constraint firstAttribute="trailing" secondItem="mXo-3S-H53" secondAttribute="trailing" constant="80" id="MWU-OI-Qr7"/>
+                <constraint firstItem="AdU-Tt-9ub" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="PGS-vL-rcB"/>
+                <constraint firstItem="3Wj-dn-dZE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="50" id="S69-Ce-aP7"/>
+                <constraint firstItem="mXo-3S-H53" firstAttribute="top" secondItem="3Wj-dn-dZE" secondAttribute="bottom" constant="24" id="SF2-Wf-vmG"/>
+                <constraint firstItem="VGi-Ii-DWV" firstAttribute="top" secondItem="3Wj-dn-dZE" secondAttribute="bottom" constant="24" id="VBi-RN-kFj"/>
+                <constraint firstItem="0I2-Ba-Wlf" firstAttribute="top" secondItem="VGi-Ii-DWV" secondAttribute="bottom" constant="12" id="gAA-v0-3ya"/>
+                <constraint firstAttribute="trailing" secondItem="zbX-EY-ssR" secondAttribute="trailing" constant="78" id="glP-Sa-ktx"/>
+                <constraint firstAttribute="trailing" secondItem="AdU-Tt-9ub" secondAttribute="trailing" id="jV5-25-LIl"/>
+                <constraint firstItem="0I2-Ba-Wlf" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="79" id="ljh-Ck-bj6"/>
+                <constraint firstItem="zbX-EY-ssR" firstAttribute="top" secondItem="mXo-3S-H53" secondAttribute="bottom" constant="12" id="m4D-M8-rrQ"/>
+                <constraint firstItem="VGi-Ii-DWV" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="80" id="xX0-7H-lzG"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="AdU-Tt-9ub" id="N3s-jl-0R5"/>
+                <outlet property="circleLabel" destination="zbX-EY-ssR" id="dgK-Fh-WO0"/>
+                <outlet property="friendLabel" destination="0I2-Ba-Wlf" id="CBH-hi-dKU"/>
+                <outlet property="titleLabel" destination="3Wj-dn-dZE" id="oQd-4s-Pds"/>
+            </connections>
+            <point key="canvasLocation" x="305" y="137.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="09_支付_微信.png" width="28" height="28"/>
+        <image name="朋友圈.png" width="54" height="54"/>
+    </resources>
+</document>

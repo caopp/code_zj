@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view alpha="0.80000000000000004" contentMode="scaleToFill" id="iN0-l3-epB" customClass="InquireView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wfr-C0-UDY">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="6g6-hI-QFd"/>
+                        <constraint firstAttribute="height" constant="60" id="J5D-s5-uqV"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hEs-ZR-axm" customClass="MyFlowLayout"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="opH-k0-8V4">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Rdv-ad-OYR"/>
+                        <constraint firstAttribute="width" constant="45" id="psr-NV-ZX2"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="39"/>
+                    <state key="normal" title="×">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="deleateView:" destination="iN0-l3-epB" eventType="touchUpInside" id="mPA-YI-tEX"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.01176470588" green="0.01176470588" blue="0.01176470588" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wfr-C0-UDY" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="BMa-uD-KTn"/>
+                <constraint firstItem="hEs-ZR-axm" firstAttribute="leading" secondItem="wfr-C0-UDY" secondAttribute="trailing" constant="15" id="CrQ-Hy-dkp"/>
+                <constraint firstAttribute="trailing" secondItem="opH-k0-8V4" secondAttribute="trailing" constant="15" id="GKz-81-Pg3"/>
+                <constraint firstItem="hEs-ZR-axm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="Qc2-Cq-4mo"/>
+                <constraint firstAttribute="bottom" secondItem="hEs-ZR-axm" secondAttribute="bottom" constant="15" id="eSz-OL-t5e"/>
+                <constraint firstItem="hEs-ZR-axm" firstAttribute="leading" secondItem="wfr-C0-UDY" secondAttribute="trailing" constant="13" id="haI-p4-2gm"/>
+                <constraint firstItem="opH-k0-8V4" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="jm5-5a-9i3"/>
+                <constraint firstItem="opH-k0-8V4" firstAttribute="leading" secondItem="hEs-ZR-axm" secondAttribute="trailing" constant="15" id="kpr-1Y-AjN"/>
+                <constraint firstItem="wfr-C0-UDY" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="ldM-vC-LNZ"/>
+            </constraints>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="CrQ-Hy-dkp"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="flowLayout" destination="hEs-ZR-axm" id="77L-UH-M7p"/>
+                <outlet property="inquireImgV" destination="wfr-C0-UDY" id="VNZ-6y-SmK"/>
+            </connections>
+        </view>
+    </objects>
+</document>

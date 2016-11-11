@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="SourceHanSansCN-Normal.otf">
+            <string>SourceHanSansCN-Normal</string>
+            <string>SourceHanSansCN-Normal</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ASU-uN-UpG" customClass="PhotoAndCamerSelectView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="106"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="拍摄快递单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="det-9G-pw6">
+                    <rect key="frame" x="248" y="78" width="65" height="13"/>
+                    <fontDescription key="fontDescription" name="SourceHanSansCN-Normal" family="Source Han Sans CN" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="从相册选择快递单图片" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EQU-me-Nau">
+                    <rect key="frame" x="29" y="78" width="130" height="13"/>
+                    <fontDescription key="fontDescription" name="SourceHanSansCN-Normal" family="Source Han Sans CN" pointSize="13"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qQ-Mq-Ing">
+                    <rect key="frame" x="65" y="15" width="59" height="59"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="59" id="ogZ-L9-dAr"/>
+                        <constraint firstAttribute="width" constant="59" id="vbk-3H-yLN"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="order_photo"/>
+                    <connections>
+                        <action selector="photoBtnClick:" destination="ASU-uN-UpG" eventType="touchUpInside" id="5Ev-dA-A0R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qOd-l8-qg2">
+                    <rect key="frame" x="251" y="15" width="59" height="59"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="59" id="2zQ-Ic-iS5"/>
+                        <constraint firstAttribute="height" constant="59" id="ljL-1Q-AJD"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="order_camer"/>
+                    <connections>
+                        <action selector="camerBtnClick:" destination="ASU-uN-UpG" eventType="touchUpInside" id="37G-vM-6OZ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <constraints>
+                <constraint firstItem="det-9G-pw6" firstAttribute="top" secondItem="qOd-l8-qg2" secondAttribute="bottom" constant="4" id="3Sq-fl-vps"/>
+                <constraint firstItem="4qQ-Mq-Ing" firstAttribute="top" secondItem="ASU-uN-UpG" secondAttribute="top" constant="15" id="6hh-3Z-Bex"/>
+                <constraint firstAttribute="trailing" secondItem="qOd-l8-qg2" secondAttribute="trailing" constant="65" id="960-fF-J0T"/>
+                <constraint firstItem="EQU-me-Nau" firstAttribute="centerX" secondItem="4qQ-Mq-Ing" secondAttribute="centerX" id="DhF-Y3-kIC"/>
+                <constraint firstItem="EQU-me-Nau" firstAttribute="top" secondItem="4qQ-Mq-Ing" secondAttribute="bottom" constant="4" id="YAr-py-Kwu"/>
+                <constraint firstItem="det-9G-pw6" firstAttribute="centerX" secondItem="qOd-l8-qg2" secondAttribute="centerX" id="aoM-hE-GBZ"/>
+                <constraint firstItem="qOd-l8-qg2" firstAttribute="top" secondItem="ASU-uN-UpG" secondAttribute="top" constant="15" id="naH-R3-RQM"/>
+                <constraint firstItem="4qQ-Mq-Ing" firstAttribute="leading" secondItem="ASU-uN-UpG" secondAttribute="leading" constant="65" id="qwd-Pt-gzk"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="camerBtn" destination="qOd-l8-qg2" id="AmI-kV-fis"/>
+                <outlet property="camerLabel" destination="det-9G-pw6" id="VT3-Ya-huT"/>
+                <outlet property="camerTrailing" destination="960-fF-J0T" id="b4h-FU-yi6"/>
+                <outlet property="photoBtn" destination="4qQ-Mq-Ing" id="RUg-qY-Jyb"/>
+                <outlet property="photoLabel" destination="EQU-me-Nau" id="9tv-jJ-MFN"/>
+                <outlet property="photoLeading" destination="qwd-Pt-gzk" id="l4j-nr-ozG"/>
+            </connections>
+            <point key="canvasLocation" x="283.5" y="437"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="order_camer" width="60" height="60"/>
+        <image name="order_photo" width="60" height="60"/>
+    </resources>
+</document>

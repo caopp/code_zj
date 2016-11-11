@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ChangeExitGoodsAndCancelView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n0Z-1y-t3V">
+                    <rect key="frame" x="150" y="0.0" width="150" height="49"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="修改"/>
+                    <connections>
+                        <action selector="selectChangeExitChangeBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="0oK-6X-1uE"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hfH-AZ-tl0">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="0.5"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="loc-Uu-GZF"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="shM-5J-Tyo">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="49"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="取消">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="selectCancelExitChangeBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="FDN-bj-hG6"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="shM-5J-Tyo" firstAttribute="top" secondItem="hfH-AZ-tl0" secondAttribute="bottom" id="0pX-sm-9kJ"/>
+                <constraint firstItem="n0Z-1y-t3V" firstAttribute="leading" secondItem="shM-5J-Tyo" secondAttribute="trailing" id="3hR-7E-KwZ"/>
+                <constraint firstItem="shM-5J-Tyo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="5Uy-lN-kSm"/>
+                <constraint firstAttribute="trailing" secondItem="hfH-AZ-tl0" secondAttribute="trailing" id="OUP-GE-fsC"/>
+                <constraint firstItem="n0Z-1y-t3V" firstAttribute="top" secondItem="hfH-AZ-tl0" secondAttribute="bottom" id="P4F-Rv-g5C"/>
+                <constraint firstAttribute="trailing" secondItem="n0Z-1y-t3V" secondAttribute="trailing" id="TTV-sX-D0O"/>
+                <constraint firstAttribute="bottom" secondItem="n0Z-1y-t3V" secondAttribute="bottom" id="b6l-HR-2c1"/>
+                <constraint firstItem="hfH-AZ-tl0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fmJ-cb-dM5"/>
+                <constraint firstItem="n0Z-1y-t3V" firstAttribute="width" secondItem="shM-5J-Tyo" secondAttribute="width" id="tvk-IH-uqC"/>
+                <constraint firstAttribute="bottom" secondItem="shM-5J-Tyo" secondAttribute="bottom" id="w4T-Qj-GCg"/>
+                <constraint firstItem="hfH-AZ-tl0" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="z4v-kf-xpa"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

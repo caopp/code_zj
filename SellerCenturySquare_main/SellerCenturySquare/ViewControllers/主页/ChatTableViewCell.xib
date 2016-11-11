@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="ChatTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="54"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="53.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_商家中心_消息中心_客服对话" translatesAutoresizingMaskIntoConstraints="NO" id="wXd-xI-sNK">
+                        <rect key="frame" x="15" y="10" width="36" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="pNe-l3-MXd"/>
+                            <constraint firstAttribute="width" constant="36" id="xWK-Br-Axs"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="陈岑  13912341234" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f31-NZ-8ib">
+                        <rect key="frame" x="70" y="13" width="119" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="hxv-MK-qdv"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="hxv-MK-qdv"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="最近上了很多新品" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vMZ-lf-rdb">
+                        <rect key="frame" x="71" y="31" width="241" height="10"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="xqS-55-Tc6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="xqS-55-Tc6"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fg3-mc-eab" customClass="CustomBadge">
+                        <rect key="frame" x="38" y="7" width="15" height="15"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="N03-6j-ljF"/>
+                            <constraint firstAttribute="width" constant="15" id="PMC-X9-uNC"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="陈岑  13912341234" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ga-dZ-Phw">
+                        <rect key="frame" x="237" y="13" width="68" height="8"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="lk5-be-Gqc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="8"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="lk5-be-Gqc"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="f31-NZ-8ib" firstAttribute="leading" secondItem="fg3-mc-eab" secondAttribute="trailing" constant="17" id="3eE-8b-h3L"/>
+                    <constraint firstItem="fg3-mc-eab" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="IXm-dM-NlC"/>
+                    <constraint firstItem="wXd-xI-sNK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Kyw-YY-ZPi"/>
+                    <constraint firstAttribute="bottom" secondItem="fg3-mc-eab" secondAttribute="bottom" constant="31.5" id="PbO-xj-DeM"/>
+                    <constraint firstItem="vMZ-lf-rdb" firstAttribute="top" secondItem="f31-NZ-8ib" secondAttribute="bottom" constant="4" id="QA1-92-EyP"/>
+                    <constraint firstItem="f31-NZ-8ib" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="Tks-8Y-aTM"/>
+                    <constraint firstAttribute="trailing" secondItem="7ga-dZ-Phw" secondAttribute="trailing" constant="15" id="Wiz-8I-j2J"/>
+                    <constraint firstAttribute="bottom" secondItem="vMZ-lf-rdb" secondAttribute="bottom" constant="8.5" id="YCj-1i-Ndo"/>
+                    <constraint firstAttribute="trailing" secondItem="vMZ-lf-rdb" secondAttribute="trailing" constant="8" id="a85-AS-GUZ"/>
+                    <constraint firstItem="vMZ-lf-rdb" firstAttribute="leading" secondItem="wXd-xI-sNK" secondAttribute="trailing" constant="20" id="e1F-Q0-Qd0"/>
+                    <constraint firstItem="vMZ-lf-rdb" firstAttribute="top" secondItem="f31-NZ-8ib" secondAttribute="bottom" constant="2" id="gwa-mW-g3t"/>
+                    <constraint firstAttribute="bottom" secondItem="wXd-xI-sNK" secondAttribute="bottom" constant="8.5" id="h1C-dO-KhB"/>
+                    <constraint firstItem="vMZ-lf-rdb" firstAttribute="top" secondItem="7ga-dZ-Phw" secondAttribute="bottom" constant="8" id="iDT-GY-AX5"/>
+                    <constraint firstItem="7ga-dZ-Phw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="lFT-cs-IFG"/>
+                    <constraint firstItem="wXd-xI-sNK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ojA-Iv-OEc"/>
+                    <constraint firstItem="fg3-mc-eab" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="38" id="vhW-KW-SQt"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="h1C-dO-KhB"/>
+                        <exclude reference="YCj-1i-Ndo"/>
+                        <exclude reference="gwa-mW-g3t"/>
+                        <exclude reference="iDT-GY-AX5"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="AvatarImageView" destination="wXd-xI-sNK" id="e35-cD-qYU"/>
+                <outlet property="chatBadge" destination="fg3-mc-eab" id="rJ0-w3-ztt"/>
+                <outlet property="detailInfoL" destination="vMZ-lf-rdb" id="D0l-Go-BRZ"/>
+                <outlet property="nameL" destination="7ga-dZ-Phw" id="6Ia-bG-iKo"/>
+                <outlet property="titleL" destination="f31-NZ-8ib" id="bPV-86-OWE"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="04_商家中心_消息中心_客服对话" width="41" height="41"/>
+    </resources>
+</document>

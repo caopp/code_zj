@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="edr-Hz-AP6" customClass="WaitPaymentBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rjB-fd-yHg">
+                    <rect key="frame" x="0.0" y="0.0" width="164" height="80"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="客服" image="10_商品收藏_客服.png">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="selectCustomerServiceBtn:" destination="edr-Hz-AP6" eventType="touchUpInside" id="Hdu-QK-EHj"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xFB-TE-Yzp">
+                    <rect key="frame" x="164" y="0.0" width="211" height="80"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="211" id="gbg-ya-hrx"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="退款"/>
+                    <connections>
+                        <action selector="selecTexitMoneyBtn:" destination="edr-Hz-AP6" eventType="touchUpInside" id="mWt-CK-fxO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xFB-TE-Yzp" secondAttribute="trailing" id="0ZC-XU-Kwq"/>
+                <constraint firstItem="rjB-fd-yHg" firstAttribute="leading" secondItem="edr-Hz-AP6" secondAttribute="leading" id="6ce-Ra-t5r"/>
+                <constraint firstAttribute="bottom" secondItem="rjB-fd-yHg" secondAttribute="bottom" id="OHm-Jj-GHD"/>
+                <constraint firstAttribute="bottom" secondItem="xFB-TE-Yzp" secondAttribute="bottom" id="P1G-k7-dWT"/>
+                <constraint firstItem="xFB-TE-Yzp" firstAttribute="top" secondItem="edr-Hz-AP6" secondAttribute="top" id="abu-ex-oeG"/>
+                <constraint firstItem="xFB-TE-Yzp" firstAttribute="leading" secondItem="rjB-fd-yHg" secondAttribute="trailing" id="gs0-On-p2v"/>
+                <constraint firstItem="rjB-fd-yHg" firstAttribute="top" secondItem="edr-Hz-AP6" secondAttribute="top" id="koJ-tg-djg"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="customerServiceBtn" destination="rjB-fd-yHg" id="lYJ-ma-PVg"/>
+                <outlet property="exitMoneyBtn" destination="xFB-TE-Yzp" id="Cde-7o-o2d"/>
+                <outlet property="exitMoneyBtnWidth" destination="gbg-ya-hrx" id="v8W-U7-VBV"/>
+            </connections>
+            <point key="canvasLocation" x="153.5" y="120"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="10_商品收藏_客服.png" width="21" height="18"/>
+    </resources>
+</document>

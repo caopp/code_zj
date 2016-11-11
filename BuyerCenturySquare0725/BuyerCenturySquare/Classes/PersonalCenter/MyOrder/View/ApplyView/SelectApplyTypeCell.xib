@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="STA-Qx-fAF" customClass="SelectApplyTypeCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="130"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="STA-Qx-fAF" id="ZPP-n3-Jfs">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="129.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="申请服务:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pwF-FM-Gso">
+                        <rect key="frame" x="15" y="15" width="63" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="63" id="rX4-2T-6mU"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jnb-V9-O8a">
+                        <rect key="frame" x="94" y="0.0" width="205.5" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="LgN-7W-U35"/>
+                        </constraints>
+                        <state key="normal" image="go_shopping_unselect_all_good"/>
+                        <state key="selected" image="applyTypeSelected"/>
+                        <connections>
+                            <action selector="returnAndRefundBtClick:" destination="STA-Qx-fAF" eventType="touchUpInside" id="gHn-Iy-f6x"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退货退款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="old-5a-poU">
+                        <rect key="frame" x="94" y="13" width="56" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qNo-rY-KVp">
+                        <rect key="frame" x="94" y="44" width="226" height="0.5"/>
+                        <color key="backgroundColor" red="0.87703203910000005" green="0.87703203910000005" blue="0.87703203910000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="FOe-Z0-SOT"/>
+                            <constraint firstAttribute="height" constant="0.5" id="xm8-cf-64R"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="FOe-Z0-SOT"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QpT-gt-F20">
+                        <rect key="frame" x="94" y="44" width="205.5" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="AW9-is-Ixx"/>
+                        </constraints>
+                        <state key="normal" image="go_shopping_unselect_all_good"/>
+                        <state key="selected" image="applyTypeSelected"/>
+                        <connections>
+                            <action selector="refundBtnClick:" destination="STA-Qx-fAF" eventType="touchUpInside" id="Tlj-Im-UxU"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="仅退款" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PN8-ce-aVH">
+                        <rect key="frame" x="94" y="58" width="42" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j5u-ro-x4P">
+                        <rect key="frame" x="94" y="88" width="226" height="0.5"/>
+                        <color key="backgroundColor" red="0.87703203910000005" green="0.87703203910000005" blue="0.87703203910000005" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="R8U-ER-MXQ"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="0.5" id="fFz-tT-pZ7"/>
+                            <constraint firstAttribute="height" constant="5" id="zE6-Bl-Pw6"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="zE6-Bl-Pw6"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JcD-m4-azG">
+                        <rect key="frame" x="94" y="88" width="205.5" height="44"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="44" id="CQF-Wx-YbW"/>
+                        </constraints>
+                        <state key="normal" image="go_shopping_unselect_all_good"/>
+                        <state key="selected" image="applyTypeSelected"/>
+                        <connections>
+                            <action selector="exchangeBtnClick:" destination="STA-Qx-fAF" eventType="touchUpInside" id="4mM-tV-Qrj"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="换货" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="imd-Tl-DeC">
+                        <rect key="frame" x="94" y="101.5" width="28" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="pwF-FM-Gso" firstAttribute="top" secondItem="ZPP-n3-Jfs" secondAttribute="top" constant="15" id="0Av-16-9ue"/>
+                    <constraint firstItem="pwF-FM-Gso" firstAttribute="leading" secondItem="ZPP-n3-Jfs" secondAttribute="leading" constant="15" id="40h-xz-HG7"/>
+                    <constraint firstItem="j5u-ro-x4P" firstAttribute="trailing" secondItem="QpT-gt-F20" secondAttribute="trailing" id="6nQ-x6-IXS"/>
+                    <constraint firstItem="QpT-gt-F20" firstAttribute="top" secondItem="qNo-rY-KVp" secondAttribute="bottom" id="7af-Ew-ea6"/>
+                    <constraint firstItem="QpT-gt-F20" firstAttribute="leading" secondItem="Jnb-V9-O8a" secondAttribute="leading" id="7xu-8E-Jfa"/>
+                    <constraint firstItem="old-5a-poU" firstAttribute="leading" secondItem="pwF-FM-Gso" secondAttribute="trailing" id="9MW-B9-uON"/>
+                    <constraint firstItem="qNo-rY-KVp" firstAttribute="leading" secondItem="Jnb-V9-O8a" secondAttribute="leading" id="BUb-yG-i3n"/>
+                    <constraint firstAttribute="trailing" secondItem="Jnb-V9-O8a" secondAttribute="trailing" constant="20" id="CuP-LF-iCQ"/>
+                    <constraint firstItem="Jnb-V9-O8a" firstAttribute="top" secondItem="ZPP-n3-Jfs" secondAttribute="topMargin" id="EDc-hs-Bsj"/>
+                    <constraint firstItem="JcD-m4-azG" firstAttribute="top" secondItem="QpT-gt-F20" secondAttribute="bottom" id="Fcy-bd-zIe"/>
+                    <constraint firstItem="QpT-gt-F20" firstAttribute="width" secondItem="Jnb-V9-O8a" secondAttribute="width" id="Lfz-10-bpA"/>
+                    <constraint firstItem="QpT-gt-F20" firstAttribute="trailing" secondItem="Jnb-V9-O8a" secondAttribute="trailing" id="M54-EF-vGX"/>
+                    <constraint firstItem="Jnb-V9-O8a" firstAttribute="leading" secondItem="old-5a-poU" secondAttribute="leading" id="OoJ-bf-9Ww"/>
+                    <constraint firstAttribute="trailing" secondItem="Jnb-V9-O8a" secondAttribute="trailing" constant="20" id="Q8J-Qg-aiN"/>
+                    <constraint firstItem="JcD-m4-azG" firstAttribute="leading" secondItem="QpT-gt-F20" secondAttribute="leading" id="RtH-fi-Q9l"/>
+                    <constraint firstItem="old-5a-poU" firstAttribute="centerY" secondItem="Jnb-V9-O8a" secondAttribute="centerY" id="Twa-zM-JD2"/>
+                    <constraint firstItem="Jnb-V9-O8a" firstAttribute="leading" secondItem="pwF-FM-Gso" secondAttribute="trailing" constant="15" id="UM0-g5-glD"/>
+                    <constraint firstItem="PN8-ce-aVH" firstAttribute="leading" secondItem="QpT-gt-F20" secondAttribute="leading" id="W03-lQ-uaR"/>
+                    <constraint firstItem="j5u-ro-x4P" firstAttribute="leading" secondItem="QpT-gt-F20" secondAttribute="leading" id="X4P-Bw-jPZ"/>
+                    <constraint firstItem="old-5a-poU" firstAttribute="leading" secondItem="pwF-FM-Gso" secondAttribute="trailing" id="Z5m-3S-ZMz"/>
+                    <constraint firstItem="imd-Tl-DeC" firstAttribute="leading" secondItem="JcD-m4-azG" secondAttribute="leading" id="c7n-yZ-oxg"/>
+                    <constraint firstItem="Jnb-V9-O8a" firstAttribute="top" secondItem="ZPP-n3-Jfs" secondAttribute="top" id="d58-Om-zhh"/>
+                    <constraint firstAttribute="trailing" secondItem="j5u-ro-x4P" secondAttribute="trailing" id="eNL-Yp-zR8"/>
+                    <constraint firstItem="imd-Tl-DeC" firstAttribute="centerY" secondItem="JcD-m4-azG" secondAttribute="centerY" id="he0-hM-x7N"/>
+                    <constraint firstItem="PN8-ce-aVH" firstAttribute="centerY" secondItem="QpT-gt-F20" secondAttribute="centerY" id="klv-hh-aac"/>
+                    <constraint firstItem="old-5a-poU" firstAttribute="centerY" secondItem="ZPP-n3-Jfs" secondAttribute="centerY" id="mfC-oh-0To"/>
+                    <constraint firstItem="old-5a-poU" firstAttribute="centerX" secondItem="Jnb-V9-O8a" secondAttribute="centerX" id="oo7-wp-oGI"/>
+                    <constraint firstAttribute="trailing" secondItem="qNo-rY-KVp" secondAttribute="trailing" id="pkQ-SK-Ce0"/>
+                    <constraint firstItem="Jnb-V9-O8a" firstAttribute="leading" secondItem="pwF-FM-Gso" secondAttribute="trailing" constant="16" id="u9p-OD-7aU"/>
+                    <constraint firstItem="JcD-m4-azG" firstAttribute="trailing" secondItem="QpT-gt-F20" secondAttribute="trailing" id="wl6-i2-ChZ"/>
+                    <constraint firstItem="j5u-ro-x4P" firstAttribute="top" secondItem="QpT-gt-F20" secondAttribute="bottom" id="y4M-dB-Ki4"/>
+                    <constraint firstItem="qNo-rY-KVp" firstAttribute="top" secondItem="Jnb-V9-O8a" secondAttribute="bottom" id="yMe-HI-LB2"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="CuP-LF-iCQ"/>
+                        <exclude reference="EDc-hs-Bsj"/>
+                        <exclude reference="UM0-g5-glD"/>
+                        <exclude reference="9MW-B9-uON"/>
+                        <exclude reference="Z5m-3S-ZMz"/>
+                        <exclude reference="mfC-oh-0To"/>
+                        <exclude reference="oo7-wp-oGI"/>
+                        <exclude reference="Lfz-10-bpA"/>
+                        <exclude reference="6nQ-x6-IXS"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="exchangeBtn" destination="JcD-m4-azG" id="svb-2h-VSv"/>
+                <outlet property="exchangeLabel" destination="imd-Tl-DeC" id="9nj-s8-oYH"/>
+                <outlet property="refundBtn" destination="QpT-gt-F20" id="dBA-N7-H1l"/>
+                <outlet property="refundFilterLabel" destination="j5u-ro-x4P" id="Uxr-xJ-Vtc"/>
+                <outlet property="refundLabel" destination="PN8-ce-aVH" id="4TA-df-zuW"/>
+                <outlet property="returnAndRefundBtn" destination="Jnb-V9-O8a" id="cU0-DG-qyM"/>
+                <outlet property="returnAndRefundFilterLabel" destination="qNo-rY-KVp" id="uxJ-hs-5eb"/>
+                <outlet property="returnAndRefundLabel" destination="old-5a-poU" id="F9y-fi-WT6"/>
+            </connections>
+            <point key="canvasLocation" x="403" y="219"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="applyTypeSelected" width="20" height="20"/>
+        <image name="go_shopping_unselect_all_good" width="21" height="21"/>
+    </resources>
+</document>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TwCenMT.ttf">
+            <string>TwCenMT-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CSPOrderSectionFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="644" height="156"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cC5-jU-NQg">
+                    <rect key="frame" x="0.0" y="0.0" width="644" height="156"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="共3件商品" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="T21-uf-fSI">
+                            <rect key="frame" x="15" y="20" width="51" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="应付:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6l-Rg-Jgh">
+                            <rect key="frame" x="524" y="20" width="25" height="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Es4-ec-DyT" customClass="CustomButton">
+                            <rect key="frame" x="485" y="46" width="68" height="25"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="68" id="lbO-FH-pui"/>
+                                <constraint firstAttribute="height" constant="25" id="zGS-6c-eNI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="取消采购单">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="defaultBorderColor">
+                                    <color key="value" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="cancelButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="iwS-Od-a25"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="230.00" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iS9-Fk-Bfx">
+                            <rect key="frame" x="557" y="10" width="72" height="27"/>
+                            <fontDescription key="fontDescription" name="TwCenMT-Regular" family="Tw Cen MT" pointSize="24"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Deq-32-Lld">
+                            <rect key="frame" x="485" y="91" width="46" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="68" id="3Vh-v5-UHt"/>
+                                <constraint firstAttribute="height" constant="25" id="OkF-La-n9j"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <color key="tintColor" red="0.44500427131171305" green="1" blue="0.61403858563921565" alpha="1" colorSpace="calibratedRGB"/>
+                            <state key="normal" title="延期收货">
+                                <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="postponeGoods:" destination="iN0-l3-epB" eventType="touchUpInside" id="hzJ-zT-IB3"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PKA-uU-D0f">
+                            <rect key="frame" x="561" y="91" width="68" height="25"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="25" id="EUQ-k0-e2c"/>
+                                <constraint firstAttribute="width" constant="68" id="wYw-UE-iq1"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="确认收货">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="defaultBorderColor">
+                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="confirmReceiveButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="72j-ei-hN1"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ncM-Uu-HAK">
+                            <rect key="frame" x="561" y="46" width="68" height="25"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="68" id="Bfk-Xk-dl9"/>
+                                <constraint firstAttribute="height" constant="25" id="rNR-zc-yhU"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" title="付款">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="defaultBorderColor">
+                                    <color key="value" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                            <connections>
+                                <action selector="payButtonClicked:" destination="iN0-l3-epB" eventType="touchUpInside" id="Xqt-x8-9xs"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="ncM-Uu-HAK" firstAttribute="trailing" secondItem="iS9-Fk-Bfx" secondAttribute="trailing" id="68J-Cg-Rse"/>
+                        <constraint firstItem="iS9-Fk-Bfx" firstAttribute="leading" secondItem="d6l-Rg-Jgh" secondAttribute="trailing" constant="8" id="797-BT-WGx"/>
+                        <constraint firstItem="iS9-Fk-Bfx" firstAttribute="trailing" secondItem="PKA-uU-D0f" secondAttribute="trailing" id="8Js-Sr-d8w"/>
+                        <constraint firstItem="iS9-Fk-Bfx" firstAttribute="bottom" secondItem="T21-uf-fSI" secondAttribute="bottom" constant="6" id="97K-WE-8Ke"/>
+                        <constraint firstAttribute="trailing" secondItem="iS9-Fk-Bfx" secondAttribute="trailing" constant="15" id="ERI-Tk-CB8"/>
+                        <constraint firstItem="PKA-uU-D0f" firstAttribute="centerY" secondItem="Deq-32-Lld" secondAttribute="centerY" id="OH3-fq-xgU"/>
+                        <constraint firstItem="iS9-Fk-Bfx" firstAttribute="bottom" secondItem="d6l-Rg-Jgh" secondAttribute="bottom" constant="6" id="bTs-kL-Qhq"/>
+                        <constraint firstItem="T21-uf-fSI" firstAttribute="leading" secondItem="cC5-jU-NQg" secondAttribute="leading" constant="15" id="bwV-8R-6Ym"/>
+                        <constraint firstItem="ncM-Uu-HAK" firstAttribute="leading" secondItem="Es4-ec-DyT" secondAttribute="trailing" constant="8" id="f6z-kH-bbk"/>
+                        <constraint firstItem="ncM-Uu-HAK" firstAttribute="top" secondItem="iS9-Fk-Bfx" secondAttribute="bottom" constant="9" id="iza-DL-pdK"/>
+                        <constraint firstItem="PKA-uU-D0f" firstAttribute="leading" secondItem="Deq-32-Lld" secondAttribute="trailing" constant="5" id="mI6-B6-DUR"/>
+                        <constraint firstItem="iS9-Fk-Bfx" firstAttribute="top" secondItem="cC5-jU-NQg" secondAttribute="top" constant="10" id="ovF-Qf-Ztb"/>
+                        <constraint firstItem="PKA-uU-D0f" firstAttribute="top" secondItem="iS9-Fk-Bfx" secondAttribute="bottom" constant="9" id="qh2-J2-pzX"/>
+                        <constraint firstItem="ncM-Uu-HAK" firstAttribute="bottom" secondItem="Es4-ec-DyT" secondAttribute="bottom" id="xN5-Tl-UyJ"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="cC5-jU-NQg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="G5i-MO-U2Q"/>
+                <constraint firstAttribute="trailing" secondItem="cC5-jU-NQg" secondAttribute="trailing" id="YMx-a2-X4h"/>
+                <constraint firstItem="cC5-jU-NQg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lja-Zc-Eas"/>
+                <constraint firstAttribute="bottom" secondItem="cC5-jU-NQg" secondAttribute="bottom" id="sqq-xV-6Id"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="confirmReceiveButton" destination="PKA-uU-D0f" id="GEj-DZ-QbD"/>
+                <outlet property="goodsAmountLabel" destination="T21-uf-fSI" id="ANG-4D-uIH"/>
+                <outlet property="payButtonClickeBtn" destination="ncM-Uu-HAK" id="cug-d1-5sZ"/>
+                <outlet property="postponeGoods" destination="Deq-32-Lld" id="lTN-bJ-WKh"/>
+                <outlet property="priceDescLabel" destination="d6l-Rg-Jgh" id="geI-OQ-FQA"/>
+                <outlet property="priceLabel" destination="iS9-Fk-Bfx" id="yON-Um-5Dz"/>
+                <outlet property="trailingSpaceConfirmReveiveButtonConstraint" destination="8Js-Sr-d8w" id="t0P-wy-NRd"/>
+                <outlet property="trailingSpacePayButtonConstraint" destination="68J-Cg-Rse" id="MgE-WN-sbZ"/>
+            </connections>
+            <point key="canvasLocation" x="542" y="175"/>
+        </view>
+    </objects>
+</document>

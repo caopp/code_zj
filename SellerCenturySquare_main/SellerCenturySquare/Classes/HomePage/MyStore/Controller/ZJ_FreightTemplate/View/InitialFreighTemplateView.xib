@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="6IJ-df-Ohz" customClass="InitialFreighTemplateView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="货车" translatesAutoresizingMaskIntoConstraints="NO" id="BmR-zh-Ebk">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Pu8-qI-z4P"/>
+                        <constraint firstAttribute="width" constant="100" id="iAL-a6-936"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Pu8-qI-z4P"/>
+                            <exclude reference="iAL-a6-936"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Pu8-qI-z4P"/>
+                            <include reference="iAL-a6-936"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uaY-xE-H6L">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="125" id="6p6-Z3-Bnw"/>
+                        <constraint firstAttribute="height" constant="40" id="zzx-9P-hcH"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="选择运费模板"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6p6-Z3-Bnw"/>
+                            <exclude reference="zzx-9P-hcH"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="6p6-Z3-Bnw"/>
+                            <include reference="zzx-9P-hcH"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="didClickChooseButtonAction:" destination="6IJ-df-Ohz" eventType="touchUpInside" id="5Er-Dk-BbA"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="可在此设置不同的“运费模板”作为配送方式，                                   共批发端用户在结算时自主选择。      " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xFc-cs-4rZ">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="TdR-Ww-Uua"/>
+                        <constraint firstAttribute="width" constant="260" id="zKb-ZH-PjT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="TdR-Ww-Uua"/>
+                            <exclude reference="zKb-ZH-PjT"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <fontDescription key="fontDescription" name="STHeitiSC-Light" family="Heiti SC" pointSize="13"/>
+                        <mask key="constraints">
+                            <include reference="TdR-Ww-Uua"/>
+                            <include reference="zKb-ZH-PjT"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="BmR-zh-Ebk" firstAttribute="top" secondItem="6IJ-df-Ohz" secondAttribute="top" constant="123" id="E9Q-km-PfW"/>
+                <constraint firstItem="xFc-cs-4rZ" firstAttribute="top" secondItem="BmR-zh-Ebk" secondAttribute="bottom" constant="15" id="Kac-H1-ldj"/>
+                <constraint firstItem="uaY-xE-H6L" firstAttribute="centerX" secondItem="xFc-cs-4rZ" secondAttribute="centerX" id="M44-YV-qsL"/>
+                <constraint firstItem="BmR-zh-Ebk" firstAttribute="centerX" secondItem="6IJ-df-Ohz" secondAttribute="centerX" id="V1q-I6-o40"/>
+                <constraint firstItem="uaY-xE-H6L" firstAttribute="top" secondItem="xFc-cs-4rZ" secondAttribute="bottom" constant="13" id="Xly-EU-s0I"/>
+                <constraint firstItem="xFc-cs-4rZ" firstAttribute="centerX" secondItem="BmR-zh-Ebk" secondAttribute="centerX" id="cvd-mo-sdw"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="BmR-zh-Ebk"/>
+                    <exclude reference="uaY-xE-H6L"/>
+                    <exclude reference="xFc-cs-4rZ"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="M44-YV-qsL"/>
+                    <exclude reference="Xly-EU-s0I"/>
+                    <exclude reference="Kac-H1-ldj"/>
+                    <exclude reference="cvd-mo-sdw"/>
+                    <exclude reference="E9Q-km-PfW"/>
+                    <exclude reference="V1q-I6-o40"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="BmR-zh-Ebk"/>
+                    <include reference="uaY-xE-H6L"/>
+                    <include reference="xFc-cs-4rZ"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="M44-YV-qsL"/>
+                    <include reference="Xly-EU-s0I"/>
+                    <include reference="Kac-H1-ldj"/>
+                    <include reference="cvd-mo-sdw"/>
+                    <include reference="E9Q-km-PfW"/>
+                    <include reference="V1q-I6-o40"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="chooseButton" destination="uaY-xE-H6L" id="eVb-J2-ezo"/>
+                <outlet property="introductionLabel" destination="xFc-cs-4rZ" id="Bda-2r-5J2"/>
+            </connections>
+            <point key="canvasLocation" x="190" y="240"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="货车" width="90" height="88"/>
+    </resources>
+</document>

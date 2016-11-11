@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TopMerchantNameTableViewCellId" rowHeight="152" id="KGk-i7-Jjw" customClass="TopMerchantNameTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="38"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="37.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PgM-h5-Wun">
+                        <rect key="frame" x="0.0" y="37" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="ltu-Q4-Wbu"/>
+                        </constraints>
+                    </view>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QPg-Qp-yUd">
+                        <rect key="frame" x="50" y="0.0" width="41" height="37"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        </state>
+                        <connections>
+                            <action selector="selectMerchantNameClickBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7tX-gW-BLu"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHJ-k0-7aJ">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="37"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="cTH-0J-O3u"/>
+                        </constraints>
+                        <state key="normal" image="03_商家商品详情页_未选中"/>
+                        <state key="selected" image="10_设置_设收货地址_选中状态"/>
+                        <connections>
+                            <action selector="selectMerchantClickBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="TvU-Vj-hyZ"/>
+                            <action selector="selelctMerchantClickBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="BLt-TO-bSw"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="PgM-h5-Wun" secondAttribute="bottom" id="0hh-72-6gs"/>
+                    <constraint firstItem="QPg-Qp-yUd" firstAttribute="leading" secondItem="qHJ-k0-7aJ" secondAttribute="trailing" id="0iU-Vy-ynK"/>
+                    <constraint firstItem="PgM-h5-Wun" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Bqg-2L-4dV"/>
+                    <constraint firstItem="PgM-h5-Wun" firstAttribute="top" secondItem="qHJ-k0-7aJ" secondAttribute="bottom" id="GaZ-WU-BaH"/>
+                    <constraint firstItem="qHJ-k0-7aJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="Iye-b7-BQs"/>
+                    <constraint firstItem="qHJ-k0-7aJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="KCC-DU-Knn"/>
+                    <constraint firstItem="qHJ-k0-7aJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="bP9-Sh-Sk6"/>
+                    <constraint firstItem="QPg-Qp-yUd" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ik9-on-hrJ"/>
+                    <constraint firstAttribute="trailing" secondItem="PgM-h5-Wun" secondAttribute="trailing" id="lcl-JP-d2N"/>
+                    <constraint firstItem="PgM-h5-Wun" firstAttribute="top" secondItem="QPg-Qp-yUd" secondAttribute="bottom" id="lx6-54-YKi"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="bP9-Sh-Sk6"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="merchantNameBtn" destination="QPg-Qp-yUd" id="xPN-nb-Kd4"/>
+                <outlet property="selectMerchantBtn" destination="qHJ-k0-7aJ" id="8y1-zc-cC9"/>
+                <outlet property="selectMerchantNameBtn" destination="qHJ-k0-7aJ" id="Bsr-bz-bxC"/>
+            </connections>
+            <point key="canvasLocation" x="128" y="304"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="03_商家商品详情页_未选中" width="21" height="21"/>
+        <image name="10_设置_设收货地址_选中状态" width="21" height="21"/>
+    </resources>
+</document>

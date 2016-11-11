@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CSPPersonCenterOtherTableViewCell" rowHeight="55" id="KGk-i7-Jjw" customClass="CSPPersonCenterOtherTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="375" height="69"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="补货商品 （16）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PfA-hL-S4d">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="K3C-Ak-ydg">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="6Ve-1Y-UmU"/>
+                            <constraint firstAttribute="width" constant="35" id="nTB-xR-dqy"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hkt-Q6-gQh">
+                        <color key="backgroundColor" red="0.59999999999999998" green="0.077833076670175916" blue="0.083526273117386807" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="iGX-jO-bHf"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="iGX-jO-bHf"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="iGX-jO-bHf"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PfA-hL-S4d" firstAttribute="leading" secondItem="K3C-Ak-ydg" secondAttribute="trailing" constant="10" id="Bel-5Z-q4U"/>
+                    <constraint firstItem="hkt-Q6-gQh" firstAttribute="top" secondItem="K3C-Ak-ydg" secondAttribute="bottom" constant="4" id="MhE-Qn-nao"/>
+                    <constraint firstItem="K3C-Ak-ydg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="POy-ae-wbe"/>
+                    <constraint firstItem="PfA-hL-S4d" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Tc5-ef-oYy"/>
+                    <constraint firstItem="K3C-Ak-ydg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="cSg-Bz-pTB"/>
+                    <constraint firstItem="hkt-Q6-gQh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="59" id="fmT-7I-5OE"/>
+                    <constraint firstAttribute="trailing" secondItem="hkt-Q6-gQh" secondAttribute="trailing" id="zIO-ct-DAI"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="MhE-Qn-nao"/>
+                        <exclude reference="fmT-7I-5OE"/>
+                        <exclude reference="zIO-ct-DAI"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="constraints">
+                        <include reference="MhE-Qn-nao"/>
+                        <include reference="fmT-7I-5OE"/>
+                        <include reference="zIO-ct-DAI"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftImageView" destination="K3C-Ak-ydg" id="Zhe-mD-Qqt"/>
+                <outlet property="titleLabel" destination="PfA-hL-S4d" id="q1W-vA-3l2"/>
+            </connections>
+            <point key="canvasLocation" x="260.5" y="276.5"/>
+        </tableViewCell>
+    </objects>
+</document>

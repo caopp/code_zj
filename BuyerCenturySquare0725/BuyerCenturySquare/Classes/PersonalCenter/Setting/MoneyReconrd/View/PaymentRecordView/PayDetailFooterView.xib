@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Ee0-ly-khx" customClass="PayDetailFooterView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="167"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="1.核帐通过后，立刻升级，并且下月可继续享受本月升级后的等级。月初就充值相当于享受2个月的特权！" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrU-40-1Mv">
+                    <rect key="frame" x="15" y="32" width="345" height="28"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2.1次转账只能提交1次审核，恶意重复提交将封号。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPl-lR-mCJ">
+                    <rect key="frame" x="15" y="79" width="345" height="14"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VTT-hJ-w5y">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="10"/>
+                    <color key="backgroundColor" red="0.80825836490000003" green="0.80825836490000003" blue="0.80825836490000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="10" id="Ez7-eg-7gD"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="VTT-hJ-w5y" firstAttribute="leading" secondItem="Ee0-ly-khx" secondAttribute="leading" id="1Me-fJ-5pu"/>
+                <constraint firstItem="yrU-40-1Mv" firstAttribute="top" secondItem="Ee0-ly-khx" secondAttribute="top" constant="22" id="6tK-cK-Xwo"/>
+                <constraint firstItem="yrU-40-1Mv" firstAttribute="top" secondItem="VTT-hJ-w5y" secondAttribute="bottom" constant="22" id="9EN-7o-Q1W"/>
+                <constraint firstAttribute="trailing" secondItem="yrU-40-1Mv" secondAttribute="trailing" constant="15" id="JPL-tu-yH6"/>
+                <constraint firstAttribute="trailing" secondItem="VTT-hJ-w5y" secondAttribute="trailing" id="LLv-e9-nMf"/>
+                <constraint firstAttribute="trailing" secondItem="GPl-lR-mCJ" secondAttribute="trailing" constant="15" id="ThR-Nw-CfS"/>
+                <constraint firstItem="VTT-hJ-w5y" firstAttribute="top" secondItem="Ee0-ly-khx" secondAttribute="top" id="UdX-HZ-WJx"/>
+                <constraint firstItem="GPl-lR-mCJ" firstAttribute="leading" secondItem="Ee0-ly-khx" secondAttribute="leading" constant="15" id="XUu-Ce-TZU"/>
+                <constraint firstItem="yrU-40-1Mv" firstAttribute="leading" secondItem="Ee0-ly-khx" secondAttribute="leading" constant="15" id="kJC-eN-Eh3"/>
+                <constraint firstItem="GPl-lR-mCJ" firstAttribute="top" secondItem="yrU-40-1Mv" secondAttribute="bottom" constant="19" id="uBg-PD-44G"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="6tK-cK-Xwo"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="detailOneLabel" destination="yrU-40-1Mv" id="R9J-wl-OWC"/>
+                <outlet property="detailSecondLabel" destination="GPl-lR-mCJ" id="qcw-Bn-zG1"/>
+                <outlet property="filterView" destination="VTT-hJ-w5y" id="URe-F8-zME"/>
+            </connections>
+            <point key="canvasLocation" x="517.5" y="352.5"/>
+        </view>
+    </objects>
+</document>

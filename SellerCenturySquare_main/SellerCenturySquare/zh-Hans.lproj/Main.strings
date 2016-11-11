@@ -1,0 +1,81 @@
+
+/* Class = "UITextField"; placeholder = "验证码"; ObjectID = "1Rs-za-eLM"; */
+"1Rs-za-eLM.placeholder" = "验证码";
+
+/* Class = "UILabel"; text = "登录密码修改成功"; ObjectID = "2Y4-Jy-vlH"; */
+"2Y4-Jy-vlH.text" = "登录密码修改成功";
+
+/* Class = "UILabel"; text = "我的店"; ObjectID = "49o-4Y-C0P"; */
+"49o-4Y-C0P.text" = "我的店";
+
+/* Class = "UITextField"; placeholder = "  歇业开始时间"; ObjectID = "B8w-uh-Tcd"; */
+"B8w-uh-Tcd.placeholder" = "  歇业开始时间";
+
+/* Class = "UIButton"; normalTitle = "登录"; ObjectID = "Fne-Bt-f01"; */
+"Fne-Bt-f01.normalTitle" = "登录";
+
+/* Class = "UINavigationItem"; title = "首页"; ObjectID = "HKz-Jm-vR3"; */
+"HKz-Jm-vR3.title" = "首页";
+
+/* Class = "UIButton"; normalTitle = "V1"; ObjectID = "Iml-pV-ev8"; */
+"Iml-pV-ev8.normalTitle" = "V1";
+
+/* Class = "UILabel"; text = "待发货"; ObjectID = "Jso-ME-ors"; */
+"Jso-ME-ors.text" = "待发货";
+
+/* Class = "UIButton"; normalTitle = "确定"; ObjectID = "K0a-ly-KU7"; */
+"K0a-ly-KU7.normalTitle" = "确定";
+
+/* Class = "UILabel"; text = "1：设置“歇业”即商家暂时关闭不出售商品，状态为“歇业中”，全部店内商品隐藏不显示。\n2：“歇业”时间最长不超过3个月。\n3：“歇业”截至时间后的一天店铺自动恢复营业。"; ObjectID = "KVX-gY-BMA"; */
+"KVX-gY-BMA.text" = "1：设置“歇业”即商家暂时关闭不出售商品，状态为“歇业中”，全部店内商品隐藏不显示。\n2：“歇业”时间最长不超过3个月。\n3：“歇业”截至时间后的一天店铺自动恢复营业。";
+
+/* Class = "UIButton"; normalTitle = "获取验证码"; ObjectID = "Ltp-kW-tYK"; */
+"Ltp-kW-tYK.normalTitle" = "获取验证码";
+
+/* Class = "UILabel"; text = "显示密码"; ObjectID = "Oow-ux-CZk"; */
+"Oow-ux-CZk.text" = "显示密码";
+
+/* Class = "UIButton"; normalTitle = "提交"; ObjectID = "Qrn-jX-RrT"; */
+"Qrn-jX-RrT.normalTitle" = "提交";
+
+/* Class = "UINavigationItem"; title = "设置歇业时间"; ObjectID = "SOp-Wu-6nZ"; */
+"SOp-Wu-6nZ.title" = "设置歇业时间";
+
+/* Class = "UITextField"; placeholder = "  歇业截至时间"; ObjectID = "Seh-jQ-FHd"; */
+"Seh-jQ-FHd.placeholder" = "  歇业截至时间";
+
+/* Class = "UILabel"; text = "密码由于6-26位英文字母、数据字符号组成"; ObjectID = "T7f-fH-EMv"; */
+"T7f-fH-EMv.text" = "密码由于6-26位英文字母、数据字符号组成";
+
+/* Class = "UILabel"; text = "歇业中的店铺"; ObjectID = "ai3-Ud-6Eg"; */
+"ai3-Ud-6Eg.text" = "歇业中的店铺";
+
+/* Class = "UINavigationItem"; title = "叮咚管家商户登录"; ObjectID = "ajY-6Y-HLZ"; */
+"ajY-6Y-HLZ.title" = "叮咚管家商户登录";
+
+/* Class = "UIButton"; normalTitle = "歇业"; ObjectID = "cPp-rd-iar"; */
+"cPp-rd-iar.normalTitle" = "歇业";
+
+/* Class = "UILabel"; text = "欧尚旗舰店"; ObjectID = "gci-Ur-eUx"; */
+"gci-Ur-eUx.text" = "欧尚旗舰店";
+
+/* Class = "UITextField"; placeholder = "重新输入新密码"; ObjectID = "goa-eJ-2O7"; */
+"goa-eJ-2O7.placeholder" = "重新输入新密码";
+
+/* Class = "UINavigationItem"; title = "我的店"; ObjectID = "hwg-Lj-dqR"; */
+"hwg-Lj-dqR.title" = "我的店";
+
+/* Class = "UINavigationItem"; title = "安全校验"; ObjectID = "i6k-UW-BwB"; */
+"i6k-UW-BwB.title" = "安全校验";
+
+/* Class = "UITextField"; placeholder = "新密码"; ObjectID = "nkS-QS-Hqf"; */
+"nkS-QS-Hqf.placeholder" = "新密码";
+
+/* Class = "UIButton"; normalTitle = "下一步"; ObjectID = "o0S-0U-olG"; */
+"o0S-0U-olG.normalTitle" = "下一步";
+
+/* Class = "UILabel"; text = "邀请"; ObjectID = "wRt-tE-kWx"; */
+"wRt-tE-kWx.text" = "邀请";
+
+/* Class = "UITextField"; placeholder = "请输入注册时候使用的手机号码"; ObjectID = "yL0-em-ghB"; */
+"yL0-em-ghB.placeholder" = "请输入注册时候使用的手机号码";

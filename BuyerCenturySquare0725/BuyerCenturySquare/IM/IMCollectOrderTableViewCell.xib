@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="213" id="01K-9y-xSc" customClass="IMCollectOrderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="549" height="213"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="01K-9y-xSc" id="O9k-zF-Nwl">
+                <frame key="frameInset" width="549" height="212.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h5c-WR-L6g">
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="KNj-ms-foA">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="bjr-dR-Jk2"/>
+                            <constraint firstAttribute="width" constant="60" id="vrI-nL-Www"/>
+                        </constraints>
+                    </imageView>
+                    <view tag="50" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x11-G1-sen" customClass="MyFlowLayout"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="06_商品详情_正常购买_进入.png" translatesAutoresizingMaskIntoConstraints="NO" id="Yx2-fB-OBR">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="Rxo-mi-eNa"/>
+                            <constraint firstAttribute="width" constant="8" id="a5Y-2p-OSV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="3" translatesAutoresizingMaskIntoConstraints="NO" id="Vo8-F7-Y1l">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="chh-aU-mQF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" red="0.4699999988079071" green="0.4699999988079071" blue="0.4699999988079071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.92549019607843142" green="0.92549019607843142" blue="0.92549019607843142" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="x11-G1-sen" firstAttribute="top" secondItem="Vo8-F7-Y1l" secondAttribute="bottom" constant="15" id="8IE-xB-mX6"/>
+                    <constraint firstAttribute="trailing" secondItem="x11-G1-sen" secondAttribute="trailing" constant="30" id="EDR-T6-QF4"/>
+                    <constraint firstItem="h5c-WR-L6g" firstAttribute="top" secondItem="Vo8-F7-Y1l" secondAttribute="bottom" constant="5" id="IOc-XV-WfP"/>
+                    <constraint firstItem="Yx2-fB-OBR" firstAttribute="centerY" secondItem="h5c-WR-L6g" secondAttribute="centerY" id="Ild-SF-uxs"/>
+                    <constraint firstItem="KNj-ms-foA" firstAttribute="top" secondItem="O9k-zF-Nwl" secondAttribute="top" constant="45" id="Nhe-c2-wYv"/>
+                    <constraint firstItem="Yx2-fB-OBR" firstAttribute="centerY" secondItem="O9k-zF-Nwl" secondAttribute="centerY" id="OoL-HJ-2a8"/>
+                    <constraint firstAttribute="bottom" secondItem="x11-G1-sen" secondAttribute="bottom" id="UBU-0T-hhk"/>
+                    <constraint firstItem="Yx2-fB-OBR" firstAttribute="leading" secondItem="h5c-WR-L6g" secondAttribute="trailing" id="XjG-d8-EBq"/>
+                    <constraint firstItem="KNj-ms-foA" firstAttribute="leading" secondItem="O9k-zF-Nwl" secondAttribute="leading" constant="15" id="cXA-AZ-aPb"/>
+                    <constraint firstItem="Vo8-F7-Y1l" firstAttribute="top" secondItem="O9k-zF-Nwl" secondAttribute="top" constant="5" id="fdP-Za-w9t"/>
+                    <constraint firstItem="h5c-WR-L6g" firstAttribute="leading" secondItem="KNj-ms-foA" secondAttribute="trailing" id="iPB-Ot-WSX"/>
+                    <constraint firstItem="Vo8-F7-Y1l" firstAttribute="leading" secondItem="O9k-zF-Nwl" secondAttribute="leading" constant="10" id="isj-uN-7M1"/>
+                    <constraint firstAttribute="trailing" secondItem="h5c-WR-L6g" secondAttribute="trailing" id="n3X-hP-08S"/>
+                    <constraint firstItem="x11-G1-sen" firstAttribute="top" secondItem="O9k-zF-Nwl" secondAttribute="top" constant="30" id="nmB-oG-JOh"/>
+                    <constraint firstItem="h5c-WR-L6g" firstAttribute="top" secondItem="O9k-zF-Nwl" secondAttribute="top" constant="10" id="p2L-Tq-wf4"/>
+                    <constraint firstItem="h5c-WR-L6g" firstAttribute="leading" secondItem="O9k-zF-Nwl" secondAttribute="leading" id="q3R-yd-eju"/>
+                    <constraint firstItem="x11-G1-sen" firstAttribute="leading" secondItem="KNj-ms-foA" secondAttribute="trailing" constant="20" id="rXG-Wx-AjK"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Yx2-fB-OBR" secondAttribute="trailing" constant="5" id="tLu-bI-e6p"/>
+                    <constraint firstAttribute="trailing" secondItem="Vo8-F7-Y1l" secondAttribute="trailing" constant="10" id="tve-GT-Lct"/>
+                    <constraint firstItem="KNj-ms-foA" firstAttribute="top" secondItem="Vo8-F7-Y1l" secondAttribute="bottom" constant="10" id="v6G-yG-3xs"/>
+                    <constraint firstAttribute="bottom" secondItem="h5c-WR-L6g" secondAttribute="bottom" constant="10" id="ygA-AH-UCt"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="Nhe-c2-wYv"/>
+                        <exclude reference="OoL-HJ-2a8"/>
+                        <exclude reference="XjG-d8-EBq"/>
+                        <exclude reference="iPB-Ot-WSX"/>
+                        <exclude reference="p2L-Tq-wf4"/>
+                        <exclude reference="nmB-oG-JOh"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headImg" destination="KNj-ms-foA" id="k60-Y2-uUB"/>
+                <outlet property="layOutView" destination="x11-G1-sen" id="WxZ-J6-nlP"/>
+                <outlet property="layoutHeight" destination="chh-aU-mQF" id="aQw-Nr-63p"/>
+                <outlet property="timeLabel" destination="Vo8-F7-Y1l" id="j4T-1a-cSV"/>
+            </connections>
+            <point key="canvasLocation" x="276.5" y="257.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="06_商品详情_正常购买_进入.png" width="7" height="11"/>
+    </resources>
+</document>

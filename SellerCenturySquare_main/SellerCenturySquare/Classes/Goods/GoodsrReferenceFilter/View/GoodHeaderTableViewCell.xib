@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="352" id="KGk-i7-Jjw" customClass="GoodHeaderTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="零售价:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mFm-dA-dyX">
+                        <rect key="frame" x="85" y="115" width="80.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2015春装新款笔挺停停停" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U3K-BF-3ns">
+                        <rect key="frame" x="85" y="49" width="158" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="goodsDefalut" translatesAutoresizingMaskIntoConstraints="NO" id="gR4-zG-tqc">
+                        <rect key="frame" x="15" y="49" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="60" id="Mmy-JJ-seS"/>
+                            <constraint firstAttribute="width" constant="60" id="sCe-e3-Qq3"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="货号: A93D03993" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Luc-11-uPZ">
+                        <rect key="frame" x="85" y="71" width="116" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="进入（深色）" translatesAutoresizingMaskIntoConstraints="NO" id="iv0-1W-3BW">
+                        <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="12" id="7Pi-aO-SG5"/>
+                            <constraint firstAttribute="width" constant="7" id="Wv1-K4-dQg"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Pi-aO-SG5"/>
+                                <exclude reference="Wv1-K4-dQg"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7Pi-aO-SG5"/>
+                                <include reference="Wv1-K4-dQg"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="颜色: 黑色" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DP3-mC-uCU">
+                        <rect key="frame" x="85" y="93" width="64" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="状态:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gis-Df-IJs">
+                        <rect key="frame" x="85" y="137" width="55.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UAV-fU-6Ce">
+                        <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="17" id="7Jt-sm-x4S"/>
+                            <constraint firstAttribute="height" constant="17" id="dTS-RN-xwa"/>
+                            <constraint firstAttribute="width" constant="100" id="lAY-N2-aoH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="7Jt-sm-x4S"/>
+                                <exclude reference="dTS-RN-xwa"/>
+                                <exclude reference="lAY-N2-aoH"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="7Jt-sm-x4S"/>
+                                <include reference="dTS-RN-xwa"/>
+                                <include reference="lAY-N2-aoH"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UAV-fU-6Ce" firstAttribute="top" secondItem="mFm-dA-dyX" secondAttribute="top" id="Cer-NE-NTm"/>
+                    <constraint firstItem="gR4-zG-tqc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="DTE-f9-rrQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="U3K-BF-3ns" secondAttribute="trailing" constant="15" id="H5A-D8-7iy"/>
+                    <constraint firstItem="gR4-zG-tqc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="I0U-xP-TBy"/>
+                    <constraint firstItem="DP3-mC-uCU" firstAttribute="top" secondItem="Luc-11-uPZ" secondAttribute="bottom" constant="1" id="KYm-fn-Onk"/>
+                    <constraint firstItem="Luc-11-uPZ" firstAttribute="leading" secondItem="U3K-BF-3ns" secondAttribute="leading" id="W7S-GV-Ren"/>
+                    <constraint firstItem="gis-Df-IJs" firstAttribute="top" secondItem="mFm-dA-dyX" secondAttribute="bottom" constant="2" id="YQw-PT-e4Z"/>
+                    <constraint firstItem="gis-Df-IJs" firstAttribute="leading" secondItem="U3K-BF-3ns" secondAttribute="leading" constant="1" id="YTb-ph-b22"/>
+                    <constraint firstItem="mFm-dA-dyX" firstAttribute="top" secondItem="DP3-mC-uCU" secondAttribute="bottom" constant="1" id="Yr5-e4-VbL"/>
+                    <constraint firstItem="DP3-mC-uCU" firstAttribute="leading" secondItem="U3K-BF-3ns" secondAttribute="leading" id="d9w-Lg-Il0"/>
+                    <constraint firstItem="Luc-11-uPZ" firstAttribute="top" secondItem="U3K-BF-3ns" secondAttribute="bottom" constant="1" id="e5M-wE-JAL"/>
+                    <constraint firstItem="iv0-1W-3BW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="45" id="g4Z-C6-E7w"/>
+                    <constraint firstItem="gR4-zG-tqc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="k80-ue-gc9"/>
+                    <constraint firstItem="U3K-BF-3ns" firstAttribute="leading" secondItem="gR4-zG-tqc" secondAttribute="trailing" constant="10" id="p0h-tn-05d"/>
+                    <constraint firstItem="U3K-BF-3ns" firstAttribute="top" secondItem="gR4-zG-tqc" secondAttribute="top" id="pA1-oS-u7G"/>
+                    <constraint firstItem="UAV-fU-6Ce" firstAttribute="leading" secondItem="mFm-dA-dyX" secondAttribute="trailing" constant="2.5" id="pXg-nf-Z4C"/>
+                    <constraint firstItem="mFm-dA-dyX" firstAttribute="leading" secondItem="U3K-BF-3ns" secondAttribute="leading" id="qws-nF-GqS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="iv0-1W-3BW" secondAttribute="trailing" constant="10" id="rFV-Ac-zcb"/>
+                    <constraint firstItem="UAV-fU-6Ce" firstAttribute="leading" secondItem="mFm-dA-dyX" secondAttribute="trailing" constant="2.5" id="vW9-W6-Ko7"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="subviews">
+                        <exclude reference="mFm-dA-dyX"/>
+                        <exclude reference="U3K-BF-3ns"/>
+                        <exclude reference="gR4-zG-tqc"/>
+                        <exclude reference="Luc-11-uPZ"/>
+                        <exclude reference="iv0-1W-3BW"/>
+                        <exclude reference="DP3-mC-uCU"/>
+                        <exclude reference="gis-Df-IJs"/>
+                        <exclude reference="UAV-fU-6Ce"/>
+                    </mask>
+                    <mask key="constraints">
+                        <exclude reference="DTE-f9-rrQ"/>
+                        <exclude reference="I0U-xP-TBy"/>
+                        <exclude reference="k80-ue-gc9"/>
+                        <exclude reference="H5A-D8-7iy"/>
+                        <exclude reference="p0h-tn-05d"/>
+                        <exclude reference="pA1-oS-u7G"/>
+                        <exclude reference="W7S-GV-Ren"/>
+                        <exclude reference="e5M-wE-JAL"/>
+                        <exclude reference="KYm-fn-Onk"/>
+                        <exclude reference="d9w-Lg-Il0"/>
+                        <exclude reference="Yr5-e4-VbL"/>
+                        <exclude reference="qws-nF-GqS"/>
+                        <exclude reference="YQw-PT-e4Z"/>
+                        <exclude reference="YTb-ph-b22"/>
+                        <exclude reference="Cer-NE-NTm"/>
+                        <exclude reference="pXg-nf-Z4C"/>
+                        <exclude reference="vW9-W6-Ko7"/>
+                        <exclude reference="g4Z-C6-E7w"/>
+                        <exclude reference="rFV-Ac-zcb"/>
+                    </mask>
+                </variation>
+                <variation key="heightClass=regular-widthClass=compact">
+                    <mask key="subviews">
+                        <include reference="mFm-dA-dyX"/>
+                        <include reference="U3K-BF-3ns"/>
+                        <include reference="gR4-zG-tqc"/>
+                        <include reference="Luc-11-uPZ"/>
+                        <include reference="iv0-1W-3BW"/>
+                        <include reference="DP3-mC-uCU"/>
+                        <include reference="gis-Df-IJs"/>
+                        <include reference="UAV-fU-6Ce"/>
+                    </mask>
+                    <mask key="constraints">
+                        <include reference="DTE-f9-rrQ"/>
+                        <exclude reference="I0U-xP-TBy"/>
+                        <include reference="k80-ue-gc9"/>
+                        <include reference="H5A-D8-7iy"/>
+                        <include reference="p0h-tn-05d"/>
+                        <include reference="pA1-oS-u7G"/>
+                        <include reference="W7S-GV-Ren"/>
+                        <include reference="e5M-wE-JAL"/>
+                        <include reference="KYm-fn-Onk"/>
+                        <include reference="d9w-Lg-Il0"/>
+                        <include reference="Yr5-e4-VbL"/>
+                        <include reference="qws-nF-GqS"/>
+                        <include reference="YQw-PT-e4Z"/>
+                        <include reference="YTb-ph-b22"/>
+                        <include reference="Cer-NE-NTm"/>
+                        <include reference="pXg-nf-Z4C"/>
+                        <include reference="vW9-W6-Ko7"/>
+                        <include reference="g4Z-C6-E7w"/>
+                        <include reference="rFV-Ac-zcb"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="colorLabel" destination="DP3-mC-uCU" id="PoB-Qy-N9t"/>
+                <outlet property="goodsNameLabel" destination="U3K-BF-3ns" id="Bjb-wn-bTV"/>
+                <outlet property="goodsStatusLabel" destination="gis-Df-IJs" id="3qF-2u-hMM"/>
+                <outlet property="goodsWillNoLabel" destination="Luc-11-uPZ" id="Vo8-ir-m16"/>
+                <outlet property="imgUrlLabel" destination="gR4-zG-tqc" id="mC4-3x-Qzw"/>
+                <outlet property="priceLabel" destination="UAV-fU-6Ce" id="9Ns-Kc-KTB"/>
+                <outlet property="retailPriceLabel" destination="mFm-dA-dyX" id="5JY-e1-xDM"/>
+            </connections>
+            <point key="canvasLocation" x="253" y="418"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="goodsDefalut" width="177" height="177"/>
+        <image name="进入（深色）" width="8" height="12"/>
+    </resources>
+</document>

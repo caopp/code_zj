@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="WholeAndRetailSegmentView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="22"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="znK-kJ-8oi">
+                    <rect key="frame" x="0.0" y="0.0" width="80" height="22"/>
+                    <color key="backgroundColor" red="0.80825836490000003" green="0.80825836490000003" blue="0.80825836490000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="全部"/>
+                    <connections>
+                        <action selector="allBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="jpy-C3-FgM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RMr-a7-Onb">
+                    <rect key="frame" x="80" y="0.0" width="80" height="22"/>
+                    <color key="backgroundColor" red="0.80825836490000003" green="0.80825836490000003" blue="0.80825836490000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="批发"/>
+                    <connections>
+                        <action selector="wholesaleBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="PTK-v1-pJ2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYz-no-GSQ">
+                    <rect key="frame" x="239.5" y="0.0" width="80" height="22"/>
+                    <color key="backgroundColor" red="0.80825836490000003" green="0.80825836490000003" blue="0.80825836490000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="批发/零售"/>
+                    <connections>
+                        <action selector="wholesaleAndRetailBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="xlX-d5-qqb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFN-Fb-wII">
+                    <rect key="frame" x="160" y="0.0" width="79.5" height="22"/>
+                    <color key="backgroundColor" red="0.80825836490000003" green="0.80825836490000003" blue="0.80825836490000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="零售"/>
+                    <connections>
+                        <action selector="retailBtnClick:" destination="iN0-l3-epB" eventType="touchUpInside" id="RlC-Bp-uth"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="znK-kJ-8oi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3yM-mz-NjW"/>
+                <constraint firstAttribute="bottom" secondItem="znK-kJ-8oi" secondAttribute="bottom" id="8jt-zm-M8s"/>
+                <constraint firstItem="hYz-no-GSQ" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="CWS-38-SiA"/>
+                <constraint firstItem="RMr-a7-Onb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="EDC-n3-eBJ"/>
+                <constraint firstItem="znK-kJ-8oi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="FWA-Fb-lTP"/>
+                <constraint firstItem="RMr-a7-Onb" firstAttribute="leading" secondItem="znK-kJ-8oi" secondAttribute="trailing" id="I8H-Tz-JTg"/>
+                <constraint firstItem="hYz-no-GSQ" firstAttribute="width" secondItem="znK-kJ-8oi" secondAttribute="width" id="LP8-SD-OhF"/>
+                <constraint firstAttribute="bottom" secondItem="RMr-a7-Onb" secondAttribute="bottom" id="RRy-7B-24p"/>
+                <constraint firstItem="RMr-a7-Onb" firstAttribute="width" secondItem="znK-kJ-8oi" secondAttribute="width" id="afT-do-YAp"/>
+                <constraint firstItem="jFN-Fb-wII" firstAttribute="leading" secondItem="RMr-a7-Onb" secondAttribute="trailing" id="ags-rW-y7x"/>
+                <constraint firstItem="hYz-no-GSQ" firstAttribute="width" secondItem="znK-kJ-8oi" secondAttribute="width" id="bir-b0-T2f"/>
+                <constraint firstItem="jFN-Fb-wII" firstAttribute="width" secondItem="znK-kJ-8oi" secondAttribute="width" id="cMd-2z-UYE"/>
+                <constraint firstItem="RMr-a7-Onb" firstAttribute="width" secondItem="znK-kJ-8oi" secondAttribute="width" id="cWF-c3-jz0"/>
+                <constraint firstItem="hYz-no-GSQ" firstAttribute="leading" secondItem="jFN-Fb-wII" secondAttribute="trailing" id="mZU-kj-D5y"/>
+                <constraint firstItem="jFN-Fb-wII" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="pev-Hm-cnx"/>
+                <constraint firstAttribute="bottom" secondItem="jFN-Fb-wII" secondAttribute="bottom" id="tT0-vX-Vs0"/>
+                <constraint firstItem="hYz-no-GSQ" firstAttribute="leading" secondItem="RMr-a7-Onb" secondAttribute="trailing" id="vVu-QI-vtL"/>
+                <constraint firstAttribute="trailing" secondItem="hYz-no-GSQ" secondAttribute="trailing" id="wEq-Wt-5QD"/>
+                <constraint firstAttribute="bottom" secondItem="hYz-no-GSQ" secondAttribute="bottom" id="y8e-3F-jeJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="afT-do-YAp"/>
+                    <exclude reference="bir-b0-T2f"/>
+                    <exclude reference="vVu-QI-vtL"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="allBtn" destination="znK-kJ-8oi" id="RQC-vy-U8P"/>
+                <outlet property="retailBtn" destination="jFN-Fb-wII" id="UrC-0J-TuZ"/>
+                <outlet property="wholesaleAndRetailBtn" destination="hYz-no-GSQ" id="X2S-9S-bDa"/>
+                <outlet property="wholesaleBtn" destination="RMr-a7-Onb" id="HDL-AA-fFw"/>
+            </connections>
+            <point key="canvasLocation" x="-89" y="254"/>
+        </view>
+    </objects>
+</document>

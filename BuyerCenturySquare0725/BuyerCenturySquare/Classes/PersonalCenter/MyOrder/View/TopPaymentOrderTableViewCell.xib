@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TopPaymentOrderTableViewCell">
+            <connections>
+                <outlet property="goodsStateLab" destination="m5v-SV-gGz" id="ZiP-6C-4Jv"/>
+                <outlet property="orderNameLab" destination="Vnd-C9-n14" id="sMD-qB-sfH"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopOrderStateTableViewableViewCellId" rowHeight="58" id="w59-ch-uCc" customClass="TopOrderStateTableViewableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="58"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w59-ch-uCc" id="xRA-vj-RTW">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="57.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待发货" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m5v-SV-gGz">
+                        <rect key="frame" x="266" y="21" width="39" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[现货单]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vnd-C9-n14">
+                        <rect key="frame" x="15" y="21" width="48.5" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.33725490200000002" green="0.46666666670000001" blue="0.98823529409999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="apL-Ef-TlF">
+                        <rect key="frame" x="15" y="56" width="290" height="1"/>
+                        <color key="backgroundColor" red="0.8862745098" green="0.8862745098" blue="0.8862745098" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="tVa-Ak-Vzz"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="apL-Ef-TlF" secondAttribute="trailing" constant="15" id="7ws-La-PWh"/>
+                    <constraint firstItem="apL-Ef-TlF" firstAttribute="leading" secondItem="xRA-vj-RTW" secondAttribute="leading" constant="15" id="Cnq-9j-r5E"/>
+                    <constraint firstAttribute="trailing" secondItem="m5v-SV-gGz" secondAttribute="trailing" constant="15" id="JnQ-47-KEn"/>
+                    <constraint firstAttribute="bottom" secondItem="apL-Ef-TlF" secondAttribute="bottom" id="LHb-Nl-NoP"/>
+                    <constraint firstItem="Vnd-C9-n14" firstAttribute="centerY" secondItem="xRA-vj-RTW" secondAttribute="centerY" id="aob-zg-LLq"/>
+                    <constraint firstItem="Vnd-C9-n14" firstAttribute="leading" secondItem="xRA-vj-RTW" secondAttribute="leading" constant="15" id="r5S-g9-ZVm"/>
+                    <constraint firstItem="m5v-SV-gGz" firstAttribute="centerY" secondItem="xRA-vj-RTW" secondAttribute="centerY" id="wSL-Ox-moL"/>
+                </constraints>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="200" y="370"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,19 @@
+/* 
+  Localizable.strings
+  SellerCenturySquare
+
+  Created by 陈光 on 15/11/12.
+  Copyright © 2015年 pactera. All rights reserved.
+*/
+"childAccountManager" = "子账号管理";
+
+"childAccountpromptOne" = "1: 最多可增加10个子账号";
+
+"childAccountpromptTwo" = "2: 子账号权限: 客服询单、采购单管理、商品推荐";
+
+"childAccountAddBtn" = "+ 新添加子账号";
+
+"addChildVCtitle" = "新增子账号";
+
+
+

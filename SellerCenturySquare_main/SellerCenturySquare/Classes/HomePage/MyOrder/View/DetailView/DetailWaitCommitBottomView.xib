@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="PIK-r3-rKU" customClass="DetailWaitCommitBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HwC-CP-P0M">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="50"/>
+                    <state key="normal" title="拍照发货">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="takePhotoSendGoods:" destination="PIK-r3-rKU" eventType="touchUpInside" id="C0l-SH-gvZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O37-Ir-rPa">
+                    <rect key="frame" x="160" y="0.0" width="160" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="录入快递单发货"/>
+                    <connections>
+                        <action selector="takeExpressSendGoods:" destination="PIK-r3-rKU" eventType="touchUpInside" id="7J5-7q-2ju"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="O37-Ir-rPa" firstAttribute="leading" secondItem="HwC-CP-P0M" secondAttribute="trailing" id="0jb-xK-hxE"/>
+                <constraint firstItem="O37-Ir-rPa" firstAttribute="leading" secondItem="HwC-CP-P0M" secondAttribute="trailing" id="O1X-NX-r43"/>
+                <constraint firstItem="O37-Ir-rPa" firstAttribute="width" secondItem="HwC-CP-P0M" secondAttribute="width" id="PE6-FG-Gmk"/>
+                <constraint firstItem="HwC-CP-P0M" firstAttribute="leading" secondItem="PIK-r3-rKU" secondAttribute="leading" id="drP-oL-evS"/>
+                <constraint firstAttribute="trailing" secondItem="O37-Ir-rPa" secondAttribute="trailing" id="eUw-bX-BLR"/>
+                <constraint firstAttribute="bottom" secondItem="HwC-CP-P0M" secondAttribute="bottom" id="fwQ-6s-JbF"/>
+                <constraint firstItem="O37-Ir-rPa" firstAttribute="top" secondItem="PIK-r3-rKU" secondAttribute="top" id="rsU-Ke-cy9"/>
+                <constraint firstAttribute="bottom" secondItem="O37-Ir-rPa" secondAttribute="bottom" id="xuG-p7-hhV"/>
+                <constraint firstItem="HwC-CP-P0M" firstAttribute="top" secondItem="PIK-r3-rKU" secondAttribute="top" id="z2o-Md-7lB"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="takeExpressBtn" destination="O37-Ir-rPa" id="2Zv-Ng-k7Q"/>
+                <outlet property="takePhotoBtn" destination="HwC-CP-P0M" id="otK-C6-bZe"/>
+            </connections>
+            <point key="canvasLocation" x="157" y="450"/>
+        </view>
+    </objects>
+</document>

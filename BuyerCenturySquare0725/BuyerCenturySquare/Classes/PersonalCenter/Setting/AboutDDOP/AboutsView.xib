@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="JPD-hw-f2J" userLabel="AboutsView" customClass="AboutsView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="622"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="aboutDDOP" translatesAutoresizingMaskIntoConstraints="NO" id="LsU-9G-8De">
+                    <rect key="frame" x="140" y="65" width="95" height="95"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="LsU-9G-8De" secondAttribute="height" multiplier="1:1" id="WGm-Ar-Xkq"/>
+                        <constraint firstAttribute="height" constant="95" id="jze-gb-Xfc"/>
+                        <constraint firstAttribute="width" constant="95" id="sPy-b8-iwq"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="WGm-Ar-Xkq"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="叮咚欧品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sT7-Fj-M1Z">
+                    <rect key="frame" x="157" y="177" width="60" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="V1.0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vz1-dE-Yvh">
+                    <rect key="frame" x="172" y="209" width="29.5" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="叮咚欧品是一个高端欧美服装批发平台。服务于国内高端市场，服饰批发商和采购商。致力于减少服饰批发流程，提高流通效率。" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tDk-Y4-777">
+                    <rect key="frame" x="15" y="257" width="345" height="54"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="enG-pr-Vae">
+                    <rect key="frame" x="133" y="439" width="109" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="109" id="Rz6-oo-zx9"/>
+                        <constraint firstAttribute="height" constant="40" id="gtY-Ax-p99"/>
+                    </constraints>
+                    <state key="normal" title="服务规则">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="serviceRuleBtnClick:" destination="JPD-hw-f2J" eventType="touchUpInside" id="12Q-lY-AK5"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="客服：4008-555-213" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fk0-Ho-Eyt">
+                    <rect key="frame" x="15" y="331" width="148" height="18"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mH3-C5-5Ud">
+                    <rect key="frame" x="133" y="389" width="109" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="E3g-6u-9ut"/>
+                        <constraint firstAttribute="width" constant="109" id="gnq-YO-N7B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="观看引导页">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="guideBtnClick:" destination="JPD-hw-f2J" eventType="touchUpInside" id="e99-OC-kJ4"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="tDk-Y4-777" firstAttribute="leading" secondItem="JPD-hw-f2J" secondAttribute="leading" constant="15" id="1o9-SS-yIS"/>
+                <constraint firstItem="enG-pr-Vae" firstAttribute="top" secondItem="mH3-C5-5Ud" secondAttribute="bottom" constant="10" id="5hD-9o-CnW"/>
+                <constraint firstItem="mH3-C5-5Ud" firstAttribute="centerX" secondItem="JPD-hw-f2J" secondAttribute="centerX" id="6or-bd-jvq"/>
+                <constraint firstItem="sT7-Fj-M1Z" firstAttribute="top" secondItem="LsU-9G-8De" secondAttribute="bottom" constant="17" id="AKh-Qr-uay"/>
+                <constraint firstAttribute="trailing" secondItem="LsU-9G-8De" secondAttribute="trailing" constant="140" id="BRx-jc-5vZ"/>
+                <constraint firstItem="sT7-Fj-M1Z" firstAttribute="centerX" secondItem="JPD-hw-f2J" secondAttribute="centerX" id="Cty-Vr-ias"/>
+                <constraint firstItem="vz1-dE-Yvh" firstAttribute="top" secondItem="sT7-Fj-M1Z" secondAttribute="bottom" constant="14" id="GYE-dP-saN"/>
+                <constraint firstItem="LsU-9G-8De" firstAttribute="leading" secondItem="JPD-hw-f2J" secondAttribute="leading" constant="140" id="Qlp-j6-o9w"/>
+                <constraint firstItem="LsU-9G-8De" firstAttribute="top" secondItem="JPD-hw-f2J" secondAttribute="top" constant="65" id="R7s-w3-8XM"/>
+                <constraint firstItem="Fk0-Ho-Eyt" firstAttribute="leading" secondItem="tDk-Y4-777" secondAttribute="leading" id="SLo-Xm-fV7"/>
+                <constraint firstItem="enG-pr-Vae" firstAttribute="centerX" secondItem="JPD-hw-f2J" secondAttribute="centerX" id="WBp-vC-7t0"/>
+                <constraint firstItem="LsU-9G-8De" firstAttribute="centerX" secondItem="JPD-hw-f2J" secondAttribute="centerX" id="WXg-pD-QPA"/>
+                <constraint firstItem="tDk-Y4-777" firstAttribute="top" secondItem="vz1-dE-Yvh" secondAttribute="bottom" constant="30" id="ab2-o5-nbg"/>
+                <constraint firstAttribute="trailing" secondItem="tDk-Y4-777" secondAttribute="trailing" constant="15" id="cG9-8g-7LT"/>
+                <constraint firstItem="mH3-C5-5Ud" firstAttribute="top" secondItem="Fk0-Ho-Eyt" secondAttribute="bottom" constant="40" id="ejH-51-1WU"/>
+                <constraint firstItem="vz1-dE-Yvh" firstAttribute="centerX" secondItem="JPD-hw-f2J" secondAttribute="centerX" id="ir3-7f-ra4"/>
+                <constraint firstItem="mH3-C5-5Ud" firstAttribute="top" secondItem="tDk-Y4-777" secondAttribute="bottom" constant="30" id="kcu-W8-uiy"/>
+                <constraint firstItem="Fk0-Ho-Eyt" firstAttribute="top" secondItem="tDk-Y4-777" secondAttribute="bottom" constant="20" id="kkE-Dq-9gm"/>
+                <constraint firstAttribute="trailing" secondItem="mH3-C5-5Ud" secondAttribute="trailing" constant="15" id="l3S-p5-OAt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="BRx-jc-5vZ"/>
+                    <exclude reference="Qlp-j6-o9w"/>
+                    <exclude reference="kcu-W8-uiy"/>
+                    <exclude reference="l3S-p5-OAt"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="aboutImageView" destination="LsU-9G-8De" id="5Oa-hV-l4D"/>
+                <outlet property="appNamLabel" destination="sT7-Fj-M1Z" id="kAR-Rj-cIG"/>
+                <outlet property="descLabel" destination="tDk-Y4-777" id="bb0-lw-rhk"/>
+                <outlet property="guideBtn" destination="mH3-C5-5Ud" id="Pxb-9n-Spg"/>
+                <outlet property="iconTop" destination="R7s-w3-8XM" id="k8w-CR-1hO"/>
+                <outlet property="serviceRuleBtn" destination="enG-pr-Vae" id="Yj1-K2-0lE"/>
+                <outlet property="versionLabel" destination="vz1-dE-Yvh" id="XD1-hJ-xU1"/>
+            </connections>
+            <point key="canvasLocation" x="434.5" y="316"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="aboutDDOP" width="95" height="95"/>
+    </resources>
+</document>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CSPPersonCenterMessageTableViewCell" id="GJz-Sg-eF0" customClass="CSPPersonCenterMessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="GJz-Sg-eF0" id="6tV-nk-CN5">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="10_个人中心_站内信.png" translatesAutoresizingMaskIntoConstraints="NO" id="QaE-KN-GST" customClass="BadgeImageView">
+                        <rect key="frame" x="15" y="4" width="35" height="35"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_设置_进入.png" translatesAutoresizingMaskIntoConstraints="NO" id="55n-36-XYS">
+                        <rect key="frame" x="352" y="15" width="8" height="13"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="8" id="lKw-rQ-IXb"/>
+                            <constraint firstAttribute="height" constant="13" id="z3P-cZ-YGY"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="z3P-cZ-YGY"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="消息中心" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygu-Rh-HBY">
+                        <rect key="frame" x="70" y="15" width="56" height="14"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="55n-36-XYS" secondAttribute="bottom" constant="15" id="9sb-ZB-NYl"/>
+                    <constraint firstItem="55n-36-XYS" firstAttribute="top" secondItem="6tV-nk-CN5" secondAttribute="top" constant="15" id="Elu-Bh-Z9s"/>
+                    <constraint firstAttribute="trailing" secondItem="55n-36-XYS" secondAttribute="trailing" constant="15" id="bWl-II-pzz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageView" destination="QaE-KN-GST" id="i4T-LO-pUL"/>
+                <outlet property="titleLabel" destination="Ygu-Rh-HBY" id="TvI-J5-7xw"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="10_个人中心_站内信.png" width="19" height="20"/>
+        <image name="10_设置_进入.png" width="7" height="11"/>
+    </resources>
+</document>

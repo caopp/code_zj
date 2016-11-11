@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="37" id="KGk-i7-Jjw" customClass="InviteSettingLevelTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="37"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="36.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wip-CU-KeP">
+                        <rect key="frame" x="15" y="7" width="22" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="22" id="38G-04-Vo3"/>
+                            <constraint firstAttribute="width" constant="22" id="ZEd-4R-24w"/>
+                        </constraints>
+                        <state key="normal" image="04_商品图片下载-编辑_未选中">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <state key="selected" image="03_商家商品详情页_选中"/>
+                        <connections>
+                            <action selector="selectedButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7Xm-FY-OMV"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="才文" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V2o-2v-TY7">
+                        <rect key="frame" x="52" y="8" width="78" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20.5" id="sJc-W1-3ox"/>
+                            <constraint firstAttribute="width" constant="85" id="tFN-Fb-wQT"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="tFN-Fb-wQT"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="D1P-Rt-1yw">
+                        <rect key="frame" x="130" y="7" width="175" height="25"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HFW-pd-ywN" customClass="InviteLevelButton">
+                                <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <state key="normal" title="V1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="O4d-3F-Eic"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egg-kT-Bhy" customClass="InviteLevelButton">
+                                <rect key="frame" x="30" y="0.0" width="25" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="V2">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="LV2-WK-eOj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2W-LF-v6j" customClass="InviteLevelButton">
+                                <rect key="frame" x="60" y="0.0" width="25" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="V3">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="8aZ-6O-lVW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gBn-7R-bzV" customClass="InviteLevelButton">
+                                <rect key="frame" x="90" y="0.0" width="25" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="V4">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="6p0-bB-qEd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dYL-Aw-O2c" customClass="InviteLevelButton">
+                                <rect key="frame" x="120" y="0.0" width="25" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="V5">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="z4f-Hd-Ue7"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JZ-EW-L0I" customClass="InviteLevelButton">
+                                <rect key="frame" x="150" y="0.0" width="25" height="25"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="V6">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="levelButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="fKQ-ak-aij"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="175" id="gfU-rg-GUW"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="才文" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQR-dl-0LE">
+                        <rect key="frame" x="15" y="8" width="26" height="20.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="107" id="X32-Ah-HLb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="X32-Ah-HLb"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="wip-CU-KeP" secondAttribute="bottom" constant="7.5" id="16x-GS-bl2"/>
+                    <constraint firstAttribute="bottom" secondItem="OQR-dl-0LE" secondAttribute="bottom" constant="8" id="99T-tt-4uk"/>
+                    <constraint firstItem="V2o-2v-TY7" firstAttribute="leading" secondItem="wip-CU-KeP" secondAttribute="trailing" constant="15" id="9U1-Im-U6S"/>
+                    <constraint firstAttribute="trailing" secondItem="D1P-Rt-1yw" secondAttribute="trailing" constant="15" id="GSy-I2-0DA"/>
+                    <constraint firstItem="wip-CU-KeP" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="Jil-5k-Mik"/>
+                    <constraint firstItem="OQR-dl-0LE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="NtG-Kf-YzA"/>
+                    <constraint firstAttribute="bottom" secondItem="V2o-2v-TY7" secondAttribute="bottom" constant="8" id="O99-wV-xhl"/>
+                    <constraint firstItem="D1P-Rt-1yw" firstAttribute="leading" secondItem="V2o-2v-TY7" secondAttribute="trailing" id="TXp-5Q-XNg"/>
+                    <constraint firstItem="wip-CU-KeP" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="dFr-bJ-qRf"/>
+                    <constraint firstItem="OQR-dl-0LE" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="mJA-Ae-fSx"/>
+                    <constraint firstItem="V2o-2v-TY7" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="raE-r5-ReU"/>
+                    <constraint firstItem="D1P-Rt-1yw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="uJA-Se-iSd"/>
+                    <constraint firstItem="D1P-Rt-1yw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="OQR-dl-0LE" secondAttribute="trailing" constant="2" id="zA4-au-pMQ"/>
+                    <constraint firstAttribute="bottom" secondItem="D1P-Rt-1yw" secondAttribute="bottom" constant="5.5" id="zLg-1Q-tWX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="level1Button" destination="HFW-pd-ywN" id="5O4-gd-jtv"/>
+                <outlet property="level2Button" destination="egg-kT-Bhy" id="9C7-Ps-oD6"/>
+                <outlet property="level3Button" destination="o2W-LF-v6j" id="Dj0-IK-U7F"/>
+                <outlet property="level4Button" destination="gBn-7R-bzV" id="ONS-mD-mah"/>
+                <outlet property="level5Button" destination="dYL-Aw-O2c" id="1Vx-cc-aFG"/>
+                <outlet property="level6Button" destination="7JZ-EW-L0I" id="He2-xI-1Bj"/>
+                <outlet property="nameL" destination="V2o-2v-TY7" id="ba0-fb-cV3"/>
+                <outlet property="onlyNameL" destination="OQR-dl-0LE" id="voE-s8-cmW"/>
+                <outlet property="selectedButton" destination="wip-CU-KeP" id="J9n-lu-FLp"/>
+            </connections>
+            <point key="canvasLocation" x="474" y="376.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="03_商家商品详情页_选中" width="21" height="21"/>
+        <image name="04_商品图片下载-编辑_未选中" width="21" height="21"/>
+    </resources>
+</document>

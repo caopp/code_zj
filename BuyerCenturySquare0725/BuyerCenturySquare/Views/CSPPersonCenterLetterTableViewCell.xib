@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CSPPersonCenterLetterTableViewCell" rowHeight="82" id="KGk-i7-Jjw" customClass="CSPPersonCenterLetterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="82"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <frame key="frameInset" width="320" height="81"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_个人中心_站内信.png" translatesAutoresizingMaskIntoConstraints="NO" id="2aV-gc-D34" customClass="BadgeImageView">
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="2aV-gc-D34" secondAttribute="height" id="23Y-hz-fDJ"/>
+                            <constraint firstAttribute="width" constant="40" id="mVr-mP-kC5"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="10_设置_进入.png" translatesAutoresizingMaskIntoConstraints="NO" id="z9B-sz-lM7">
+                        <constraints>
+                            <constraint firstAttribute="height" constant="13" id="NwR-4E-8md"/>
+                            <constraint firstAttribute="width" constant="8" id="yfL-JQ-dmr"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="NwR-4E-8md"/>
+                            </mask>
+                        </variation>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="站内信" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5di-vL-VaN">
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QQJ-fq-Gn8">
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.43529411759999997" green="0.4431372549" blue="0.47450980390000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="z9B-sz-lM7" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="85d-Dh-tEz"/>
+                    <constraint firstItem="QQJ-fq-Gn8" firstAttribute="leading" secondItem="2aV-gc-D34" secondAttribute="trailing" constant="15" id="Blx-QI-VRP"/>
+                    <constraint firstItem="5di-vL-VaN" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="7" id="C3B-jI-YUg"/>
+                    <constraint firstAttribute="trailing" secondItem="z9B-sz-lM7" secondAttribute="trailing" constant="15" id="ENG-7F-2Pu"/>
+                    <constraint firstItem="QQJ-fq-Gn8" firstAttribute="top" secondItem="5di-vL-VaN" secondAttribute="bottom" constant="0.5" id="NBD-Xk-kdi"/>
+                    <constraint firstItem="z9B-sz-lM7" firstAttribute="leading" secondItem="QQJ-fq-Gn8" secondAttribute="trailing" constant="8" id="Pqh-jk-8le"/>
+                    <constraint firstItem="2aV-gc-D34" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="UIy-MS-kqN"/>
+                    <constraint firstItem="2aV-gc-D34" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="7" id="fWq-8X-7hF"/>
+                    <constraint firstItem="5di-vL-VaN" firstAttribute="leading" secondItem="2aV-gc-D34" secondAttribute="trailing" constant="15" id="w0T-ps-PJK"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="badgeImage" destination="2aV-gc-D34" id="tUu-82-MBR"/>
+                <outlet property="contentLabel" destination="QQJ-fq-Gn8" id="G7M-7k-8Pf"/>
+                <outlet property="titleLabel" destination="5di-vL-VaN" id="2tN-wp-4h8"/>
+            </connections>
+            <point key="canvasLocation" x="216.5" y="216"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="10_个人中心_站内信.png" width="19" height="20"/>
+        <image name="10_设置_进入.png" width="7" height="11"/>
+    </resources>
+</document>

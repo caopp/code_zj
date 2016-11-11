@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="ddJ-tN-AyI" customClass="StayDeliverBtnView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p3V-jJ-Q0M">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="确认收货"/>
+                    <connections>
+                        <action selector="selelctConfirmationDeliveryBtn:" destination="ddJ-tN-AyI" eventType="touchUpInside" id="hVI-lw-XR0"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="p3V-jJ-Q0M" firstAttribute="top" secondItem="ddJ-tN-AyI" secondAttribute="top" id="16v-v2-0H5"/>
+                <constraint firstAttribute="bottom" secondItem="p3V-jJ-Q0M" secondAttribute="bottom" id="4L9-0v-HD7"/>
+                <constraint firstAttribute="trailing" secondItem="p3V-jJ-Q0M" secondAttribute="trailing" id="DPe-Lv-sIi"/>
+                <constraint firstItem="p3V-jJ-Q0M" firstAttribute="leading" secondItem="ddJ-tN-AyI" secondAttribute="leading" id="ITm-2e-FaE"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="confirmationDeliveryBtn" destination="p3V-jJ-Q0M" id="5Db-ZS-TUe"/>
+            </connections>
+            <point key="canvasLocation" x="186" y="211"/>
+        </view>
+    </objects>
+</document>

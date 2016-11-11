@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="NFA-Gk-j0G" customClass="MerchantAndGoodSelectView">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BOr-gN-Tkz">
+                    <rect key="frame" x="0.0" y="0.0" width="47" height="30"/>
+                    <color key="backgroundColor" red="0.99788440450000004" green="0.30199804060000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="47" id="ahK-hu-0Sm"/>
+                        <constraint firstAttribute="height" constant="30" id="hJ1-Pe-4MN"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="商家">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="firstBtnClick:" destination="NFA-Gk-j0G" eventType="touchUpInside" id="nBz-bT-0J5"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdb-Jf-hov">
+                    <rect key="frame" x="47" y="0.0" width="33" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="P7S-qN-08s"/>
+                    </constraints>
+                    <state key="normal" image="merchatGoodsSelect"/>
+                    <connections>
+                        <action selector="selectBtnClick:" destination="NFA-Gk-j0G" eventType="touchUpInside" id="A7p-Ui-6G7"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z2l-pR-o8r">
+                    <rect key="frame" x="46" y="0.0" width="1" height="30"/>
+                    <color key="backgroundColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="i46-P6-1vz"/>
+                        <constraint firstAttribute="width" constant="1" id="w7c-v1-k44"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NZd-bu-Csl">
+                    <rect key="frame" x="0.0" y="30" width="47" height="30"/>
+                    <color key="backgroundColor" red="0.48298493710000001" green="1" blue="0.20012090760000001" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="t6g-Sv-Cjp"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="商品">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="secondBtnClick:" destination="NFA-Gk-j0G" eventType="touchUpInside" id="2ze-qa-adE"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="NZd-bu-Csl" secondAttribute="bottom" id="1Gj-jD-sde"/>
+                <constraint firstItem="BOr-gN-Tkz" firstAttribute="leading" secondItem="NFA-Gk-j0G" secondAttribute="leading" id="7Sd-ub-Glr"/>
+                <constraint firstItem="NZd-bu-Csl" firstAttribute="leading" secondItem="NFA-Gk-j0G" secondAttribute="leading" id="A2Y-fN-NJr"/>
+                <constraint firstItem="BOr-gN-Tkz" firstAttribute="top" secondItem="NFA-Gk-j0G" secondAttribute="top" id="NFm-RB-tUq"/>
+                <constraint firstItem="Hdb-Jf-hov" firstAttribute="leading" secondItem="z2l-pR-o8r" secondAttribute="trailing" id="Wqf-dN-QLI"/>
+                <constraint firstItem="NZd-bu-Csl" firstAttribute="trailing" secondItem="BOr-gN-Tkz" secondAttribute="trailing" id="aYq-j5-PwO"/>
+                <constraint firstItem="z2l-pR-o8r" firstAttribute="leading" secondItem="BOr-gN-Tkz" secondAttribute="trailing" constant="-1" id="anu-fU-PxG"/>
+                <constraint firstItem="z2l-pR-o8r" firstAttribute="top" secondItem="NFA-Gk-j0G" secondAttribute="top" id="hUT-gC-XyU"/>
+                <constraint firstItem="Hdb-Jf-hov" firstAttribute="leading" secondItem="z2l-pR-o8r" secondAttribute="trailing" id="j09-1n-bDO"/>
+                <constraint firstAttribute="trailing" secondItem="Hdb-Jf-hov" secondAttribute="trailing" id="uPD-8u-Xv5"/>
+                <constraint firstItem="NZd-bu-Csl" firstAttribute="top" secondItem="BOr-gN-Tkz" secondAttribute="bottom" id="v96-0e-I27"/>
+                <constraint firstItem="Hdb-Jf-hov" firstAttribute="leading" secondItem="BOr-gN-Tkz" secondAttribute="trailing" id="xl6-4b-Kai"/>
+                <constraint firstItem="Hdb-Jf-hov" firstAttribute="top" secondItem="NFA-Gk-j0G" secondAttribute="top" id="y3E-LE-nQT"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="1Gj-jD-sde"/>
+                    <exclude reference="Wqf-dN-QLI"/>
+                    <exclude reference="xl6-4b-Kai"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="firstBtn" destination="BOr-gN-Tkz" id="H9T-Ky-WsN"/>
+                <outlet property="firstRightLabel" destination="z2l-pR-o8r" id="9SH-Ch-Udq"/>
+                <outlet property="secondBtn" destination="NZd-bu-Csl" id="sHx-5c-7jp"/>
+                <outlet property="showBtn" destination="Hdb-Jf-hov" id="pYB-kw-7mh"/>
+            </connections>
+            <point key="canvasLocation" x="357" y="285"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="merchatGoodsSelect" width="10" height="5"/>
+    </resources>
+</document>

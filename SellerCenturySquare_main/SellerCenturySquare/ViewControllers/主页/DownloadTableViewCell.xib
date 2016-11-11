@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" id="KGk-i7-Jjw" customClass="DownloadTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="55"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="287" height="54.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Main_download" translatesAutoresizingMaskIntoConstraints="NO" id="Ixt-AX-s4c">
+                        <rect key="frame" x="15" y="10" width="35" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="i55-yr-rE0"/>
+                            <constraint firstAttribute="height" constant="35" id="jfe-Po-gna"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="商品图片下载（3）" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r3o-zz-mZo">
+                        <rect key="frame" x="60" y="20.5" width="120" height="14"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="KWQ-K9-fEa"/>
+                            <constraint firstAttribute="width" constant="146" id="ytC-op-J2S"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="KWQ-K9-fEa"/>
+                                <exclude reference="ytC-op-J2S"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="r3o-zz-mZo" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="2oC-OH-mmv"/>
+                    <constraint firstAttribute="bottom" secondItem="r3o-zz-mZo" secondAttribute="bottom" constant="11.5" id="A5c-Aa-CLs"/>
+                    <constraint firstItem="r3o-zz-mZo" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="AO7-gA-OEA"/>
+                    <constraint firstItem="r3o-zz-mZo" firstAttribute="leading" secondItem="Ixt-AX-s4c" secondAttribute="trailing" constant="10" id="ToY-hE-7XN"/>
+                    <constraint firstItem="Ixt-AX-s4c" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="eH4-7I-U99"/>
+                    <constraint firstItem="r3o-zz-mZo" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="12" id="mr9-hL-oYT"/>
+                    <constraint firstItem="Ixt-AX-s4c" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="poU-Yn-wkQ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="A5c-Aa-CLs"/>
+                        <exclude reference="AO7-gA-OEA"/>
+                        <exclude reference="mr9-hL-oYT"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="leftImageView" destination="Ixt-AX-s4c" id="sm5-zp-80C"/>
+                <outlet property="titleL" destination="r3o-zz-mZo" id="Kiq-0h-ZgX"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Main_download" width="36" height="36"/>
+    </resources>
+</document>

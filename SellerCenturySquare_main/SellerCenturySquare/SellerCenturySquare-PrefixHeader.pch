@@ -1,0 +1,83 @@
+//
+//  SellerCenturySquare-PrefixHeader.pch
+//  SellerCenturySquare
+//
+//  Created by clz on 15/7/28.
+//  Copyright (c) 2015年 pactera. All rights reserved.
+//
+
+#ifndef SellerCenturySquare_SellerCenturySquare_PrefixHeader_pch
+#define SellerCenturySquare_SellerCenturySquare_PrefixHeader_pch
+
+#define HEX_COLOR(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF000000) >> 24)) / 255.0 green:((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 blue:((float)((rgbValue & 0xFF00) >> 8)) / 255.0 alpha:((float)(rgbValue & 0xFF)) / 255.0]
+
+#pragma mark-
+#pragma mark - 上拉加载一次多少条数据
+#define PAGESIZE 5
+
+#pragma mark-
+#pragma mark-默认下载图片
+#define DOWNLOAD_DEFAULTIMAGE @"small_placeHolder"
+#define DEFAULTIMAGE @"goodsDefalut"
+
+#pragma mark-
+#pragma mark-Userdefaults
+#define NOFIRSTLOGIN  @"NOFirstLogin"
+
+#define CONVERT 1024.0
+
+#pragma mark-
+#pragma mark-客服电话
+#define  SERVICEPHONENUMBER @"tel://4008-555-213"
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+#import "UIColor+HexColor.h"
+#import "MJExtension.h"
+
+#endif
+
+#pragma mark -
+#pragma mark 通知部分
+#define K_NOTICE_RESIGNFIRST            @"resignFirstResponder"
+#define K_NOTICE_GOODSSTATEOPERATION @"goodsStateOperation"
+#define K_NOTICE_SELECTEDGOODS @"selectedGoods"
+#define K_NOTICE_RELOADDOWNLOADCOUNT @"reloadDownloadCount"
+
+#pragma mark-
+#define CODE @"code"
+
+#define ERRORMESSAGE @"errorMessage"
+
+#define ENABLE_DEBUG
+
+#ifdef ENABLE_DEBUG
+
+#define DebugLog(format, args...) \
+NSLog(@"%s, line %d: " format "\n", \
+__func__, __LINE__, ## args);
+
+#else
+
+#define DebugLog(format, args...) do {} while(0)
+
+#endif
+
+//// !提示框
+//#import "GUAAlertView.h"
+
+// !自定义define公共类
+#import "CustomCommonality_define.h"
+
+
+
+//!苹果审核账号
+#define AppleAccount @"15800000005"
+
+
+
+#endif

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1808" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="lrJ-6T-qNx" customClass="WholesaleAndRetailView">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="∙ 用户不选择运费模板时，侧按默认模板计算运费。" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ud-zl-hay">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="13" id="7ZD-b7-WRJ"/>
+                        <constraint firstAttribute="width" constant="349" id="MRG-ed-KMh"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="7ZD-b7-WRJ"/>
+                            <exclude reference="MRG-ed-KMh"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="7ZD-b7-WRJ"/>
+                            <include reference="MRG-ed-KMh"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="∙ 如选择“包邮模板”，那么用户整个订单包邮。选择了“包邮模板”则不可选择其他计费模板。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rsQ-dG-obu">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Xqz-9l-nQk"/>
+                        <constraint firstAttribute="width" constant="349" id="hU3-Oe-lso"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="Xqz-9l-nQk"/>
+                            <exclude reference="hU3-Oe-lso"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="Xqz-9l-nQk"/>
+                            <include reference="hU3-Oe-lso"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="8ud-zl-hay" firstAttribute="leading" secondItem="lrJ-6T-qNx" secondAttribute="leading" constant="15" id="Ofy-mw-YTA"/>
+                <constraint firstItem="8ud-zl-hay" firstAttribute="top" secondItem="lrJ-6T-qNx" secondAttribute="top" constant="15" id="ZPn-Es-MRY"/>
+                <constraint firstItem="rsQ-dG-obu" firstAttribute="top" secondItem="8ud-zl-hay" secondAttribute="bottom" constant="5" id="ipS-wL-eov"/>
+                <constraint firstItem="rsQ-dG-obu" firstAttribute="leading" secondItem="8ud-zl-hay" secondAttribute="leading" id="vBB-XF-HBK"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="8ud-zl-hay"/>
+                    <exclude reference="rsQ-dG-obu"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="Ofy-mw-YTA"/>
+                    <exclude reference="ZPn-Es-MRY"/>
+                    <exclude reference="ipS-wL-eov"/>
+                    <exclude reference="vBB-XF-HBK"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="8ud-zl-hay"/>
+                    <include reference="rsQ-dG-obu"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="Ofy-mw-YTA"/>
+                    <include reference="ZPn-Es-MRY"/>
+                    <include reference="ipS-wL-eov"/>
+                    <include reference="vBB-XF-HBK"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="selectedUnPackage" destination="8ud-zl-hay" id="77G-vu-eFZ"/>
+                <outlet property="unselectedPackage" destination="rsQ-dG-obu" id="2PM-28-rrO"/>
+            </connections>
+            <point key="canvasLocation" x="235" y="614"/>
+        </view>
+    </objects>
+</document>

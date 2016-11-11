@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Si9-lP-ygx" customClass="CSPDownloadImageView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Cs-Yz-qS5">
+                    <rect key="frame" x="0.0" y="100" width="320" height="50"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="ybn-cX-tRz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="下载">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="downloadButtonClick:" destination="Si9-lP-ygx" eventType="touchUpInside" id="a6Q-VV-KCp"/>
+                    </connections>
+                </button>
+                <view tag="103" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TF5-rn-eDC">
+                    <rect key="frame" x="0.0" y="50.5" width="320" height="49.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品客观图(3张/21.5MB)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uYe-r7-vkp">
+                            <rect key="frame" x="15" y="17.5" width="247" height="15"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="fWw-aE-xje"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyJ-LN-yiR">
+                            <rect key="frame" x="270" y="0.5" width="50" height="49.5"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="49.5" id="AHn-Xs-9ee"/>
+                                <constraint firstAttribute="width" constant="50" id="a1l-dc-PUE"/>
+                            </constraints>
+                            <state key="normal" image="03_商家商品详情页_未选中">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="03_商家商品详情页_选中"/>
+                            <connections>
+                                <action selector="selectedObjectImageButtonClick:" destination="Si9-lP-ygx" eventType="touchUpInside" id="rdv-NP-hAO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="SyJ-LN-yiR" firstAttribute="leading" secondItem="uYe-r7-vkp" secondAttribute="trailing" constant="8" id="DRn-f8-8QK"/>
+                        <constraint firstItem="uYe-r7-vkp" firstAttribute="leading" secondItem="TF5-rn-eDC" secondAttribute="leading" constant="15" id="EQ0-KT-qiF"/>
+                        <constraint firstItem="SyJ-LN-yiR" firstAttribute="top" secondItem="TF5-rn-eDC" secondAttribute="top" constant="0.5" id="M4U-PD-nff"/>
+                        <constraint firstAttribute="trailing" secondItem="SyJ-LN-yiR" secondAttribute="trailing" id="fZf-jV-2pZ"/>
+                        <constraint firstAttribute="centerY" secondItem="uYe-r7-vkp" secondAttribute="centerY" id="oRR-9p-SBG"/>
+                    </constraints>
+                </view>
+                <view tag="101" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWB-8m-Gt5">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品窗口图(3张/21.5MB)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lEK-QK-6Uj">
+                            <rect key="frame" x="15" y="17" width="247" height="15"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="pRv-fy-PTg"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tz8-qx-LgR">
+                            <rect key="frame" x="270" y="0.0" width="50" height="49.5"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="4LW-yY-O9B"/>
+                            </constraints>
+                            <state key="normal" image="03_商家商品详情页_未选中">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <state key="selected" image="03_商家商品详情页_选中"/>
+                            <connections>
+                                <action selector="selectedWindownImageButtonClick:" destination="Si9-lP-ygx" eventType="touchUpInside" id="LtX-26-BQk"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Tz8-qx-LgR" secondAttribute="bottom" id="1Px-Jh-etu"/>
+                        <constraint firstAttribute="centerY" secondItem="lEK-QK-6Uj" secondAttribute="centerY" id="HBf-nz-53d"/>
+                        <constraint firstItem="Tz8-qx-LgR" firstAttribute="leading" secondItem="lEK-QK-6Uj" secondAttribute="trailing" constant="8" id="fi9-d9-HA6"/>
+                        <constraint firstItem="lEK-QK-6Uj" firstAttribute="leading" secondItem="kWB-8m-Gt5" secondAttribute="leading" constant="15" id="kth-qa-Osx"/>
+                        <constraint firstItem="Tz8-qx-LgR" firstAttribute="top" secondItem="kWB-8m-Gt5" secondAttribute="top" id="lWe-RM-O6R"/>
+                        <constraint firstAttribute="trailing" secondItem="Tz8-qx-LgR" secondAttribute="trailing" id="uQo-VH-mL5"/>
+                    </constraints>
+                </view>
+                <view tag="102" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ce7-PM-xOE">
+                    <rect key="frame" x="0.0" y="49.5" width="320" height="1"/>
+                    <color key="backgroundColor" red="0.95686274510000002" green="0.62352941179999999" blue="0.1215686275" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="oyE-q6-50R"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TF5-rn-eDC" firstAttribute="top" secondItem="Ce7-PM-xOE" secondAttribute="bottom" id="8cj-Jm-gQ1"/>
+                <constraint firstAttribute="trailing" secondItem="5Cs-Yz-qS5" secondAttribute="trailing" id="9Xw-67-gDM"/>
+                <constraint firstItem="5Cs-Yz-qS5" firstAttribute="leading" secondItem="Si9-lP-ygx" secondAttribute="leading" id="MDw-Tn-gUA"/>
+                <constraint firstAttribute="trailing" secondItem="TF5-rn-eDC" secondAttribute="trailing" id="U6d-PM-RXd"/>
+                <constraint firstItem="kWB-8m-Gt5" firstAttribute="leading" secondItem="Si9-lP-ygx" secondAttribute="leading" id="XAI-xs-gP6"/>
+                <constraint firstItem="Ce7-PM-xOE" firstAttribute="top" secondItem="kWB-8m-Gt5" secondAttribute="bottom" id="aqq-W3-O1B"/>
+                <constraint firstAttribute="trailing" secondItem="kWB-8m-Gt5" secondAttribute="trailing" id="dfO-4l-yqY"/>
+                <constraint firstItem="TF5-rn-eDC" firstAttribute="leading" secondItem="Si9-lP-ygx" secondAttribute="leading" id="e0K-GY-TL7"/>
+                <constraint firstItem="5Cs-Yz-qS5" firstAttribute="top" secondItem="TF5-rn-eDC" secondAttribute="bottom" id="fGT-Hs-kMq"/>
+                <constraint firstItem="TF5-rn-eDC" firstAttribute="height" secondItem="kWB-8m-Gt5" secondAttribute="height" id="hli-WB-mh1"/>
+                <constraint firstItem="Ce7-PM-xOE" firstAttribute="leading" secondItem="Si9-lP-ygx" secondAttribute="leading" id="jeo-Cr-XJh"/>
+                <constraint firstItem="kWB-8m-Gt5" firstAttribute="top" secondItem="Si9-lP-ygx" secondAttribute="top" id="sgl-7z-Sgz"/>
+                <constraint firstAttribute="bottom" secondItem="5Cs-Yz-qS5" secondAttribute="bottom" id="wwu-N2-nL3"/>
+                <constraint firstAttribute="trailing" secondItem="Ce7-PM-xOE" secondAttribute="trailing" id="zZY-5E-ce3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="objectiveImageInfoLabel" destination="uYe-r7-vkp" id="AqD-dz-E88"/>
+                <outlet property="selectedObjectImgaeButton" destination="SyJ-LN-yiR" id="biR-3T-K32"/>
+                <outlet property="selectedWindownImageButton" destination="Tz8-qx-LgR" id="ilg-rY-ddx"/>
+                <outlet property="windowImageInfoLabel" destination="lEK-QK-6Uj" id="BYe-1p-e7n"/>
+            </connections>
+            <point key="canvasLocation" x="90" y="363"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="03_商家商品详情页_未选中" width="21" height="21"/>
+        <image name="03_商家商品详情页_选中" width="21" height="21"/>
+    </resources>
+</document>

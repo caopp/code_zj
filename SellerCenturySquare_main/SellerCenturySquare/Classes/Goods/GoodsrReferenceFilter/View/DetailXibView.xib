@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DetailXibView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最多设置10张" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gpX-7C-EZT">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="90" id="RKK-jb-7eF"/>
+                        <constraint firstAttribute="height" constant="21" id="xr9-mt-B8q"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="RKK-jb-7eF"/>
+                            <exclude reference="xr9-mt-B8q"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="RKK-jb-7eF"/>
+                            <include reference="xr9-mt-B8q"/>
+                        </mask>
+                    </variation>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已经设置0张" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Agd-aQ-t0p">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="BTZ-jX-HBO"/>
+                        <constraint firstAttribute="width" constant="90" id="coR-Oi-sGR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="BTZ-jX-HBO"/>
+                            <exclude reference="coR-Oi-sGR"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="BTZ-jX-HBO"/>
+                            <include reference="coR-Oi-sGR"/>
+                        </mask>
+                    </variation>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fTm-zq-JDf">
+                    <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="JQo-lM-1yt"/>
+                        <constraint firstAttribute="width" constant="30" id="kWs-iy-tmf"/>
+                    </constraints>
+                    <state key="normal" image="未选中"/>
+                    <state key="selected" image="选中"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="JQo-lM-1yt"/>
+                            <exclude reference="kWs-iy-tmf"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="JQo-lM-1yt"/>
+                            <include reference="kWs-iy-tmf"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="didClickEyeButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="iY8-tw-Vvp"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bBO-jW-f5e">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <color key="backgroundColor" red="1" green="0.1852270989" blue="0.25878159649999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="ior-Gu-eVG"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ior-Gu-eVG"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="ior-Gu-eVG"/>
+                        </mask>
+                    </variation>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="gpX-7C-EZT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="0w0-y5-u8V"/>
+                <constraint firstItem="gpX-7C-EZT" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="4ed-dM-oUB"/>
+                <constraint firstItem="bBO-jW-f5e" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="5eH-Lf-WIs"/>
+                <constraint firstItem="Agd-aQ-t0p" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="DLu-wP-D1d"/>
+                <constraint firstItem="bBO-jW-f5e" firstAttribute="top" secondItem="fTm-zq-JDf" secondAttribute="bottom" constant="5" id="Ro8-On-Tz9"/>
+                <constraint firstItem="fTm-zq-JDf" firstAttribute="leading" secondItem="Agd-aQ-t0p" secondAttribute="trailing" constant="8" id="gvN-XY-ktY"/>
+                <constraint firstItem="Agd-aQ-t0p" firstAttribute="leading" secondItem="gpX-7C-EZT" secondAttribute="trailing" constant="17" id="kn9-Oz-7c6"/>
+                <constraint firstItem="Agd-aQ-t0p" firstAttribute="baseline" secondItem="gpX-7C-EZT" secondAttribute="baseline" id="tfB-rK-KZA"/>
+                <constraint firstAttribute="trailing" secondItem="bBO-jW-f5e" secondAttribute="trailing" id="wMd-dw-LXS"/>
+                <constraint firstItem="fTm-zq-JDf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="wNu-Do-soz"/>
+            </constraints>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="gpX-7C-EZT"/>
+                    <exclude reference="Agd-aQ-t0p"/>
+                    <exclude reference="fTm-zq-JDf"/>
+                    <exclude reference="bBO-jW-f5e"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="gvN-XY-ktY"/>
+                    <exclude reference="wNu-Do-soz"/>
+                    <exclude reference="DLu-wP-D1d"/>
+                    <exclude reference="kn9-Oz-7c6"/>
+                    <exclude reference="tfB-rK-KZA"/>
+                    <exclude reference="0w0-y5-u8V"/>
+                    <exclude reference="4ed-dM-oUB"/>
+                    <exclude reference="5eH-Lf-WIs"/>
+                    <exclude reference="Ro8-On-Tz9"/>
+                    <exclude reference="wMd-dw-LXS"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="gpX-7C-EZT"/>
+                    <include reference="Agd-aQ-t0p"/>
+                    <include reference="fTm-zq-JDf"/>
+                    <include reference="bBO-jW-f5e"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="gvN-XY-ktY"/>
+                    <include reference="wNu-Do-soz"/>
+                    <exclude reference="DLu-wP-D1d"/>
+                    <include reference="kn9-Oz-7c6"/>
+                    <include reference="tfB-rK-KZA"/>
+                    <include reference="0w0-y5-u8V"/>
+                    <include reference="4ed-dM-oUB"/>
+                    <include reference="5eH-Lf-WIs"/>
+                    <include reference="Ro8-On-Tz9"/>
+                    <include reference="wMd-dw-LXS"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="eyeButton" destination="fTm-zq-JDf" id="AM1-ha-wO6"/>
+                <outlet property="lineView" destination="bBO-jW-f5e" id="jEs-hR-F6V"/>
+                <outlet property="setLabel" destination="gpX-7C-EZT" id="dsT-lL-Cd9"/>
+                <outlet property="setOkLabel" destination="Agd-aQ-t0p" id="ApP-pg-x94"/>
+            </connections>
+        </view>
+    </objects>
+    <resources>
+        <image name="未选中" width="14" height="9"/>
+        <image name="选中" width="14" height="9"/>
+    </resources>
+</document>

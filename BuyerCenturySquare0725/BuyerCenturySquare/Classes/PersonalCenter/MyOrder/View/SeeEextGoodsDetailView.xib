@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SeeEextGoodsDetailView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9R8-Xs-KSg">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="0.5"/>
+                    <color key="backgroundColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="ivE-5r-Bij"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0c-7a-Htr">
+                    <rect key="frame" x="150" y="0.5" width="225" height="199.5"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="查看退/换货详情"/>
+                    <connections>
+                        <action selector="selectSeeExitChangeDetailBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="s4f-Pb-LOf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y4R-HQ-sot">
+                    <rect key="frame" x="0.0" y="0.0" width="150" height="200"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="Tu3-Or-eKm"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="客服" image="10_商品收藏_客服.png">
+                        <color key="titleColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="selectCustomServiceBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="nFI-XF-ti8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="y4R-HQ-sot" secondAttribute="bottom" id="074-rX-zVH"/>
+                <constraint firstItem="9R8-Xs-KSg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2xL-sy-m9E"/>
+                <constraint firstAttribute="bottom" secondItem="X0c-7a-Htr" secondAttribute="bottom" id="9P9-ih-5sY"/>
+                <constraint firstItem="X0c-7a-Htr" firstAttribute="top" secondItem="9R8-Xs-KSg" secondAttribute="bottom" id="DJF-w9-SxO"/>
+                <constraint firstItem="y4R-HQ-sot" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YY9-h7-8Q8"/>
+                <constraint firstAttribute="trailing" secondItem="9R8-Xs-KSg" secondAttribute="trailing" id="ado-vl-P2K"/>
+                <constraint firstAttribute="trailing" secondItem="X0c-7a-Htr" secondAttribute="trailing" id="eMc-Ae-snh"/>
+                <constraint firstItem="X0c-7a-Htr" firstAttribute="leading" secondItem="y4R-HQ-sot" secondAttribute="trailing" id="j2H-0w-wi4"/>
+                <constraint firstItem="y4R-HQ-sot" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="j5w-dj-hRN"/>
+                <constraint firstItem="9R8-Xs-KSg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uMk-Pg-UhI"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="customServiceBtn" destination="y4R-HQ-sot" id="jjn-ou-3fq"/>
+                <outlet property="seeExitChangeDetailBtn" destination="X0c-7a-Htr" id="25V-Y6-bmd"/>
+            </connections>
+            <point key="canvasLocation" x="174" y="272"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="10_商品收藏_客服.png" width="21" height="18"/>
+    </resources>
+</document>

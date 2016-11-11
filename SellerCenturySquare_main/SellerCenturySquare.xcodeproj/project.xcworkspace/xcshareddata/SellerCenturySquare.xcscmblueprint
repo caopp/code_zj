@@ -1,0 +1,49 @@
+{
+<<<<<<< .working
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4dc44cf8-7f0e-2645-a3da-333102c9e951++831",
+=======
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4dc44cf8-7f0e-2645-a3da-333102c9e951++7217",
+>>>>>>> .merge-right.r2746
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+<<<<<<< .working
+    "4dc44cf8-7f0e-2645-a3da-333102c9e951++831" : {
+=======
+    "4dc44cf8-7f0e-2645-a3da-333102c9e951++7217" : {
+>>>>>>> .merge-right.r2746
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+<<<<<<< .working
+    "4dc44cf8-7f0e-2645-a3da-333102c9e951++831" : 0
+=======
+    "4dc44cf8-7f0e-2645-a3da-333102c9e951++7217" : 0
+>>>>>>> .merge-right.r2746
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "41CB5CE6-362B-41A2-9E76-820FED8F2592",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+<<<<<<< .working
+    "4dc44cf8-7f0e-2645-a3da-333102c9e951++831" : "firstTrunk\/"
+=======
+    "4dc44cf8-7f0e-2645-a3da-333102c9e951++7217" : "Seller_2.1.1\/"
+>>>>>>> .merge-right.r2746
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SellerCenturySquare",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+<<<<<<< .working
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SellerCenturySquare\/SellerCenturySquare.xcodeproj",
+=======
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SellerCenturySquare.xcodeproj",
+>>>>>>> .merge-right.r2746
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/192.168.1.3:9999\/svn\/mobile",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+<<<<<<< .working
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4dc44cf8-7f0e-2645-a3da-333102c9e951++831"
+=======
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4dc44cf8-7f0e-2645-a3da-333102c9e951++7217"
+>>>>>>> .merge-right.r2746
+    }
+  ]
+}

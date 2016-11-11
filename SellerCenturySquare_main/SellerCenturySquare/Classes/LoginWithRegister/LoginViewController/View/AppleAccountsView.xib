@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="j2Z-12-9LZ" customClass="AppleAccountsView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="04_商家中心_统计_栏目开发" translatesAutoresizingMaskIntoConstraints="NO" id="AqF-MB-aGu">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="65" id="ArL-JL-9Ab"/>
+                        <constraint firstAttribute="height" constant="65" id="rmN-qQ-tlQ"/>
+                    </constraints>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="ArL-JL-9Ab"/>
+                            <exclude reference="rmN-qQ-tlQ"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="ArL-JL-9Ab"/>
+                            <include reference="rmN-qQ-tlQ"/>
+                        </mask>
+                    </variation>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="栏目开发中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YUC-WG-A2T">
+                    <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="16" id="3re-vg-QL1"/>
+                        <constraint firstAttribute="width" constant="130" id="Ff7-u1-BqD"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="3re-vg-QL1"/>
+                            <exclude reference="Ff7-u1-BqD"/>
+                        </mask>
+                    </variation>
+                    <variation key="heightClass=regular-widthClass=compact">
+                        <mask key="constraints">
+                            <include reference="3re-vg-QL1"/>
+                            <include reference="Ff7-u1-BqD"/>
+                        </mask>
+                    </variation>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="YUC-WG-A2T" firstAttribute="centerX" secondItem="AqF-MB-aGu" secondAttribute="centerX" id="1gH-St-BdH"/>
+                <constraint firstItem="AqF-MB-aGu" firstAttribute="top" secondItem="j2Z-12-9LZ" secondAttribute="top" id="gAG-Ym-k6N"/>
+                <constraint firstItem="AqF-MB-aGu" firstAttribute="centerX" secondItem="j2Z-12-9LZ" secondAttribute="centerX" id="qkT-kH-G3H"/>
+                <constraint firstItem="YUC-WG-A2T" firstAttribute="top" secondItem="AqF-MB-aGu" secondAttribute="bottom" constant="15" id="uNf-Tz-p6v"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="subviews">
+                    <exclude reference="AqF-MB-aGu"/>
+                    <exclude reference="YUC-WG-A2T"/>
+                </mask>
+                <mask key="constraints">
+                    <exclude reference="1gH-St-BdH"/>
+                    <exclude reference="uNf-Tz-p6v"/>
+                    <exclude reference="gAG-Ym-k6N"/>
+                    <exclude reference="qkT-kH-G3H"/>
+                </mask>
+            </variation>
+            <variation key="heightClass=regular-widthClass=compact">
+                <mask key="subviews">
+                    <include reference="AqF-MB-aGu"/>
+                    <include reference="YUC-WG-A2T"/>
+                </mask>
+                <mask key="constraints">
+                    <include reference="1gH-St-BdH"/>
+                    <include reference="uNf-Tz-p6v"/>
+                    <include reference="gAG-Ym-k6N"/>
+                    <include reference="qkT-kH-G3H"/>
+                </mask>
+            </variation>
+            <point key="canvasLocation" x="190.5" y="463"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="04_商家中心_统计_栏目开发" width="65" height="65"/>
+    </resources>
+</document>

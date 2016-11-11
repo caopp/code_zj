@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="Kf8-Ge-SfQ" customClass="PromptGoodsTagView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mBw-K1-Lfb">
+                    <rect key="frame" x="0.0" y="225" width="375" height="150"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="暂无标签" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6b-0B-zlE">
+                            <rect key="frame" x="155" y="0.0" width="64" height="19.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="添加标签可以使采购商更加准确的搜索到商品" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wr9-7K-FP1">
+                            <rect key="frame" x="17" y="65.5" width="340" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <color key="textColor" red="0.40000000000000002" green="0.40000000000000002" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Bg-Vr-jAu">
+                            <rect key="frame" x="133" y="110" width="109" height="40"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="109" id="g8s-Vd-BP2"/>
+                                <constraint firstAttribute="height" constant="40" id="tdw-XD-FW9"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="添加标签">
+                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="clickAddTagBtn:" destination="Kf8-Ge-SfQ" eventType="touchUpInside" id="6bn-cJ-MPO"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="4Bg-Vr-jAu" secondAttribute="bottom" id="2W6-pc-rfb"/>
+                        <constraint firstItem="4Bg-Vr-jAu" firstAttribute="centerX" secondItem="mBw-K1-Lfb" secondAttribute="centerX" id="CSk-RX-nmF"/>
+                        <constraint firstItem="d6b-0B-zlE" firstAttribute="centerX" secondItem="mBw-K1-Lfb" secondAttribute="centerX" id="UZu-kR-nBQ"/>
+                        <constraint firstAttribute="height" constant="150" id="iCE-pK-yEX"/>
+                        <constraint firstItem="d6b-0B-zlE" firstAttribute="top" secondItem="mBw-K1-Lfb" secondAttribute="top" id="mAb-JN-NR2"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="mBw-K1-Lfb" secondAttribute="trailing" id="Gmc-5b-aek"/>
+                <constraint firstItem="mBw-K1-Lfb" firstAttribute="leading" secondItem="Kf8-Ge-SfQ" secondAttribute="leading" id="MOB-kk-Ix6"/>
+                <constraint firstItem="mBw-K1-Lfb" firstAttribute="centerY" secondItem="Kf8-Ge-SfQ" secondAttribute="centerY" id="OT7-ON-od3"/>
+                <constraint firstItem="mBw-K1-Lfb" firstAttribute="centerX" secondItem="Kf8-Ge-SfQ" secondAttribute="centerX" id="T6l-a6-S1e"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="176.5" y="313"/>
+        </view>
+    </objects>
+</document>

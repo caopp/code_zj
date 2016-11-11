@@ -1,0 +1,278 @@
+/*
+ Localizable.strings
+ BuyerCenter
+ 
+ Created by 左键视觉 on 15/10/26.
+ Copyright © 2015年 左键视觉. All rights reserved.
+ */
+/*
+ 登录注册
+ */
+// !=====登录页面
+"dingdongUserLogin" = "用户登录";
+"phonePrompt" = "请输入手机号";
+"passwordPrompt" = "请输入密码";
+"registered" = "注册";
+"forgetPassword" = "忘记密码";
+"login" = "登录";
+
+// !=====安全检验
+//"safetyInspection" = "安全检验"
+"codePrompt" = "请输入密码";
+"getCode" = "获取验证码";
+"agree" = "我同意《叮咚欧品用户协议》";
+"numbersAndLetters" = "请输入6-12位数字、字母密码";
+"nextStep" = "下一步";
+
+// !=====填写收货地址
+"shippingAddress" = "填写收货地址";
+"shoppingName" = "收货人姓名";
+"phoneNumber" = "手机号";
+"area" = "省市区";
+"detailAdress" = "详细地址";
+"saveInfo" = "保存";
+"registeredSuccess" = "恭喜你，注册成功！";
+"goonValidation" = "继续完成平台验证";
+
+// !=====身份验证
+"IDValidation" = "身份验证";
+"exit" = "退出";
+"Didn'tInvite" = "没有收到邀请可直接在此提交申请通过审核后即可进入平台";
+"onApply" = "在线申请";
+"didInvite" = "已收到短线邀请";
+"valication" = "去验证";
+"service" = "客服电话";
+"immediatelyVerify" = "立即验证";
+
+"textMessage" = "您是否收到短信邀请？";
+"have" = "有";
+"no" = "无";
+"phoneError" = "手机号输入错误";
+"codeError" = "验证码输入错误";
+"sendMessage" = "已向您的手机发送验证码";
+"phoneVetirySuccess" = "手机号已注册，您可以使用此号码登录";
+"forgetLoginPassword" = "忘记登录密码";
+"verity" = "验证";
+"againVerity" = "收到世纪广场和朋友的邀请，可凭短信中的邀请码再次验证";
+"inviteCodeError" = "邀请码错误";
+"inviteCodeOverdue" = "邀请码过期";
+"applicationMaterials" = "申请资料";
+"name" = "姓名";
+"man" = "男";
+"woman" = "女";
+"businessLicense" = "营业执照";
+"shoptype" = "销售类型";
+"uploadIDImage" = "上传身份证图片";
+"uploadLicenseImage" = "上传营业执照图片";
+"submit" = "提交";
+
+
+
+
+
+
+
+
+/*
+ 商家
+ */
+// !=====商家列表
+"shop" = "商家";
+"shopListFail" = "查询商家列表失败";
+"connectError" = "网络连接异常";
+"recommend" = "推荐";
+"new" = "上新";
+"news" = "消息";
+
+
+// !=======商家详情
+"shopIntroduce" = "店铺介绍";
+"goodCategory" = "商品分类";
+"postage" = "邮费专拍";
+
+"closedAlert" = "很抱歉, 您查看的商家已关闭!";
+"choiceAlert" = "您可以选择浏览其他商家或商品";
+"choiceGoods" = "选购商品";
+"browseMerchant" = "浏览商家";
+"noRight" = "很抱歉，您无权访问本店";
+"outBussiness" = "歇业中";
+"outTimeAlert" = "歇业时间";
+"outTime" = "点";
+"sorry" = "很抱歉!";
+"noGoods" = "商家暂无上架在售商品";
+
+
+
+
+/*
+ 商品
+ */
+// !列表
+"goodTitle"="全部商品";
+"all" = "全部";
+"canBrowse" = "我的等级可看";
+"inDay" = "天\n内";
+"outDay" = "天\n前";
+"beginGetNum" = "件起批";
+"month" = "月";
+"day" = "日";
+"update" = "更新";
+"merchantIntroduce" = "商家介绍";
+
+"goodListError" = "查询商品列表失败";
+"goodCategoryError" = "查询商品分类失败";
+"merchantError" = "获取商家详情失败";
+
+"stallNum" = "档口号";
+"shopCategory" = "分类";
+"shopAddress" = "地址";
+"shopMobile" = "联系电话";
+"wechat" = "微信";
+"shopSynopsis" = "简介";
+
+"collectionAuthLevel" = "收藏权限等级";
+"downloadAuthLevel" = "下载权限等级";
+"shareAuthLevel" = "分享权限等级";
+
+"authLimited"  ="权限受限";
+"browAuthLevel" = "查看权限等级：" ;
+"userLevel" = "您的等级：";
+"upgrade" = "立即升级";
+"needGrade" = "消费积分还差：";
+"rankRule" = "等级规则";
+
+
+// !商品详情
+"goodsDetailTitle" = "商品详情";
+"buyTimes" = "购买下载次数";
+"buyAlertTitle" = "提示！";
+"timesUesdOut" = "商品下载次数已用完";
+"shopLimited" = "商家已限制所有与本店无交易往来的采购商，不可下载7日内新品。";
+
+
+
+/*
+ 个人中心
+ */
+// !=======首页
+"memberUpgrade" = "会员升级";
+"addressManage" = "地址管理";
+"collectionGoods" = "收藏商品";
+
+"waitPay" ="待付款";
+"waitShip" = "待发货";
+"waitTake" = "待收货";
+"allOrder" ="全部采购单";
+
+"instation"="站内信";
+
+"replenishmentGood" = "补货商品";
+"orderedMerchants" = "订购过的商家";
+"imageDownload" = "商品图片下载";
+
+// !=======设置
+"setting"="设置";
+"personalData" = "个人资料";
+"applyData" = "申请资料";
+"shipAddress" = "收货地址";
+"accountSecurity" = "账户与安全";
+"general" = "通用";
+"memberGradeRules" = "会员等级规则";
+"aboutUs" = "关于叮咚欧品";
+"feedBack" ="意见反馈";
+"loginOut" = "退出当前账户";
+
+// !========申请资料
+"applyName" = "姓名";
+"location" = "所在地区";
+"homePhone" = "座机电话";
+"IDCard" = "身份证";
+"bussinessState" = "营业状况";
+"applyState" = "资料审核状态";
+"hasRegister" = "已注册";
+"waitPass" = "等待审核";
+"hasNotPass" = "审核未通过";
+"hasPass" = "审核已通过";
+"hasClosed" = "已关闭账号";
+
+// !========账户与安全
+"memberName" ="会员名";
+"changeLoginPwd" ="修改登录密码";
+"changPayPwd" ="重置支付密码";
+
+"safetyVerification" = "安全验证";
+"pleaserInsert" = "请输入";
+"verificate"  = "收到的短信校验码";
+"surplus" = "剩余";
+"second" = "秒";
+"reGet"  = "点击重新获取";
+"verificateHasSend"  =  "验证码已发送";
+"verificateSendFailed" = "验证码发送失败";
+"connectFailed" = "连接失败";
+"requestError" = "请求失败";
+"change" = "修改";
+"changeloginPwd"  = "修改登录密码";
+"oldLoginPwd" = "请先输入原登录密码";
+"pwdNil" = "密码不能为空";
+"pwdError" = "密码格式有误";
+"newPwdError" = "新密码格式有误";
+"pwdNotSame" = "两次输入密码不一致";
+
+
+"changePayPwd"  = "修改支付密码";
+"insertOldPayPwd" = "请输入原支付密码";
+"insertNewPayPwd" = "请输入新支付密码";
+"oldPayPwd" = "请先输入原支付密码";
+
+"forgetPayPwd"  = "忘记支付密码";
+"newPayPwd" = "新密码";
+"reNewPayPwd"  = "重复输入新密码";
+
+
+"changeSuccess" = "完成修改";
+"changeLoginPwdSuccess" = "登录密码修改成功";
+"changePayPwdSuccess" = "支付密码修改成功";
+
+"resetPayPwd" = "重置支付密码";
+
+
+
+
+// !========通用
+"clearMemory" = "清除缓存";
+"version" = "版本号：";
+"sureClear" = "确定清除缓存吗?";
+"clearSuccess"  = "清除缓存已完成";
+
+// !=======关于叮咚欧品
+"company" = "深圳市左键视觉科技有限公司";
+"appName" = "叮咚欧品";
+"appDesc" = "叮咚欧品是一个高端欧美服装批发平台。服务于国内高端市场，服饰批发商和采购商。致力于减少服饰批发流程，提高流通效率。";
+
+// !=======意见反馈
+"feedType" ="意见反馈";
+"buyAndPay" ="购买支付";
+"feedAlert" ="您遇到什么问题，或者哪些功能建议，欢迎在此提出！我们将持续跟进优化。";
+"contentNil" = "反馈内容不能为空";
+"submit" = "提交";
+"getFeedType" = "加载反馈类型";
+"getFeedTypeFail" = "获取反馈类型失败";
+"feedSucceed" = "反馈成功";
+"webBusy" ="网络繁忙，请稍后再试！";
+"pleaseInput" ="请输入反馈内容";
+"leftAlert" = "反馈类型";
+"aletrt" ="提示";
+"numLimit" ="不可超过200字";
+"sure" ="确定";
+"cancel" = "取消";
+
+
+// !=====采购车
+"serviceTag" = "  客服";
+"wholesaleTag" = "起批:  ";
+"obtainNewTag" = "现货数量";
+"obtainFutureTag" = "期货数量";
+"shoppingTitleTag" = "采购车";
+
+
+

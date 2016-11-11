@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="dMB-wy-7Im" customClass="AudiAndFilterTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="141"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dMB-wy-7Im" id="Zp5-1R-gbo">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="140.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="零售_商品分享及提成审核" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O62-Jz-W41">
+                        <rect key="frame" x="15" y="15" width="194.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fbh-Gd-w7Q">
+                        <rect key="frame" x="0.0" y="95" width="320" height="0.5"/>
+                        <color key="backgroundColor" red="0.80825836490000003" green="0.80825836490000003" blue="0.80825836490000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="xBz-z2-irQ"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="零售端用户可分享购买过的商品，如带动更多关联购买，此用户可享受提成佣金。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rjd-ca-Aho">
+                        <rect key="frame" x="15" y="51" width="300" height="29"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="300" id="XNa-ub-c7b"/>
+                            <constraint firstAttribute="width" constant="300" id="siQ-ew-TZy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="XNa-ub-c7b"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="待审核的商品分享：" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUh-7r-Los">
+                        <rect key="frame" x="15" y="107" width="153" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l5D-46-Ksn">
+                        <rect key="frame" x="168" y="102.5" width="16" height="30"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Fbh-Gd-w7Q" firstAttribute="top" secondItem="Rjd-ca-Aho" secondAttribute="bottom" constant="15" id="C4F-qv-Gpf"/>
+                    <constraint firstItem="Fbh-Gd-w7Q" firstAttribute="leading" secondItem="Zp5-1R-gbo" secondAttribute="leading" id="I2I-UN-qMZ"/>
+                    <constraint firstItem="l5D-46-Ksn" firstAttribute="baseline" secondItem="WUh-7r-Los" secondAttribute="baseline" id="L4E-Eu-WTJ"/>
+                    <constraint firstItem="l5D-46-Ksn" firstAttribute="leading" secondItem="Zp5-1R-gbo" secondAttribute="leading" constant="10" id="NCE-yX-OT0"/>
+                    <constraint firstAttribute="bottom" secondItem="WUh-7r-Los" secondAttribute="bottom" constant="12" id="SNY-wu-cid"/>
+                    <constraint firstItem="Rjd-ca-Aho" firstAttribute="leading" secondItem="Zp5-1R-gbo" secondAttribute="leading" constant="15" id="U6d-Sc-z4m"/>
+                    <constraint firstItem="Rjd-ca-Aho" firstAttribute="top" secondItem="O62-Jz-W41" secondAttribute="bottom" constant="15" id="Waw-ab-C1W"/>
+                    <constraint firstAttribute="trailing" secondItem="Rjd-ca-Aho" secondAttribute="trailing" constant="15" id="ejs-1g-9E7"/>
+                    <constraint firstItem="O62-Jz-W41" firstAttribute="top" secondItem="Zp5-1R-gbo" secondAttribute="top" constant="15" id="ff5-Fc-hEH"/>
+                    <constraint firstItem="l5D-46-Ksn" firstAttribute="top" secondItem="Fbh-Gd-w7Q" secondAttribute="bottom" constant="7" id="iVx-Na-9ez"/>
+                    <constraint firstItem="WUh-7r-Los" firstAttribute="top" secondItem="Fbh-Gd-w7Q" secondAttribute="bottom" constant="12" id="lZF-H4-e5B"/>
+                    <constraint firstItem="O62-Jz-W41" firstAttribute="leading" secondItem="Zp5-1R-gbo" secondAttribute="leading" constant="15" id="naz-Kn-LBW"/>
+                    <constraint firstAttribute="trailing" secondItem="Fbh-Gd-w7Q" secondAttribute="trailing" id="qEy-0M-Ddz"/>
+                    <constraint firstItem="l5D-46-Ksn" firstAttribute="leading" secondItem="WUh-7r-Los" secondAttribute="trailing" id="sYW-fc-hCw"/>
+                    <constraint firstItem="WUh-7r-Los" firstAttribute="leading" secondItem="Zp5-1R-gbo" secondAttribute="leading" constant="15" id="zmc-cQ-6MW"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ejs-1g-9E7"/>
+                        <exclude reference="L4E-Eu-WTJ"/>
+                        <exclude reference="NCE-yX-OT0"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="detailAlertLabel" destination="Rjd-ca-Aho" id="Njh-5C-k7L"/>
+                <outlet property="filterLabel" destination="Fbh-Gd-w7Q" id="63p-p4-kDl"/>
+                <outlet property="numLabel" destination="l5D-46-Ksn" id="mbd-Mf-MQr"/>
+                <outlet property="numLeftLabel" destination="WUh-7r-Los" id="g9h-0x-guf"/>
+                <outlet property="operationTitleLabel" destination="O62-Jz-W41" id="M7e-TN-07H"/>
+            </connections>
+            <point key="canvasLocation" x="49" y="329.5"/>
+        </tableViewCell>
+    </objects>
+</document>

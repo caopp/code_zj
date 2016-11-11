@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="BottomOrderCancelPayCancelMessageTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="300"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NXz-RD-hT9">
+                    <rect key="frame" x="15" y="12" width="35.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实付:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JPV-Wy-1K5">
+                    <rect key="frame" x="169" y="15" width="32.5" height="17"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥521.50" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QjF-Uc-Gkc">
+                    <rect key="frame" x="209" y="12" width="75.5" height="24"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QjF-Uc-Gkc" firstAttribute="leading" secondItem="JPV-Wy-1K5" secondAttribute="trailing" constant="1" id="1R0-u9-jwc"/>
+                <constraint firstAttribute="trailing" secondItem="QjF-Uc-Gkc" secondAttribute="trailing" constant="15" id="6uj-Wp-c1R"/>
+                <constraint firstItem="NXz-RD-hT9" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="KLo-28-OhW"/>
+                <constraint firstItem="QjF-Uc-Gkc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="ReM-vg-EbZ"/>
+                <constraint firstItem="QjF-Uc-Gkc" firstAttribute="leading" secondItem="JPV-Wy-1K5" secondAttribute="trailing" constant="8" id="aGa-Zo-Y9y"/>
+                <constraint firstItem="JPV-Wy-1K5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="jkA-xV-6gu"/>
+                <constraint firstItem="NXz-RD-hT9" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="12" id="wIW-tq-tMt"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="1R0-u9-jwc"/>
+                </mask>
+            </variation>
+            <connections>
+                <outlet property="goodsPayPrice" destination="QjF-Uc-Gkc" id="H5V-Yv-UIt"/>
+                <outlet property="goodsTotalNumbLab" destination="NXz-RD-hT9" id="7Sg-c4-IFl"/>
+                <outlet property="orderStateLab" destination="JPV-Wy-1K5" id="ghK-mM-AeS"/>
+            </connections>
+        </view>
+    </objects>
+</document>

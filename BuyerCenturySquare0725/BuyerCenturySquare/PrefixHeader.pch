@@ -1,0 +1,187 @@
+//
+//  PrefixHeader.pch
+//  BuyerCenturySquare
+//
+//  Created by GuChenlong on 7/9/15.
+//  Copyright (c) 2015 pactera. All rights reserved.
+//
+#import <Availability.h>
+
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
+
+#import "marco.h"
+#import "Toast+UIView.h"
+
+#import "ELCAlbumPickerController.h"
+#import "ELCImagePickerController.h"
+#import "ELCAssetTablePicker.h"
+
+
+
+static const NSString *K_SERVERDATA_CITYNO = @"cityNo";
+
+static const NSString *K_SERVERDATA_SIZES = @"sizes";
+
+static const NSString *K_SERVERDATA_STATUS = @"status";
+static const NSString *K_SERVERDATA_COUNTYNO = @"countyNo";
+static const NSString *K_SERVERDATA_PROVINCENO = @"provinceNo";
+static const NSString *K_SERVERDATA_ADDRESSID = @"addressId";
+
+static const NSString *K_SERVERDATA_ORDERDELIVERYLIST = @"orderDeliveryList";
+static const NSString *K_SERVERDATA_ORDERGOODSITEMS = @"orderGoodsItems";
+static const NSString *K_SERVERDATA_ORIGINALTOTALAMOUNT = @"originalTotalAmount";
+static const NSString *K_SERVERDATA_SKULIST = @"skuList";
+
+static const NSString *K_SERVERDATA_SAMPLEPRICE = @"samplePrice";
+
+static const NSString *K_SERVERDATA_DATA = @"data";
+static const NSString *K_SERVERDATA_ID = @"id";
+static const NSString *K_SERVERDATA_PRICE = @"price";
+static const NSString *K_SERVERDATA_SPOTQUANTITY = @"spotQuantity";
+static const NSString *K_SERVERDATA_FUTUREQUANTITY = @"futureQuantity";
+static const NSString *K_SERVERDATA_QUANTITY = @"quantity";
+
+static const NSString *K_SERVERDATA_VERSION = @"version";
+static const NSString *K_SERVERDATA_DOWNURL = @"downUrl";
+
+static const NSString *K_SERVERDATA_BATCHAMOUNTLIMIT = @"batchAmountLimit";
+static const NSString *K_SERVERDATA_BATCHNUMLIMIT = @"batchNumLimit";
+
+static const NSString *K_SERVERDATA_SKUNO = @"skuNo";
+static const NSString *K_SERVERDATA_SKUNAME = @"skuName";
+
+static const NSString *K_SERVERDATA_GOODSSTATUS = @"goodsStatus";
+
+#pragma mark - CartConfirmMerchant
+
+static const NSString *K_SERVERDATA_TYPE = @"type";
+
+#pragma mark - SaleMerchantCondition
+static const NSString *K_SERVERDATA_ISSATISFY = @"isSatisfy";
+static const NSString *K_SERVERDATA_BATCHNUMFLAG = @"batchNumFlag";
+static const NSString *K_SERVERDATA_BATCHAMOUNTFLAGE = @"batchAmountFlag";
+
+#pragma mark - OrderGroup
+static const NSString *K_SERVERDATA_MEMBERNAME = @"memberName";
+static const NSString *K_SERVERDATA_MEMBERPHONE = @"memberPhone";
+static const NSString *K_SERVERDATA_NICKNAME = @"nickName";
+
+#pragma mark - OrderDetailDTO
+static const NSString *K_SERVERDATA_CONSIGNEENAME = @"consigneeName";
+static const NSString *K_SERVERDATA_CONSIGNEEPHONE = @"consigneePhone";
+static const NSString *K_SERVERDATA_PROVINCENAME = @"provinceName";
+static const NSString *K_SERVERDATA_CITYNAME = @"cityName";
+static const NSString *K_SERVERDATA_COUNTYNAME = @"countyName";
+static const NSString *K_SERVERDATA_DETAILADDRESS = @"detailAddress";
+static const NSString *K_SERVERDATA_MEMBERNO = @"memberNo";
+static const NSString *K_SERVERDATA_MERCHANTNO = @"merchantNo";
+static const NSString *K_SERVERDATA_MERCHANTNAME = @"merchantName";
+static const NSString *K_SERVERDATA_PAYMENTTIME = @"paymentTime";
+static const NSString *K_SERVERDATA_DELIVERYTIME = @"deliveryTime";
+static const NSString *K_SERVERDATA_RECEIVETIME = @"receiveTime";
+static const NSString *K_SERVERDATA_ORDERCANCELTIME = @"orderCancelTime";
+static const NSString *K_SERVERDATA_DEALCANCELTIME = @"dealCancelTime";
+#pragma mark - OrderGoodsItem OrderGoods
+static const NSString *K_SERVERDATA_GOODSNO = @"goodsNo";
+static const NSString *K_SERVERDATA_GOODSNAME = @"goodsName";
+static const NSString *K_SERVERDATA_COLOR = @"color";
+static const NSString *K_SERVERDATA_PICURL = @"picUrl";
+static const NSString *K_SERVERDATA_CARTTYPE = @"cartType";
+
+#pragma mark - OrderDelivery
+static const NSString *K_SERVERDATA_DELIVERYRECEIPTIMAGE = @"deliveryReceiptImage";
+static const NSString *K_SERVERDATA_ORDERCODE = @"orderCode";
+
+#pragma mark - GetGoodsShareLinkDTO
+static const NSString *K_SERVERDATA_TITLE = @"title";
+static const NSString *K_SERVERDATA_SHAREURL = @"shareUrl";
+static const NSString *K_SERVERDATA_IMGURL = @"imgUrl";
+
+#pragma mark - GetPaymentsRecordsDTO
+
+static const NSString *K_SERVERDATA_ITEMS = @"items";
+static const NSString *K_SERVERDATA_BALANCE = @"balance";
+
+#pragma mark - PaymentsRecordsDTO
+static const NSString *K_SERVERDATA_AMOUNT = @"amount";
+static const NSString *K_SERVERDATA_CREATETIME = @"createTime";
+static const NSString *K_SERVERDATA_OUTBIZNO = @"outBizNo";
+static const NSString *K_SERVERDATA_RECORDID = @"recordId";
+static const NSString *K_SERVERDATA_BUSINESSTYPE = @"businessType";
+#pragma mark - PictureDTO
+static const NSString *K_SERVERDATA_ZIPURL = @"zipUrl";
+static const NSString *K_SERVERDATA_PICTYPE = @"picType";
+static const NSString *K_SERVERDATA_QTY = @"qty";
+static const NSString *K_SERVERDATA_PICSIZE = @"picSize";
+
+#pragma mark - ConfirmPayDTO
+static const NSString *K_SERVERDATA_TOTALAMOUNT = @"totalAmount";
+static const NSString *K_SERVERDATA_TRADENO = @"tradeNo";
+
+#pragma mark - WeChatMobilePayDTO
+static const NSString *K_SERVERDATA_APPID = @"appid";
+static const NSString *K_SERVERDATA_NONCESTR = @"noncestr";
+static const NSString *K_SERVERDATA_PACKAGE = @"package";
+static const NSString *K_SERVERDATA_PARTNERID = @"partnerid";
+static const NSString *K_SERVERDATA_PREPAYID = @"prepayid";
+static const NSString *K_SERVERDATA_SIGN = @"sign";
+static const NSString *K_SERVERDATA_TIMESTAMP = @"timestamp";
+
+static const NSString *K_NOTICE_RELOADDOWNLOADCOUNT=@"reloadDownloadCount";
+
+
+// !公共定义
+#import "CustomCommonality_define.h"
+
+// !文思公共类定义
+#import "ACMacros.h"
+
+//定义公共的颜色设置（添加的)
+#import "UIColor+UIColor.h"
+//轻量数据库保存用户注册时候的临时信息
+#import "MyUserDefault.h"
+// !弹框
+#import "GUAAlertView.h"
+//判断字典是否为空值
+#import "NSDictionary+MM.h"
+
+/**
+ *  设置登录显示框中的线条和Placeholder的颜色
+ */
+#define LGNOClickColor [UIColor colorWithHexValue:0xffffff alpha:0.3] //线条颜色
+#define LGClickColor [UIColor colorWithHexValue:0xffffff alpha:1]  //点击后线条
+#define LGButtonColor [UIColor colorWithHexValue:0xffffff alpha:0.7]  //点击后线条
+#define PlaceholderColor [UIColor colorWithHexValue:0xffffff alpha:0.5]
+#define PlaceholderTitleColor [UIColor colorWithHexValue:0x999999 alpha:1]
+#define FontTitleColor [UIColor colorWithHexValue:0x666666 alpha:1]
+#define LineColor [UIColor colorWithHexValue:0xe2e2e2 alpha:1]
+
+//设置屏幕的宽度和高度
+#define ZJScreenHeight [[UIScreen mainScreen] bounds].size.height//获取屏幕高度，兼容性测试
+#define ZJScreenWidth [[UIScreen mainScreen] bounds].size.width//获取屏幕宽度，兼容性测试
+
+//!苹果审核账号
+#define AppleAccount @"18666296035"
+
+
+#import "CustomViews.h"
+
+#endif
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+

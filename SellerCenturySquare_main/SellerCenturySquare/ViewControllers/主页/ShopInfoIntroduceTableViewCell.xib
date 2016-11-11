@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" id="KGk-i7-Jjw" customClass="ShopInfoIntroduceTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="299.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商家介绍" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zFR-o3-HaD">
+                        <rect key="frame" x="15" y="11" width="85" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="SHD-9k-WKj"/>
+                            <constraint firstAttribute="width" constant="85" id="zma-uf-E8t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="那后 发生地方发呆舒服时代奋斗发生反对水电费水电费说对方是对方说的风舒服时代风水电费说分手地方时代放" translatesAutoresizingMaskIntoConstraints="NO" id="osC-3i-HEA">
+                        <rect key="frame" x="94" y="6" width="209" height="128"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="YE6-LD-WD3"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="osC-3i-HEA" secondAttribute="trailing" constant="17" id="LOk-V1-FLA"/>
+                    <constraint firstItem="osC-3i-HEA" firstAttribute="leading" secondItem="zFR-o3-HaD" secondAttribute="trailing" constant="-6" id="PZp-Cf-tqf"/>
+                    <constraint firstItem="osC-3i-HEA" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="pcp-Q2-Afd"/>
+                    <constraint firstItem="zFR-o3-HaD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="sWE-zg-aGN"/>
+                    <constraint firstItem="zFR-o3-HaD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="11" id="ssu-Cl-SwP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="introduceTV" destination="osC-3i-HEA" id="flr-DF-h2Z"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="5sL-sH-04f" customClass="CSPOrderDetailsBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Stg-GG-mjU">
+                    <rect key="frame" x="0.0" y="0.0" width="111" height="49"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="分开多次发货可再次上传快递单" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qHk-3W-6Qi">
+                            <rect key="frame" x="0.0" y="0.0" width="111" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="qHk-3W-6Qi" secondAttribute="trailing" id="51L-u2-0v8"/>
+                        <constraint firstAttribute="bottom" secondItem="qHk-3W-6Qi" secondAttribute="bottom" id="gx1-eY-ijV"/>
+                        <constraint firstItem="qHk-3W-6Qi" firstAttribute="leading" secondItem="Stg-GG-mjU" secondAttribute="leading" id="lRr-yA-RLH"/>
+                        <constraint firstItem="qHk-3W-6Qi" firstAttribute="top" secondItem="Stg-GG-mjU" secondAttribute="top" id="nd9-X0-xSA"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="43A-tj-Nfh">
+                    <rect key="frame" x="111" y="0.0" width="121" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UeR-ft-I8p">
+                            <rect key="frame" x="0.0" y="0.0" width="121" height="49"/>
+                            <color key="backgroundColor" red="0.56078431370000004" green="0.1137254902" blue="0.62352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="拍摄快递单">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="takephoneDeliverGoodsButtonClick:" destination="5sL-sH-04f" eventType="touchUpInside" id="ER3-cp-tqY"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="UeR-ft-I8p" firstAttribute="top" secondItem="43A-tj-Nfh" secondAttribute="top" id="54T-sz-050"/>
+                        <constraint firstItem="UeR-ft-I8p" firstAttribute="leading" secondItem="43A-tj-Nfh" secondAttribute="leading" id="UDy-dy-HC5"/>
+                        <constraint firstAttribute="width" constant="121" id="ZwM-WF-AOX"/>
+                        <constraint firstAttribute="trailing" secondItem="UeR-ft-I8p" secondAttribute="trailing" id="dbP-Yc-u4V"/>
+                        <constraint firstAttribute="bottom" secondItem="UeR-ft-I8p" secondAttribute="bottom" id="r1C-fi-K2A"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ql-XV-J5v">
+                    <rect key="frame" x="232" y="0.0" width="88" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ks5-uX-5I2">
+                            <rect key="frame" x="0.0" y="0.0" width="88" height="49"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="取消交易">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelDeliverGoodsButtonClick:" destination="5sL-sH-04f" eventType="touchUpInside" id="FP5-Tt-7kH"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="ks5-uX-5I2" firstAttribute="top" secondItem="2Ql-XV-J5v" secondAttribute="top" id="4NN-1Z-P75"/>
+                        <constraint firstAttribute="trailing" secondItem="ks5-uX-5I2" secondAttribute="trailing" id="D5h-zt-9ug"/>
+                        <constraint firstItem="ks5-uX-5I2" firstAttribute="leading" secondItem="2Ql-XV-J5v" secondAttribute="leading" id="VbZ-8l-h2U"/>
+                        <constraint firstAttribute="bottom" secondItem="ks5-uX-5I2" secondAttribute="bottom" id="jjk-za-4uf"/>
+                        <constraint firstAttribute="width" constant="88" id="vIO-Gm-haN"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Stg-GG-mjU" firstAttribute="leading" secondItem="5sL-sH-04f" secondAttribute="leading" id="Hlm-lN-IGJ"/>
+                <constraint firstAttribute="bottom" secondItem="Stg-GG-mjU" secondAttribute="bottom" id="Ma9-zN-60A"/>
+                <constraint firstItem="2Ql-XV-J5v" firstAttribute="leading" secondItem="43A-tj-Nfh" secondAttribute="trailing" id="OKJ-Lr-XHA"/>
+                <constraint firstAttribute="trailing" secondItem="2Ql-XV-J5v" secondAttribute="trailing" id="T7k-pw-gL0"/>
+                <constraint firstItem="43A-tj-Nfh" firstAttribute="leading" secondItem="Stg-GG-mjU" secondAttribute="trailing" id="ipc-3h-hfS"/>
+                <constraint firstAttribute="bottom" secondItem="43A-tj-Nfh" secondAttribute="bottom" id="moh-BU-qKp"/>
+                <constraint firstAttribute="bottom" secondItem="2Ql-XV-J5v" secondAttribute="bottom" id="nyD-mJ-Ed3"/>
+                <constraint firstItem="2Ql-XV-J5v" firstAttribute="top" secondItem="5sL-sH-04f" secondAttribute="top" id="oPN-Eg-RUn"/>
+                <constraint firstItem="43A-tj-Nfh" firstAttribute="top" secondItem="5sL-sH-04f" secondAttribute="top" id="tC6-0k-fdQ"/>
+                <constraint firstItem="Stg-GG-mjU" firstAttribute="top" secondItem="5sL-sH-04f" secondAttribute="top" id="twS-64-skM"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelButton" destination="ks5-uX-5I2" id="a0u-lH-rEZ"/>
+                <outlet property="cancelDeliverGoodsButton" destination="ks5-uX-5I2" id="8Rs-kD-1na"/>
+                <outlet property="takephoneButton" destination="UeR-ft-I8p" id="NdC-lS-Iuh"/>
+                <outlet property="takephoneDeliverGoodsButton" destination="UeR-ft-I8p" id="iyP-IY-ueV"/>
+                <outlet property="tipBackgroundView" destination="Stg-GG-mjU" id="fZK-Ne-Ba2"/>
+                <outlet property="tipLabel" destination="qHk-3W-6Qi" id="2u5-Zr-Ugl"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="329.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="yzl-gg-Efl" customClass="CSPOrderDetailsBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6oN-BI-OCv">
+                    <rect key="frame" x="160" y="0.0" width="160" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vcg-3D-Jhq">
+                            <rect key="frame" x="0.0" y="0.0" width="160" height="49"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="拍照发货">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="takephoneDeliverGoodsButtonClick:" destination="yzl-gg-Efl" eventType="touchUpInside" id="yRS-Rt-QqQ"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="vcg-3D-Jhq" secondAttribute="trailing" id="6K4-Jv-jjR"/>
+                        <constraint firstAttribute="bottom" secondItem="vcg-3D-Jhq" secondAttribute="bottom" id="9X9-w0-lq5"/>
+                        <constraint firstItem="vcg-3D-Jhq" firstAttribute="top" secondItem="6oN-BI-OCv" secondAttribute="top" id="bYD-4C-fLb"/>
+                        <constraint firstItem="vcg-3D-Jhq" firstAttribute="leading" secondItem="6oN-BI-OCv" secondAttribute="leading" id="pBx-QH-6gy"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ME5-z1-haA">
+                    <rect key="frame" x="0.0" y="0.0" width="160" height="49"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="leL-K3-zYI">
+                            <rect key="frame" x="1" y="1" width="158" height="47"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <state key="normal" title="取消交易">
+                                <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelDeliverGoodsButtonClick:" destination="yzl-gg-Efl" eventType="touchUpInside" id="N8r-Rw-J6A"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="leL-K3-zYI" secondAttribute="trailing" constant="1" id="8e9-SG-Hu1"/>
+                        <constraint firstAttribute="bottom" secondItem="leL-K3-zYI" secondAttribute="bottom" constant="1" id="J2L-VQ-Wdc"/>
+                        <constraint firstItem="leL-K3-zYI" firstAttribute="top" secondItem="ME5-z1-haA" secondAttribute="top" constant="1" id="LOa-8S-OP5"/>
+                        <constraint firstItem="leL-K3-zYI" firstAttribute="leading" secondItem="ME5-z1-haA" secondAttribute="leading" constant="1" id="dkl-uu-Seb"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ME5-z1-haA" firstAttribute="top" secondItem="yzl-gg-Efl" secondAttribute="top" id="8OK-q3-nTY"/>
+                <constraint firstItem="6oN-BI-OCv" firstAttribute="top" secondItem="yzl-gg-Efl" secondAttribute="top" id="LQU-L5-UYY"/>
+                <constraint firstItem="ME5-z1-haA" firstAttribute="leading" secondItem="yzl-gg-Efl" secondAttribute="leading" id="PWA-Ki-nJ9"/>
+                <constraint firstItem="6oN-BI-OCv" firstAttribute="width" secondItem="ME5-z1-haA" secondAttribute="width" id="QfV-hE-hK7"/>
+                <constraint firstItem="6oN-BI-OCv" firstAttribute="leading" secondItem="ME5-z1-haA" secondAttribute="trailing" id="dpD-us-cCm"/>
+                <constraint firstAttribute="bottom" secondItem="ME5-z1-haA" secondAttribute="bottom" id="iMk-9Z-ajW"/>
+                <constraint firstAttribute="trailing" secondItem="6oN-BI-OCv" secondAttribute="trailing" id="y2u-bw-uOp"/>
+                <constraint firstAttribute="bottom" secondItem="6oN-BI-OCv" secondAttribute="bottom" id="zhr-kj-YNa"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelDeliverGoodsButton" destination="leL-K3-zYI" id="bTI-kc-LKQ"/>
+                <outlet property="takephoneDeliverGoodsButton" destination="vcg-3D-Jhq" id="r8J-hZ-ZaL"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="429.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="UTu-AZ-glV" customClass="CSPOrderDetailsBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GON-s3-Y2C">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                    <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="取消交易">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelDeliverGoodsButtonClick:" destination="UTu-AZ-glV" eventType="touchUpInside" id="Jv5-qJ-sn8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="GON-s3-Y2C" secondAttribute="bottom" id="IXQ-Ce-zu2"/>
+                <constraint firstItem="GON-s3-Y2C" firstAttribute="top" secondItem="UTu-AZ-glV" secondAttribute="top" id="SK9-BO-dsL"/>
+                <constraint firstItem="GON-s3-Y2C" firstAttribute="leading" secondItem="UTu-AZ-glV" secondAttribute="leading" id="iWI-kA-zDk"/>
+                <constraint firstAttribute="trailing" secondItem="GON-s3-Y2C" secondAttribute="trailing" id="nrz-To-3Cq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="cancelDeliverGoodsButton" destination="GON-s3-Y2C" id="WG2-gq-bLn"/>
+            </connections>
+            <point key="canvasLocation" x="95" y="540.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="4ET-tw-5uH" customClass="CSPOrderDetailsBottomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzt-CE-NZ6">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="修改采购单总价格">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="changeOrderTotalPrice:" destination="5sL-sH-04f" eventType="touchUpInside" id="AAs-46-Epj"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="xzt-CE-NZ6" secondAttribute="trailing" id="7Rr-qA-sXr"/>
+                <constraint firstItem="xzt-CE-NZ6" firstAttribute="top" secondItem="4ET-tw-5uH" secondAttribute="top" id="IFd-cH-33G"/>
+                <constraint firstAttribute="bottom" secondItem="xzt-CE-NZ6" secondAttribute="bottom" id="Iqa-mP-Jez"/>
+                <constraint firstItem="xzt-CE-NZ6" firstAttribute="leading" secondItem="4ET-tw-5uH" secondAttribute="leading" id="lI0-1o-SGP"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="121" y="654.5"/>
+        </view>
+    </objects>
+</document>

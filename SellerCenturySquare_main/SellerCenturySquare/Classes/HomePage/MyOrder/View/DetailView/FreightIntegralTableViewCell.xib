@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="yR8-2s-mBn" customClass="FreightIntegralTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="43.5"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yR8-2s-mBn" id="gN3-50-m3Y">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="运费" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZk-EM-WOm">
+                        <rect key="frame" x="15" y="12" width="30" height="18"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="￥0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GPR-em-0V8">
+                        <rect key="frame" x="282" y="13" width="23" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2O-GG-huq">
+                        <rect key="frame" x="0.0" y="42" width="320" height="1"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="0.5" id="0oL-FW-F5h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.051748807959999997" green="0.14117647059999999" blue="0.041262079209999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="UZk-EM-WOm" firstAttribute="leading" secondItem="gN3-50-m3Y" secondAttribute="leading" constant="15" id="7xV-5U-oet"/>
+                    <constraint firstItem="GPR-em-0V8" firstAttribute="top" secondItem="gN3-50-m3Y" secondAttribute="topMargin" constant="13" id="9cQ-zX-XG5"/>
+                    <constraint firstItem="UZk-EM-WOm" firstAttribute="top" secondItem="gN3-50-m3Y" secondAttribute="top" constant="12" id="CP5-Ac-3OU"/>
+                    <constraint firstItem="v2O-GG-huq" firstAttribute="leading" secondItem="gN3-50-m3Y" secondAttribute="leading" id="HpG-WZ-gXh"/>
+                    <constraint firstAttribute="trailing" secondItem="GPR-em-0V8" secondAttribute="trailing" constant="15" id="NFN-R0-SsP"/>
+                    <constraint firstAttribute="trailing" secondItem="v2O-GG-huq" secondAttribute="trailing" id="S2n-bH-2lj"/>
+                    <constraint firstItem="v2O-GG-huq" firstAttribute="top" secondItem="UZk-EM-WOm" secondAttribute="bottom" constant="12" id="bw6-BD-99r"/>
+                    <constraint firstItem="GPR-em-0V8" firstAttribute="trailing" secondItem="gN3-50-m3Y" secondAttribute="trailingMargin" constant="15" id="o7c-k1-RUd"/>
+                    <constraint firstItem="GPR-em-0V8" firstAttribute="top" secondItem="gN3-50-m3Y" secondAttribute="top" constant="13" id="tXC-Gj-kVN"/>
+                    <constraint firstAttribute="bottom" secondItem="v2O-GG-huq" secondAttribute="bottom" id="uOj-hy-xZH"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="9cQ-zX-XG5"/>
+                        <exclude reference="o7c-k1-RUd"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="filterHightConst" destination="0oL-FW-F5h" id="ELH-Cg-QgL"/>
+                <outlet property="filterLabel" destination="v2O-GG-huq" id="QDf-ei-jML"/>
+                <outlet property="freightLabel" destination="GPR-em-0V8" id="FSO-OR-EIJ"/>
+                <outlet property="freightLeftLabel" destination="UZk-EM-WOm" id="FXU-ic-ix9"/>
+            </connections>
+            <point key="canvasLocation" x="301" y="332"/>
+        </tableViewCell>
+    </objects>
+</document>

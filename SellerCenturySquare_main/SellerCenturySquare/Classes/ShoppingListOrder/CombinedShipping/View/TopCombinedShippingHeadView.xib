@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TopCombinedShippingHeadViewId" id="KGk-i7-Jjw" customClass="TopCombinedShippingHeadView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="李四李四李四李四李四李四李四李四李四李四李四李四李四李四李四" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kD3-rF-dc6">
+                        <rect key="frame" x="50" y="12" width="111" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="13146976021" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ec-xd-R3g">
+                        <rect key="frame" x="176" y="12" width="109" height="19.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="109" id="o6q-s7-Bsq"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SOA-rQ-es0">
+                        <rect key="frame" x="50" y="0.0" width="255" height="43.5"/>
+                        <connections>
+                            <action selector="selelctMerchantNameBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="K1F-8k-fKa"/>
+                        </connections>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="odL-qT-KrH">
+                        <rect key="frame" x="328" y="12" width="32" height="19"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJ8-vs-jrm">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="43.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="urh-ix-veF"/>
+                        </constraints>
+                        <state key="normal" image="select_shipping_goods"/>
+                        <state key="selected" image="03_商家商品详情页_选中.png"/>
+                        <connections>
+                            <action selector="chlickChooseMerchantBtn:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Opr-Hh-9kX"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.92156862745098034" green="0.18823529411764706" blue="0.12156862745098039" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="kD3-rF-dc6" firstAttribute="leading" secondItem="fJ8-vs-jrm" secondAttribute="trailing" id="4cW-Qk-Ddu"/>
+                    <constraint firstItem="3Ec-xd-R3g" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="5kW-6k-kuv"/>
+                    <constraint firstAttribute="bottom" secondItem="SOA-rQ-es0" secondAttribute="bottom" id="B52-Ai-VzO"/>
+                    <constraint firstItem="3Ec-xd-R3g" firstAttribute="leading" secondItem="kD3-rF-dc6" secondAttribute="trailing" constant="15" id="EC8-QN-JFl"/>
+                    <constraint firstItem="fJ8-vs-jrm" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="HW2-OX-7iL"/>
+                    <constraint firstItem="odL-qT-KrH" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="Ij2-zJ-NWp"/>
+                    <constraint firstItem="SOA-rQ-es0" firstAttribute="leading" secondItem="fJ8-vs-jrm" secondAttribute="trailing" id="LoE-7U-4Vy"/>
+                    <constraint firstItem="SOA-rQ-es0" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="by9-eu-MLd"/>
+                    <constraint firstItem="kD3-rF-dc6" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="hIF-7V-foL"/>
+                    <constraint firstAttribute="bottom" secondItem="fJ8-vs-jrm" secondAttribute="bottom" id="j4Z-rh-vX0"/>
+                    <constraint firstAttribute="trailing" secondItem="odL-qT-KrH" secondAttribute="trailing" constant="15" id="s3P-cb-ba1"/>
+                    <constraint firstItem="fJ8-vs-jrm" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="yYG-XN-ndf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="chooseMerchantBtn" destination="fJ8-vs-jrm" id="ZY4-sB-CM9"/>
+                <outlet property="merchantNameLab" destination="kD3-rF-dc6" id="fyX-ez-sxC"/>
+                <outlet property="merchantPhoneLab" destination="3Ec-xd-R3g" id="c0e-cl-GQq"/>
+            </connections>
+            <point key="canvasLocation" x="159.5" y="338"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="03_商家商品详情页_选中.png" width="21" height="21"/>
+        <image name="select_shipping_goods" width="21" height="21"/>
+    </resources>
+</document>

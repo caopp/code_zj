@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="ReturnReasonViewCellID" selectionStyle="default" indentationWidth="10" rowHeight="51" id="9Cf-ZB-LJC" customClass="ReturnReasonViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="9Cf-ZB-LJC" id="wfL-1n-3PQ">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="49.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="退货原因:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unA-Ns-cfC">
+                        <rect key="frame" x="15" y="24" width="60.5" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3I8-tC-zgG">
+                        <rect key="frame" x="90" y="15" width="215" height="35"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="35" id="2ci-Me-Sf2"/>
+                            <constraint firstAttribute="height" constant="35" id="GeX-db-g7d"/>
+                            <constraint firstAttribute="height" constant="35" id="GqG-0J-psA"/>
+                            <constraint firstAttribute="height" constant="35" id="OgG-SR-LzB"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <state key="normal" title="  请选择退货原因">
+                            <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2ci-Me-Sf2"/>
+                                <exclude reference="GeX-db-g7d"/>
+                                <exclude reference="GqG-0J-psA"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <action selector="selectBtnClick:" destination="9Cf-ZB-LJC" eventType="touchUpInside" id="YSK-ji-fKe"/>
+                        </connections>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrowDown" translatesAutoresizingMaskIntoConstraints="NO" id="Cd4-nF-NkQ">
+                        <rect key="frame" x="284" y="30" width="12" height="5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="12" id="3JZ-JT-Edg"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUb-NB-zTw">
+                        <rect key="frame" x="274" y="15" width="0.5" height="35"/>
+                        <color key="backgroundColor" red="0.051748807959999997" green="0.14117647059999999" blue="0.041262079209999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="0.5" id="ksz-nf-IQ8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Cd4-nF-NkQ" firstAttribute="centerY" secondItem="3I8-tC-zgG" secondAttribute="centerY" id="1W0-Hw-nf6"/>
+                    <constraint firstItem="unA-Ns-cfC" firstAttribute="top" secondItem="wfL-1n-3PQ" secondAttribute="top" constant="23" id="2N1-TC-Fv9"/>
+                    <constraint firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="7b0-L2-aSV"/>
+                    <constraint firstItem="unA-Ns-cfC" firstAttribute="leading" secondItem="wfL-1n-3PQ" secondAttribute="leading" constant="15" id="AJe-G7-2xC"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="top" secondItem="wfL-1n-3PQ" secondAttribute="top" constant="15" id="CD3-54-Cgd"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="centerY" secondItem="wfL-1n-3PQ" secondAttribute="centerY" id="HEA-qA-5q8"/>
+                    <constraint firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="JIU-lf-aJQ"/>
+                    <constraint firstItem="Cd4-nF-NkQ" firstAttribute="trailing" secondItem="3I8-tC-zgG" secondAttribute="trailing" constant="-9" id="Kkc-zb-jr2"/>
+                    <constraint firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="Lpp-Gs-9gX"/>
+                    <constraint firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="NGB-Qz-pN6"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="top" secondItem="wfL-1n-3PQ" secondAttribute="top" constant="13" id="OJi-b1-R6V"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="top" secondItem="wfL-1n-3PQ" secondAttribute="top" constant="10" id="P2e-dW-ES3"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="centerY" secondItem="unA-Ns-cfC" secondAttribute="centerY" id="RHT-EH-A94"/>
+                    <constraint firstAttribute="trailing" secondItem="Cd4-nF-NkQ" secondAttribute="trailing" constant="9" id="SHA-AM-0hE"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="leading" secondItem="unA-Ns-cfC" secondAttribute="trailing" constant="15" id="Tn1-3C-hhb"/>
+                    <constraint firstItem="XUb-NB-zTw" firstAttribute="top" secondItem="3I8-tC-zgG" secondAttribute="top" id="XB5-P2-c8Z"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="leading" secondItem="XUb-NB-zTw" secondAttribute="trailing" constant="9" id="Xfi-3b-hgy"/>
+                    <constraint firstItem="unA-Ns-cfC" firstAttribute="centerY" secondItem="wfL-1n-3PQ" secondAttribute="centerY" id="YyD-Of-qTo"/>
+                    <constraint firstItem="XUb-NB-zTw" firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="ZKc-SW-qRh"/>
+                    <constraint firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="Zcd-pO-KsN"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="centerY" secondItem="wfL-1n-3PQ" secondAttribute="centerY" id="bYG-Jk-Ucc"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="top" secondItem="wfL-1n-3PQ" secondAttribute="topMargin" constant="13" id="cAq-EN-sXQ"/>
+                    <constraint firstAttribute="bottom" secondItem="3I8-tC-zgG" secondAttribute="bottom" id="d2h-vW-4nJ"/>
+                    <constraint firstItem="3I8-tC-zgG" firstAttribute="top" secondItem="wfL-1n-3PQ" secondAttribute="top" constant="15" id="jgd-Ek-OYn"/>
+                    <constraint firstItem="Cd4-nF-NkQ" firstAttribute="centerY" secondItem="wfL-1n-3PQ" secondAttribute="centerY" id="o0F-b1-LBP"/>
+                    <constraint firstAttribute="trailing" secondItem="3I8-tC-zgG" secondAttribute="trailing" constant="15" id="oX4-g0-4Hc"/>
+                    <constraint firstItem="unA-Ns-cfC" firstAttribute="centerY" secondItem="wfL-1n-3PQ" secondAttribute="centerY" id="x8c-1y-h5l"/>
+                    <constraint firstItem="Cd4-nF-NkQ" firstAttribute="leading" secondItem="XUb-NB-zTw" secondAttribute="trailing" constant="9" id="ya1-h7-2V6"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="2N1-TC-Fv9"/>
+                        <exclude reference="YyD-Of-qTo"/>
+                        <exclude reference="x8c-1y-h5l"/>
+                        <exclude reference="7b0-L2-aSV"/>
+                        <exclude reference="CD3-54-Cgd"/>
+                        <exclude reference="HEA-qA-5q8"/>
+                        <exclude reference="JIU-lf-aJQ"/>
+                        <exclude reference="Lpp-Gs-9gX"/>
+                        <exclude reference="NGB-Qz-pN6"/>
+                        <exclude reference="OJi-b1-R6V"/>
+                        <exclude reference="P2e-dW-ES3"/>
+                        <exclude reference="Xfi-3b-hgy"/>
+                        <exclude reference="Zcd-pO-KsN"/>
+                        <exclude reference="bYG-Jk-Ucc"/>
+                        <exclude reference="cAq-EN-sXQ"/>
+                        <exclude reference="SHA-AM-0hE"/>
+                        <exclude reference="o0F-b1-LBP"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="filterLabel" destination="XUb-NB-zTw" id="Sdl-px-7pp"/>
+                <outlet property="leftLabel" destination="unA-Ns-cfC" id="xBc-fg-Uqx"/>
+                <outlet property="selectBtn" destination="3I8-tC-zgG" id="0SZ-w2-VgW"/>
+            </connections>
+            <point key="canvasLocation" x="459" y="242.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrowDown" width="9" height="5"/>
+    </resources>
+</document>

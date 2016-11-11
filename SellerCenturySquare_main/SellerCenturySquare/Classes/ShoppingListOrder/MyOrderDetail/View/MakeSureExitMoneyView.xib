@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MakeSureExitMoneyView">
+            <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QYk-PT-nci">
+                    <rect key="frame" x="0.0" y="0.0" width="300" height="49"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <state key="normal" title="确定退款"/>
+                    <connections>
+                        <action selector="selectMakeSureExitMoneyBtn:" destination="iN0-l3-epB" eventType="touchUpInside" id="7sN-zo-f5J"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="QYk-PT-nci" secondAttribute="trailing" id="ALT-HF-SCW"/>
+                <constraint firstAttribute="bottom" secondItem="QYk-PT-nci" secondAttribute="bottom" id="etv-OE-gGq"/>
+                <constraint firstItem="QYk-PT-nci" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="fOZ-b3-g24"/>
+                <constraint firstItem="QYk-PT-nci" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fec-LD-AcN"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+</document>

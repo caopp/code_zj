@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="375" id="MxE-ok-dgs" customClass="CSPScrollTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MxE-ok-dgs" id="eAw-16-7tp">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="374.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yHz-DS-SY8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="374.5"/>
+                        <color key="backgroundColor" red="0.98039215803146362" green="0.98039215803146362" blue="0.98039215803146362" alpha="0.89999997615814209" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <connections>
+                            <outlet property="delegate" destination="MxE-ok-dgs" id="pQQ-U2-j6a"/>
+                        </connections>
+                    </scrollView>
+                    <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="n5Z-Bz-TIE">
+                        <rect key="frame" x="258" y="345" width="107" height="21"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="vYx-Zg-9ne"/>
+                        </constraints>
+                        <segments>
+                            <segment title="参考图"/>
+                            <segment title="客观图"/>
+                        </segments>
+                        <color key="tintColor" red="0.14901961386203766" green="0.14901961386203766" blue="0.14901961386203766" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <connections>
+                            <action selector="changeSegment:" destination="MxE-ok-dgs" eventType="valueChanged" id="x5C-dN-WsV"/>
+                        </connections>
+                    </segmentedControl>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yHz-DS-SY8" firstAttribute="leading" secondItem="eAw-16-7tp" secondAttribute="leading" id="FFh-EO-Rlc"/>
+                    <constraint firstAttribute="bottom" secondItem="yHz-DS-SY8" secondAttribute="bottom" id="SG8-SV-wVE"/>
+                    <constraint firstAttribute="trailing" secondItem="yHz-DS-SY8" secondAttribute="trailing" id="YZY-EI-cDI"/>
+                    <constraint firstItem="yHz-DS-SY8" firstAttribute="top" secondItem="eAw-16-7tp" secondAttribute="top" id="Ye4-0n-zFV"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="FFh-EO-Rlc"/>
+                        <exclude reference="SG8-SV-wVE"/>
+                        <exclude reference="YZY-EI-cDI"/>
+                        <exclude reference="Ye4-0n-zFV"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="yHz-DS-SY8" secondAttribute="trailing" id="53R-Ae-c3I"/>
+                <constraint firstItem="yHz-DS-SY8" firstAttribute="leading" secondItem="MxE-ok-dgs" secondAttribute="leading" id="BcU-TK-Sbb"/>
+                <constraint firstItem="yHz-DS-SY8" firstAttribute="top" secondItem="MxE-ok-dgs" secondAttribute="top" constant="0.5" id="D2r-qI-eLG"/>
+                <constraint firstAttribute="bottom" secondItem="n5Z-Bz-TIE" secondAttribute="bottom" constant="10" id="Jww-Wo-DBx"/>
+                <constraint firstAttribute="bottom" secondItem="yHz-DS-SY8" secondAttribute="bottom" id="gLj-07-NT7"/>
+                <constraint firstAttribute="trailing" secondItem="n5Z-Bz-TIE" secondAttribute="trailing" constant="10" id="rnF-OT-oS4"/>
+            </constraints>
+            <connections>
+                <outlet property="imgScroll" destination="yHz-DS-SY8" id="mw8-z8-9i0"/>
+                <outlet property="scrollSegment" destination="n5Z-Bz-TIE" id="kcW-PD-nUq"/>
+            </connections>
+            <point key="canvasLocation" x="157" y="382"/>
+        </tableViewCell>
+    </objects>
+</document>

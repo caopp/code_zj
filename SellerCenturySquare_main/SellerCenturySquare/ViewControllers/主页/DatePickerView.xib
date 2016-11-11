@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DatePickerView">
+            <connections>
+                <outlet property="datePicker" destination="dtc-5K-RSz" id="5Bo-LZ-9DQ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="206"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="dtc-5K-RSz">
+                    <rect key="frame" x="0.0" y="44" width="375" height="162"/>
+                    <animations/>
+                    <date key="date" timeIntervalSinceReferenceDate="460534460.05219001">
+                        <!--2015-08-06 06:14:20 +0000-->
+                    </date>
+                </datePicker>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ecu-QF-gWi">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <animations/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="rva-iq-Itk"/>
+                    </constraints>
+                    <items>
+                        <barButtonItem title="取消" id="NVJ-oW-I71">
+                            <connections>
+                                <action selector="cancelButtonClicked:" destination="-1" id="5IC-HW-yrc"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="tEs-7j-Smt"/>
+                        <barButtonItem title="完成" id="FeF-M0-BuZ">
+                            <connections>
+                                <action selector="completeButtonClicked:" destination="-1" id="yEA-7a-uGA"/>
+                            </connections>
+                        </barButtonItem>
+                    </items>
+                </toolbar>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="dtc-5K-RSz" secondAttribute="bottom" id="9OD-1e-SCP"/>
+                <constraint firstItem="ecu-QF-gWi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Ac2-Ox-d3h"/>
+                <constraint firstItem="dtc-5K-RSz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="IYb-Iz-xsk"/>
+                <constraint firstItem="ecu-QF-gWi" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Kss-Zg-Uk4"/>
+                <constraint firstItem="dtc-5K-RSz" firstAttribute="top" secondItem="ecu-QF-gWi" secondAttribute="bottom" id="WqJ-P2-IyO"/>
+                <constraint firstAttribute="trailing" secondItem="dtc-5K-RSz" secondAttribute="trailing" id="Y8b-3k-LbJ"/>
+                <constraint firstItem="dtc-5K-RSz" firstAttribute="top" secondItem="ecu-QF-gWi" secondAttribute="bottom" id="xJy-M0-QnI"/>
+                <constraint firstAttribute="trailing" secondItem="ecu-QF-gWi" secondAttribute="trailing" id="yaB-4V-TUq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="804.5" y="-445"/>
+        </view>
+    </objects>
+</document>

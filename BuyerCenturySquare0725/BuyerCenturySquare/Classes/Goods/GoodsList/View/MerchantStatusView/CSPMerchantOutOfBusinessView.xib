@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="TwCenMT.ttf">
+            <string>TwCenMT-Regular</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="CSPMerchantOutOfBusinessView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="歇业中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="doa-0u-4Hc">
+                    <rect key="frame" x="252" y="202" width="96" height="96"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="96" id="FWa-7d-umK"/>
+                        <constraint firstAttribute="height" constant="96" id="kDr-XI-w4u"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="48"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" red="0.0" green="0.0" blue="0.0" alpha="0.69999999999999996" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="歇业时间" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XAO-bY-D4V">
+                    <rect key="frame" x="270" y="313" width="60" height="15"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2015/05/29 15点~ 2015/05/29 19点" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0l0-Os-fNl">
+                    <rect key="frame" x="176" y="336" width="248" height="16.5"/>
+                    <fontDescription key="fontDescription" name="TwCenMT-Regular" family="Tw Cen MT" pointSize="15"/>
+                    <color key="textColor" red="0.59999999999999998" green="0.59999999999999998" blue="0.59999999999999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="XAO-bY-D4V" firstAttribute="centerX" secondItem="doa-0u-4Hc" secondAttribute="centerX" id="CZh-ev-EWh"/>
+                <constraint firstItem="XAO-bY-D4V" firstAttribute="top" secondItem="doa-0u-4Hc" secondAttribute="bottom" constant="15" id="FQg-A1-nh2"/>
+                <constraint firstAttribute="centerY" secondItem="doa-0u-4Hc" secondAttribute="centerY" constant="50" id="JOr-H3-xHX"/>
+                <constraint firstAttribute="centerX" secondItem="doa-0u-4Hc" secondAttribute="centerX" id="LnJ-07-4Kt"/>
+                <constraint firstItem="XAO-bY-D4V" firstAttribute="centerX" secondItem="0l0-Os-fNl" secondAttribute="centerX" id="QZi-VS-gEr"/>
+                <constraint firstItem="0l0-Os-fNl" firstAttribute="top" secondItem="XAO-bY-D4V" secondAttribute="bottom" constant="7.5" id="aiF-eu-aKf"/>
+            </constraints>
+            <connections>
+                <outlet property="outBussinessLabel" destination="doa-0u-4Hc" id="Zsm-cc-n3w"/>
+                <outlet property="outTimeAlertLabel" destination="XAO-bY-D4V" id="sDe-Q7-lRZ"/>
+                <outlet property="timeLabel" destination="0l0-Os-fNl" id="hWt-f3-KoT"/>
+            </connections>
+        </view>
+    </objects>
+</document>
